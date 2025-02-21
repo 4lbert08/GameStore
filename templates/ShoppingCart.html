@@ -6,39 +6,23 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/ShoppingCart.css">
 </head>
 <header>header</header>
-<main>
 <body>
 
 
 
   <section class="cesta_carousel">
-    <div id="juegoEnCesta"></div>
+    <div>
+        <div class="container"></div>
+    </div>
   </section>
 
-
-
-
-
+    <div class="payment">
+        <div>
+        hollaa
+        </div>
+    </div>
 
 
 </body>
-</main>
-<aside>
-asd
-</aside>
 </html>
 
-<script>
-  fetch('/partials/gameInShoppingCart.html')
-          .then(response => response.text())
-          .then(html => {
-            document.getElementById('juegoEnCesta').innerHTML = html;
-          });
-</script>
-<script>
-  fetch('/partials/header.html')
-          .then(response => response.text())
-          .then(html => {
-            document.getElementById('header').innerHTML = html;
-          });
-</script>
