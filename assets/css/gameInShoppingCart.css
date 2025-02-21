@@ -5,37 +5,42 @@ body {
 
 .img{
     border-radius: 20px;
-    height:180px;
-    width:200px;
+    height: 180px;
+    width: 200px;
+    margin-left: 10px;
+    margin-right:40px;
 }
 
 .inside_text{
     text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: row;
-    padding-right: 50px;
+    padding-right: 40px;
 }
 .info{
     flex-grow: 1;
     align-content: initial;
 }
 .top_text{
-    color: white;
+    color: #FFFFFF;
     display: flex;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
 }
 
-.quantity_selector{
+.select-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
     width: 30px;
     height: 30px;
-    background-color: #321847;
-    color: white;
+    background-color: #663399FF;
 }
 
 .container{
-    background-color: rebeccapurple;
+    background-color: #663399FF;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -47,13 +52,24 @@ body {
 .icon{
     height: 30px;
     width: 30px;
-    padding-right: 50px;
+    align-items: center;
+    margin-right: 50px;
 }
 
 .bottom_text{
     display: flex;
-    color: white;
+    align-items: center;
+    color: #FFFFFF;
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+#select-quantity{
+    background-color: #4a236c;
+    color: #FFFFFF;
+    height: 100%;
+
 }
