@@ -1,0 +1,146 @@
+@import url('../fonts/fonts.css');
+
+/* Estilos generales */
+body {
+    font-family: "Genos", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Sección del carrusel */
+section {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 1200px;
+}
+
+/* Título y botón */
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+
+.title h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.title button {
+    background-color: #7121cd;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+}
+
+.title button:hover {
+    background-color: #511298;
+}
+
+/* Carrusel */
+.carousel {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto; /* Scroll horizontal */
+    overflow-y: hidden; /* Evita barras de desplazamiento verticales */
+    scroll-snap-type: x mandatory;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+/* Scrollbar personalizado */
+.carousel::-webkit-scrollbar {
+    height: 6px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 6px;
+}
+
+/* Tarjeta del juego */
+.carousel-item {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+.game-card {
+    width: 180px;
+    min-width: 160px; /* Evita que las tarjetas se encojan demasiado */
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-cover {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.game-info {
+    padding: 0.5rem 1rem;
+}
+
+.game-title {
+    font-size: 1.4rem;
+    margin: 0.2rem 0;
+    font-weight: 600;
+    color: #333;
+}
+
+.game-price {
+    color: #777;
+    font-size: 1.2rem;
+    margin: 0.2rem 0;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .new-releases {
+        padding: 0.5rem;
+    }
+
+    .title {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .carousel {
+        gap: 0.5rem;
+    }
+
+    .game-card {
+        width: 150px;
+    }
+
+    .game-title {
+        font-size: 1.2rem;
+    }
+
+    .game-price {
+        font-size: 1rem;
+    }
+}
