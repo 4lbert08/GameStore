@@ -1,0 +1,11 @@
+
+
+body{
+    background: #272727;
+}
+
+
+.cesta_carousel{
+    padding: 75px;
+    scroll-snap-type: y mandatory;
+}
