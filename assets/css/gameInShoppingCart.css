@@ -7,6 +7,9 @@ body {
     border-radius: 20px;
     height: 180px;
     width: 200px;
+}
+
+.img_containter{
     margin-left: 10px;
     margin-right:40px;
 }
