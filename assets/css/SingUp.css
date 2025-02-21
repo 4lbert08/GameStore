@@ -1,3 +1,5 @@
+@import url('../fonts/fonts.css');
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,6 +9,7 @@ body {
 }
 
 h1, label, a {
+    font-family: "Genos", sans-serif;
     color: white;
 }
 
@@ -20,19 +23,7 @@ input {
     border: white solid 1px;
 }
 
-.Top {
-    padding: 2%;
-    display: flex;
-    flex-direction: row;
-}
-
-.LogoImg {
-    width: 200px;
-    background: #1E1EBF;
-    border-radius: 45px;
-}
-
-.LoginDiv {
+.RegisterDiv {
     position: relative;
     width: 50%;
     display: flex;
@@ -41,20 +32,33 @@ input {
     align-items: center;
 }
 
-.PartDiv {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5%;
-}
-
-.LoginBox {
+.RegisterBox {
     position: relative;
     width: 100%;
     padding: 10% 5%;
     background: none;
 }
 
-.LoginBox::before {
+.PartDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+#NacionalityField {
+    width: 40%;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    border: white solid 1px;
+}
+
+#NacionalityField option {
+    color: black;
+}
+
+.RegisterBox::before {
     content: "";
     position: absolute;
     top: 0;
@@ -67,6 +71,18 @@ input {
     border-radius: inherit;
 }
 
+.Logo {
+    align-self: center;
+    justify-self: center;
+}
+
+.LogoImg {
+    width: 150px;
+    background: transparent;
+    border-radius: 45px;
+}
+
+
 .Submit {
     display: flex;
     flex-direction: column;
@@ -74,7 +90,7 @@ input {
     align-items: center;
 }
 
-.LoginButton {
+.RegisterButton {
     scale: 1.5;
     margin-top: 5%;
     color: white;
@@ -84,3 +100,4 @@ input {
     border: white solid 2px;
     border-radius: 5px;
 }
+
