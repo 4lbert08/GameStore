@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sing up</title>
+  <link rel="stylesheet" href="../assets/css/SingUp.css">
+</head>
+<body>
+<!-- Grupo: Register -->
+<div class="RegisterDiv">
+  <h1 style="text-align: center">Regístrate</h1>
+
+  <!-- Grupo: RegisterBox -->
+  <div class="RegisterBox">
+    <form>
+      <!-- Grupo: UsernamePart -->
+      <div class="PartDiv">
+        <label for="UsernameField">Nombre del usuario</label>
+        <input type="text" id="UsernameField" name="Username" placeholder="Username" required>
+      </div>
+
+      <!-- Grupo: EmailPart -->
+      <div class="PartDiv">
+        <label for="EmailField">Email del usuario</label>
+        <input type="email" id="EmailField" name="Email" placeholder="Email address" required>
+      </div>
+
+      <!-- Grupo: PasswordPart -->
+      <div class="PartDiv">
+        <label for="PasswordField">Contraseña del usuario</label>
+        <input type="password" id="PasswordField" name="Password" placeholder="Password" required>
+      </div>
+
+      <!-- Grupo: passwordRepeatPart -->
+      <div class="PartDiv">
+        <label for="PasswordField">Repite la contraseña del usuario</label>
+        <input type="password" id="PasswordRepeatField" name="PasswordRepeat" placeholder="Password again" required>
+      </div>
+
+      <!-- Grupo: BirthdayPart -->
+      <div class="PartDiv">
+        <label for="BirthdayField">Cumpleaños del usuario</label>
+        <input type="date" id="BirthdayField" name="Birthday" placeholder="Birthday" required>
+      </div>
+
+      <!-- Grupo: NacionalityPart -->
+      <div class="PartDiv">
+        <label for="NacionalityField">Nacionalidad del usuario</label>
+        <select id="NacionalityField" name="Nacionality">
+          <option value="">options...</option>
+          <option value="es">España</option>
+          <option value="mx">México</option>
+          <option value="ar">Argentina</option>
+          <option value="co">Colombia</option>
+          <option value="cl">Chile</option>
+          <option value="pe">Perú</option>
+          <option value="us">Estados Unidos</option>
+          <option value="fr">Francia</option>
+          <option value="de">Alemania</option>
+          <option value="it">Italia</option>
+        </select>
+      </div>
+
+      <!-- Grupo: LogoPart -->
+      <div class="Logo">
+        <a href="">
+          <img class="LogoImg" src="../assets/imgs/logo.png" alt="Logo">
+        </a>
+      </div>
+
+      <!-- Grupo: Submit -->
+      <div class="Submit">
+        <button class="RegisterButton" type="submit" >Sing up</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
