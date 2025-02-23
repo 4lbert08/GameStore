@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Juegos</title>
+    <link rel="stylesheet" href="../assets/css/carouselOfGames.css">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+</head>
+<body>
+
+<section>
+    <div class="title">
+        <h2>Título del carrusel</h2>
+        <a href="#">
+            <button>VER MÁS</button>
+        </a>
+    </div>
+
+    <div class="carousel" id="carousel-container">
+        <!-- Los game cards se inyectarán aquí -->
+    </div>
+</section>
+
+<!-- Template de game card -->
+<script id="game-card-template" type="text/x-handlebars-template">
+    <div class="carousel-item">
+        <div class="game-card">
+            <img src="{{imgSrc}}" alt="{{title}} Cover" class="game-cover">
+            <div class="game-info">
+                <h3 class="game-title">{{title}}</h3>
+                <p class="game-price">{{price}}</p>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const games = [
+            { imgSrc: "../assets/imgs/fifa22.png", title: "FIFA 22", price: "$59.99" },
+            { imgSrc: "../assets/imgs/fifa22.png", title: "FIFA 22", price: "$59.99" },
+            { imgSrc: "../assets/imgs/fifa22.png", title: "FIFA 22", price: "$59.99" },
+            { imgSrc: "../assets/imgs/fifa22.png", title: "FIFA 22", price: "$59.99" },
+            { imgSrc: "../assets/imgs/fifa22.png", title: "FIFA 22", price: "$59.99" },
+            { imgSrc: "../assets/imgs/fifa22.png", title: "FIFA 22", price: "$59.99" },
+            { imgSrc: "../assets/imgs/fifa22.png", title: "FIFA 22", price: "$59.99" },
+            { imgSrc: "../assets/imgs/fifa22.png", title: "FIFA 22", price: "$59.99" }
+        ];
+
+        const source = document.getElementById("game-card-template").innerHTML;
+        const template = Handlebars.compile(source);
+        const carouselContainer = document.getElementById("carousel-container");
+
+        games.forEach(game => {
+            const html = template(game);
+            carouselContainer.insertAdjacentHTML("beforeend", html);
+        });
+    });
+</script>
+
+</body>
+</html>
