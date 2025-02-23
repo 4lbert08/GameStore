@@ -5,7 +5,7 @@ body {
     font-family: "Genos", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #272727;
 }
 
 /* Sección del carrusel */
@@ -27,7 +27,7 @@ section {
 .title h2 {
     font-size: 1.8rem;
     font-weight: 600;
-    color: #333;
+    color: #f4f4f4;
 }
 
 .title button {
@@ -50,8 +50,8 @@ section {
 .carousel {
     display: flex;
     gap: 1rem;
-    overflow-x: auto; /* Scroll horizontal */
-    overflow-y: hidden; /* Evita barras de desplazamiento verticales */
+    overflow-x: auto;
+    overflow-y: hidden;
     scroll-snap-type: x mandatory;
     padding: 1rem;
     max-width: 100%;
@@ -75,7 +75,7 @@ section {
 
 .game-card {
     width: 180px;
-    min-width: 160px; /* Evita que las tarjetas se encojan demasiado */
+    min-width: 160px;
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
@@ -113,7 +113,7 @@ section {
 
 /* Responsividad */
 @media (max-width: 768px) {
-    .new-releases {
+    section {
         padding: 0.5rem;
     }
 
