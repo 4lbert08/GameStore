@@ -61,7 +61,11 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 | `producto_card.html` | `catalogo.html`, `detalle.html` |
 | `admin_panel.html`   | `admin.html`                    |
 
-## 🔗 Enlaces a Herramientas
+## 🔗 Herramientas utilizadas
+
+Para la llamada de scripts recursivamente, se ha añadido una función.
+
+## 🔗 Enlaces
 
 - **Figma**: [Enlace al diseño en Figma](#)
 - **Trello**: [Enlace al tablero en Trello](#)
