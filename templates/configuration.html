@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Configuración</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/configuration.css">
+</head>
+<body>
+<header>Header</header>
+
+<div class="nickname">BOTON DE NAVEGACION</div>
+
+<div class="gen_container">
+
+    <div class="image_container">
+        <div><img class="image" src="../assets/imgs/fifa22.png"></div>
+        <div class="nickname">Berto_69</div>
+    </div>
+    <div class="form_container">
+        <form action="form-handler.php" method="get">
+            <p class="inputs_container">
+                <label for="nickname">Cambiar el nickname</label>
+                <input class="input" type="text" name="nickname" id="nickname">
+            <p class="input_container">
+                <label for="birthday">Cambiar el cumpleaños</label>
+                <input class="input" type="date" name="cumpleaños" id="birthday">
+            </p>
+            <p class="inputs_container">
+                <label for="region">Cambiar de region</label>
+                <select class="input" id="region">
+                    <option value="EU"> EU</option>
+                    <option value="NA"> NA</option>
+                    <option value="LATAM"> LATAM</option>
+                    <option value="AFR"> AFR</option>
+                    <option value="ASIA"> ASIA</option>
+                </select>
+            </p>
+        </form>
+        <input type="button" value="Aplicar" id="save">
+    </div>
+
+</div>
+<footer>Footer</footer>
+
+</body>
+</html>
