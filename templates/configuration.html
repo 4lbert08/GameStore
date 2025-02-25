@@ -4,58 +4,64 @@
     <meta charset="UTF-8">
     <title>Configuración</title>
     <link rel="stylesheet" type="text/css" href="../assets/css/configuration.css">
-    <script type="text/javascript" src="../assets/js/xml-include-file.js"></script>
+    <script src="../assets/js/xml-include-file.js"></script>
 </head>
 <body>
-<div class="header">
-    <header xlu-include-file="../partials/header.html"></header>
-</div>
 
-<div xlu-include-file="../partials/userMenuButton.html"></div>
+<header id="main_header" xlu-include-file="../partials/header.html"></header>
+
+<div class="userButton" id="userMenuButton" xlu-include-file="../partials/userMenuButton.html"> </div>
 
 <div class="gen_container">
 
     <div class="image_container">
-        <div><img class="image" src="../assets/imgs/fifa22.png"></div>
-        <div class="nickname">Berto_69</div>
+        <img class="image" src="../assets/imgs/fifa22.png" alt="Imagen de perfil">
+        <p class="nickname">Berto_69</p>
     </div>
+
     <div class="form_container">
         <form action="form-handler.php" method="get">
-            <p class="inputs_container">
+            <div class="inputs_container">
                 <label for="nickname">Cambiar el nickname</label>
                 <input class="input" type="text" name="nickname" id="nickname">
-            <p class="input_container">
+            </div>
+
+            <div class="inputs_container">
                 <label for="birthday">Cambiar el cumpleaños</label>
-                <input class="input" type="date" name="cumpleaños" id="birthday">
-            </p>
-            <p class="inputs_container">
-                <label for="region">Cambiar de region</label>
-                <select class="input" id="region">
-                    <option value="EU"> EU</option>
-                    <option value="NA"> NA</option>
-                    <option value="LATAM"> LATAM</option>
-                    <option value="AFR"> AFR</option>
-                    <option value="ASIA"> ASIA</option>
+                <input class="input" type="date" name="birthday" id="birthday">
+            </div>
+
+            <div class="inputs_container">
+                <label for="region">Cambiar de región</label>
+                <select class="input" id="region" name="region">
+                    <option value="EU">EU</option>
+                    <option value="NA">NA</option>
+                    <option value="LATAM">LATAM</option>
+                    <option value="AFR">AFR</option>
+                    <option value="ASIA">ASIA</option>
                 </select>
-            </p>
-            <p class="inputs_container">
-                <label  for="language">Cambiar de idioma</label>
-                <select class="input" id="language">
-                    <option value="Español"> Español</option>
-                    <option value="English"> English</option>
+            </div>
+
+            <div class="inputs_container">
+                <label for="language">Cambiar de idioma</label>
+                <select class="input" id="language" name="language">
+                    <option value="Español">Español</option>
+                    <option value="English">English</option>
                 </select>
-            </p>
+            </div>
+
+            <div class="button_container">
+                <input class="ApplyButton" type="submit" value="Aplicar" id="save">
+            </div>
         </form>
-        <div class="button_container">
-        <input class="ApplyButton" type="button" value="Aplicar" id="save">
-        </div >
     </div>
 
 </div>
-<div class="header">
-    <footer xlu-include-file="../partials/footer.html"></footer>
-</div>
-<script> xLuIncludeFile()</script>
 
+<footer id="main_footer" xlu-include-file="../partials/footer.html"></footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", xLuIncludeFile);
+</script>
 </body>
 </html>
