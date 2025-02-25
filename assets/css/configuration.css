@@ -5,6 +5,9 @@ body {
     align-items: center;
     background: #272727;
 }
+.header {
+    width: 1440px;
+}
 
 .image{
     width: 400px;
@@ -38,13 +41,28 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 200px;
 }
 .input{
-    height: 40px;
-    border-radius: 20px;
-}
+    width: 100%;
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    border: white solid 1px;
+    background-color: #6119b4;
 
+}
+.ApplyButton {
+    scale: 1.5;
+    margin-top: 5%;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    background: #1E1EBF;
+    border: white solid 2px;
+    border-radius: 5px;
+
+}
 .nickname{
     font-size: 50px;
     font-weight: bold;

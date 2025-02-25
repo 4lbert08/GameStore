@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <title>Configuración</title>
     <link rel="stylesheet" type="text/css" href="../assets/css/configuration.css">
+    <script type="text/javascript" src="../assets/js/xml-include-file.js"></script>
 </head>
 <body>
-<header>Header</header>
+<div class="header">
+    <header xlu-include-file="../partials/header.html"></header>
+</div>
 
-<div class="nickname">BOTON DE NAVEGACION</div>
+<div xlu-include-file="../partials/userMenuButton.html"></div>
 
 <div class="gen_container">
 
@@ -35,12 +38,24 @@
                     <option value="ASIA"> ASIA</option>
                 </select>
             </p>
+            <p class="inputs_container">
+                <label  for="language">Cambiar de idioma</label>
+                <select class="input" id="language">
+                    <option value="Español"> Español</option>
+                    <option value="English"> English</option>
+                </select>
+            </p>
         </form>
-        <input type="button" value="Aplicar" id="save">
+        <div class="button_container">
+        <input class="ApplyButton" type="button" value="Aplicar" id="save">
+        </div >
     </div>
 
 </div>
-<footer>Footer</footer>
+<div class="header">
+    <footer xlu-include-file="../partials/footer.html"></footer>
+</div>
+<script> xLuIncludeFile()</script>
 
 </body>
 </html>
