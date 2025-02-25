@@ -28,22 +28,26 @@ section {
     font-size: 1.8rem;
     font-weight: 600;
     color: #f4f4f4;
+    margin: 0;
 }
 
 .title button {
     background-color: #7121cd;
     color: #fff;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
     font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: background 0.3s, transform 0.2s;
     outline: none;
 }
 
 .title button:hover {
     background-color: #511298;
+    transform: scale(1.05);
 }
 
 /* Carrusel */
@@ -55,6 +59,7 @@ section {
     scroll-snap-type: x mandatory;
     padding: 1rem;
     max-width: 100%;
+    white-space: nowrap;
 }
 
 /* Scrollbar personalizado */
@@ -71,8 +76,10 @@ section {
 .carousel-item {
     flex: 0 0 auto;
     scroll-snap-align: start;
+    display: inline-block;
 }
 
+/* Estilos de la tarjeta del juego */
 .game-card {
     width: 180px;
     min-width: 160px;
@@ -82,33 +89,17 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     text-align: center;
     transition: transform 0.3s;
+    white-space: normal;
 }
 
-.game-card:hover {
-    transform: scale(1.05);
-}
-
-.game-cover {
+.game-card img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.game-info {
-    padding: 0.5rem 1rem;
-}
-
-.game-title {
-    font-size: 1.4rem;
-    margin: 0.2rem 0;
-    font-weight: 600;
-    color: #333;
-}
-
-.game-price {
-    color: #777;
-    font-size: 1.2rem;
-    margin: 0.2rem 0;
+.game-card:hover {
+    transform: scale(1.05);
 }
 
 /* Responsividad */
@@ -130,17 +121,11 @@ section {
 
     .carousel {
         gap: 0.5rem;
+        padding: 0.5rem;
     }
 
     .game-card {
-        width: 150px;
-    }
-
-    .game-title {
-        font-size: 1.2rem;
-    }
-
-    .game-price {
-        font-size: 1rem;
+        width: 140px;
+        min-width: 130px;
     }
 }

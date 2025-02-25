@@ -27,11 +27,6 @@ select {
     cursor: pointer;
 }
 
-.flag {
-    display: none;
-    width: 40px;
-}
-
 .search-bar {
     display: flex;
     align-items: flex-end ;
