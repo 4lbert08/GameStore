@@ -1,4 +1,4 @@
-# 🎮 GameStore - Plataforma de Venta de Videojuegos
+# 🎮 GameStore - Plataforma de Venta de Videojuegos (41.3)
 
 ## 📌 Integrantes del Proyecto
 
