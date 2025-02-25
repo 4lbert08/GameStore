@@ -37,20 +37,15 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 
 ## 📂 Mockups y Storyboards
 
-- **Ubicación del archivo**: `documentacion/mockups_storyboards.pdf`
+- **Ubicación Mockups**: `documentacion/mockups`
+- **Ubicación Storyboards**: `documentacion/mockups_storyboards.pdf`
 
 ## 📄 Páginas HTML del Proyecto
 
 | Página          | Mockup Implementado | Notas                              |
 | --------------- | ------------------- | ---------------------------------- |
 | `index.html`    | `home_mockup`       | Página de inicio                   |
-| `catalogo.html` | `catalogo_mockup`   | Listado de videojuegos             |
-| `detalle.html`  | `detalle_mockup`    | Vista de detalles de un videojuego |
-| `carrito.html`  | `carrito_mockup`    | Vista del carrito de compras       |
-| `checkout.html` | `checkout_mockup`   | Proceso de pago                    |
-| `login.html`    | `login_mockup`      | Página de inicio de sesión         |
-| `registro.html` | `registro_mockup`   | Página de registro de usuario      |
-| `admin.html`    | `admin_mockup`      | Panel de administración            |
+
 
 ## 🖼️ Templates Utilizados
 
@@ -58,17 +53,12 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 | -------------------- | ------------------------------- |
 | `header.html`        | Todas las páginas               |
 | `footer.html`        | Todas las páginas               |
-| `producto_card.html` | `catalogo.html`, `detalle.html` |
-| `admin_panel.html`   | `admin.html`                    |
 
-## 🔗 Herramientas utilizadas
-
-Para la llamada de scripts recursivamente, se ha añadido una función.
 
 ## 🔗 Enlaces
 
-- **Figma**: [Enlace al diseño en Figma](#)
-- **Trello**: [Enlace al tablero en Trello](#)
+- **Figma**: [https://www.figma.com/design/cce85AsKYbHsWryGC4aJGa/MOCKUPS-PWM?m=auto&t=PlizMet0r5Rgm5UZ-6](#)
+- **Trello**: [https://trello.com/b/qtJ1w6iJ/tablero-pwm](#)
 
 ---
 
