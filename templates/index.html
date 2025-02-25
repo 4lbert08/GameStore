@@ -1,20 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../assets/css/home.css">
+    <script src="../assets/js/IncludeHTMLRecursive.js"></script>
     <title>Home</title>
 </head>
 <body>
-    <header id="header"></header>
+<header id="main_header"></header>
 
-    <main>
-        <div id="nuevos-lanzamientos"></div>
-        <div id="nuevos-lanzamientos2"></div>
-        <div id="nuevos-lanzamientos3"></div>
-    </main>
+<div id="carrusel1" data-carousel="1"></div>
+<div id="carrusel2" data-carousel="2"></div>
+<div id="carrusel3" data-carousel="3"></div>
 
-    <footer id="footer"></footer>
+<footer id="footer"></footer>
+
+<script>
+    // Cargar los archivos HTML en sus respectivos contenedores
+    loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
+    loadHTMLAndExecuteScripts("#carrusel1", "../partials/carouselOfGames.html");
+    loadHTMLAndExecuteScripts("#carrusel2", "../partials/carouselOfGames.html");
+    loadHTMLAndExecuteScripts("#carrusel3", "../partials/carouselOfGames.html");
+    loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+</script>
 </body>
 </html>
