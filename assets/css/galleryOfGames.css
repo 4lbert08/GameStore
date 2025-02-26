@@ -8,7 +8,7 @@ body {
     background-color: #272727;
 }
 
-/* Sección del carrusel */
+/* Sección de la galería */
 section {
     margin: 2rem auto;
     padding: 1rem;
@@ -50,57 +50,53 @@ section {
     transform: scale(1.05);
 }
 
-/* Carrusel */
-.carousel {
+/* Contenedor de imágenes */
+.gallery {
     display: flex;
-    gap: 1rem;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    padding: 1rem;
-    max-width: 100%;
-    white-space: nowrap;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 0.5rem;
 }
 
-/* Scrollbar personalizado */
-.carousel::-webkit-scrollbar {
-    height: 6px;
-}
-
-.carousel::-webkit-scrollbar-thumb {
-    background: #999;
-    border-radius: 6px;
-}
-
-/* Tarjeta del juego */
-.carousel-item {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-    display: inline-block;
-}
-
-/* Estilos de la tarjeta del juego */
 .game-card {
-    width: 180px;
-    min-width: 160px;
+    width: 200px;
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     text-align: center;
-    transition: transform 0.3s;
-    white-space: normal;
+    margin: 0.5rem;
 }
 
-.game-card img {
+.game-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.game-cover {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.game-card:hover {
-    transform: scale(1.05);
+.game-info {
+    font-family: "Genos", sans-serif;
+    padding: 0 1rem 0.25rem 1rem;
 }
+
+.game-title {
+    font-size: 1.8rem;
+    margin: 0.1rem 0;
+    font-weight: 600;
+}
+
+.game-price {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0.1rem 0;
+}
+
 
 /* Responsividad */
 @media (max-width: 768px) {
@@ -119,13 +115,9 @@ section {
         margin-bottom: 0.5rem;
     }
 
-    .carousel {
+    .gallery {
         gap: 0.5rem;
         padding: 0.5rem;
-    }
-
-    .game-card {
-        width: 140px;
-        min-width: 130px;
+        justify-content: center;
     }
 }

@@ -1,5 +1,18 @@
 @import url('../fonts/fonts.css');
 
+a {
+    color: #272727;
+    text-decoration: none;
+}
+
+/* Contenedor de imágenes */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
 .game-card {
     width: 200px;
     background-color: #fff;

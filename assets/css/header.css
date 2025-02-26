@@ -3,14 +3,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Header */
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(to right, #f30202, #0101fd);
     padding: 4px;
+    flex-wrap: wrap;
 }
 
+/* Select container */
 .select-container {
     display: flex;
     align-items: center;
@@ -19,6 +22,7 @@ body {
     margin: auto;
 }
 
+/* Select */
 select {
     padding: 5px;
     font-size: 16px;
@@ -27,11 +31,13 @@ select {
     cursor: pointer;
 }
 
+/* Search bar */
 .search-bar {
     display: flex;
-    align-items: flex-end ;
+    align-items: flex-end;
     flex: 1;
     justify-content: center;
+    margin: 10px 0;
 }
 
 .search-bar input {
@@ -41,7 +47,6 @@ select {
     padding: 6px;
     border: 1px solid #555;
     border-radius: 15px;
-    align-items: center;
 }
 
 .search-bar input:focus {
@@ -49,6 +54,7 @@ select {
     border-color: #093968;
 }
 
+/* Advanced search button */
 .advanced-search {
     margin-left: 10px;
     background: #878484;
@@ -57,6 +63,7 @@ select {
     cursor: pointer;
 }
 
+/* Logo */
 .logo {
     display: flex;
     align-items: center;
@@ -68,6 +75,7 @@ select {
     height: 64px;
 }
 
+/* Icons */
 .icons {
     display: flex;
     align-items: center;
@@ -80,4 +88,59 @@ select {
     width: 40px;
     height: 40px;
     margin-left: 6px;
+}
+
+/* Media queries para dispositivos pequeños */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .search-bar input {
+        width: 80%;
+        max-width: 100%;
+    }
+
+    .select-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons {
+        justify-content: center;
+        margin: 10px 0;
+    }
+}
+
+/* Media queries para dispositivos muy pequeños */
+@media (max-width: 480px) {
+    .search-bar input {
+        width: 90%;
+    }
+
+    .advanced-search {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    select {
+        font-size: 14px;
+        padding: 4px;
+    }
+
+    .icons img {
+        width: 30px;
+        height: 30px;
+    }
 }
