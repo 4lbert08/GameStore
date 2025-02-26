@@ -1,19 +1,38 @@
 import { loadHTMLAndExecuteScripts } from "./modules/includeHTMLRecursive.js";
-import { initializeGalleries } from "./modules/loadGallery.js"; // Solo un lugar maneja la carga de galerías
+import { initializeGalleries } from "./modules/loadGallery.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
     console.log("Página cargada, inicializando scripts...");
 
-    await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
-    await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+    const page = document.body.dataset.page; // Usa `data-page` en el body de cada HTML
 
-    // Cargar galerías
-    await loadHTMLAndExecuteScripts("#gallery1", "../partials/galleryOfGames.html");
-    await loadHTMLAndExecuteScripts("#gallery2", "../partials/galleryOfGames.html");
-    await loadHTMLAndExecuteScripts("#gallery3", "../partials/galleryOfGames.html");
+    switch (page) {
+        case "home":
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
+            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
 
-    // Llamamos a initializeGalleries() solo después de que todas las galerías se carguen.
-    setTimeout(() => {
-        initializeGalleries();
-    }, 0);
+            await loadHTMLAndExecuteScripts("#gallery1", "../partials/galleryOfGames.html");
+            await loadHTMLAndExecuteScripts("#gallery2", "../partials/galleryOfGames.html");
+            await loadHTMLAndExecuteScripts("#gallery3", "../partials/galleryOfGames.html");
+            initializeGalleries();
+            break;
+
+        case "aboutUs":
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
+            break;
+
+        case "userConfiguration":
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
+            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+
+            await loadHTMLAndExecuteScripts("#userMenuButton", "../partials/userMenuButton.html");
+            break;
+
+        case "contact":
+            import("./modules/contactPage.js").then(module => module.initContactForm());
+            break;
+
+        default:
+            console.warn("No se ha definido una acción para esta página.");
+    }
 });

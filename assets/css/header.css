@@ -57,10 +57,15 @@ select {
 /* Advanced search button */
 .advanced-search {
     margin-left: 10px;
-    background: #878484;
+    background: #909090;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.advanced-search:hover {
+    background-color: #606060   ;
+    transform: scale(1.05);
 }
 
 /* Logo */
@@ -73,6 +78,13 @@ select {
 
 .logo img {
     height: 64px;
+}
+
+
+.logo:hover {
+    background-color: #1E1EBF   ;
+    transform: scale(1.05);
+    border-radius: 50px;
 }
 
 /* Icons */
@@ -90,6 +102,12 @@ select {
     margin-left: 6px;
 }
 
+.icons img:hover {
+    background-color: #1E1EBF   ;
+    transform: scale(1.05);
+    border-radius: 5px;
+}
+
 /* Media queries para dispositivos pequeños */
 @media (max-width: 768px) {
     .header {
@@ -102,6 +120,8 @@ select {
         margin-right: 0;
         margin-bottom: 10px;
     }
+
+
 
     .search-bar {
         width: 100%;
