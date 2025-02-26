@@ -1,3 +1,5 @@
+@import url('../fonts/fonts.css');
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -6,7 +8,7 @@ body {
 .img{
     border-radius: 20px;
     height: 180px;
-    width: 200px;
+    width: 160px;
 }
 
 .img_containter{
@@ -15,15 +17,12 @@ body {
 }
 
 .inside_text{
+    font-family: "Genos", sans-serif;
     text-align: center;
     align-items: center;
     display: flex;
     flex-direction: row;
     padding-right: 40px;
-}
-.info{
-    flex-grow: 1;
-    align-content: initial;
 }
 .top_text{
     color: #FFFFFF;
@@ -33,7 +32,7 @@ body {
     padding: 10px;
 }
 
-.select-container {
+.select_container {
     display: flex;
     align-items: center;
     margin: auto;
@@ -46,8 +45,9 @@ body {
     background-color: #663399FF;
     display: flex;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 10px;
+    margin: 10px;
     width: 675px;
     height: 200px;
 }
@@ -71,8 +71,10 @@ body {
     width: 100%;
 }
 #select-quantity{
+    font-family: "Genos", sans-serif;
     background-color: #4a236c;
     color: #FFFFFF;
     height: 100%;
-
 }
+
+

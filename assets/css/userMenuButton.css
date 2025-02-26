@@ -1,3 +1,5 @@
+@import url('../fonts/fonts.css');
+
 .button_background{
     width: 530px;
     height: 60px;
@@ -20,6 +22,7 @@
 }
 
 .text{
+    font-family: "Genos", sans-serif;
     color: #050038;
     text-decoration: none;
 }
