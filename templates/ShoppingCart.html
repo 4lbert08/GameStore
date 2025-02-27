@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Cesta</title>
     <link rel="stylesheet" type="text/css" href="../assets/css/ShoppingCart.css">
-    <script src="../assets/js/xml-include-file.js"></script>
+    <script src="../assets/js/modules/xml-include-file.js"></script>
 </head>
 <body>
 
@@ -19,8 +19,6 @@
        <div xlu-include-file="../partials/gameInShoppingCart.html"> </div>
        <div xlu-include-file="../partials/gameInShoppingCart.html"> </div>
     </div>
-
-
 
 
   <div class="payment">
@@ -43,12 +41,21 @@
 
         <a href="index.html">
             Seguir comprando
-            <img src="../assets/imgs/flecha.png" alt="" width="50" height="50">
+            <img class="flecha" src="../assets/imgs/flecha.png">
         </a>
 
   </div>
 
+
 </div>
+
+<div class="suggested">
+    <div xlu-include-file="../partials/gameSuggested.html"> </div>
+    <div xlu-include-file="../partials/gameSuggested.html"> </div>
+    <div xlu-include-file="../partials/gameSuggested.html"> </div>
+</div>
+
+<footer xlu-include-file="../partials/footer.html"></footer>
 
 <script>
     document.addEventListener("DOMContentLoaded", xLuIncludeFile);

@@ -19,6 +19,7 @@ body {
 .inside_text{
     font-family: "Genos", sans-serif;
     text-align: center;
+    gap: 10px;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -47,6 +48,7 @@ body {
     align-items: center;
     border-radius: 30px;
     padding: 10px;
+    border: 4px solid #000000;
     margin: 10px;
     width: 675px;
     height: 200px;
@@ -77,4 +79,22 @@ body {
     height: 100%;
 }
 
+
+button{
+    font-family: "Genos", sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+.flecha{
+    width: 50px;
+    height: 25px;
+}
 
