@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cesta</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/ShoppingCart.css">
+    <script src="../assets/js/modules/xml-include-file.js"></script>
+</head>
+<body>
+
+<header id="main_header" xlu-include-file="../partials/header.html"></header>
+
+<h1>Cesta</h1>
+
+<div class="CartDiv">
+
+    <div class="cart_carousel">
+       <div xlu-include-file="../partials/gameInShoppingCart.html"> </div>
+       <div xlu-include-file="../partials/gameInShoppingCart.html"> </div>
+       <div xlu-include-file="../partials/gameInShoppingCart.html"> </div>
+    </div>
+
+
+  <div class="payment">
+
+        <div class="text">
+            Precio: XXXX$
+        </div>
+
+        <div class="text">
+            Descuento: XXXX$
+        </div>
+
+        <div class="text">
+            Precio: XXXX$
+        </div>
+
+        <form action="index.html" method="post">
+            <button class="ApplyButton" type="submit">  Proceder con el pago  </button>
+        </form>
+
+        <a href="index.html">
+            Seguir comprando
+            <img class="flecha" src="../assets/imgs/flecha.png">
+        </a>
+
+  </div>
+
+
+</div>
+
+<div class="suggested">
+    <div xlu-include-file="../partials/gameSuggested.html"> </div>
+    <div xlu-include-file="../partials/gameSuggested.html"> </div>
+    <div xlu-include-file="../partials/gameSuggested.html"> </div>
+</div>
+
+<footer xlu-include-file="../partials/footer.html"></footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", xLuIncludeFile);
+</script>
+</body>
+</html>
+
