@@ -1,7 +1,14 @@
+@import url('../fonts/fonts.css');
+
+body {
+    font-family: "Genos", sans-serif;
+}
+
+
 .button_background{
     width: 530px;
     height: 60px;
-    background-color: #663399FF;
+    background: linear-gradient(to right, #f30202, #0101fd);
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -19,7 +26,13 @@
     justify-content: center;
 }
 
+.inner_buttons:hover {
+    transform: scale(1.05);
+    background-color: #989898;
+}
+
 .text{
-    color: #050038;
+    color: #000;
+    font-weight: 700;
     text-decoration: none;
 }

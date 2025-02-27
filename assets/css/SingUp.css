@@ -6,11 +6,13 @@ body {
     justify-content: center;
     align-items: center;
     background: #272727;
+    padding: 3rem;
 }
 
 h1, label, a {
     font-family: "Genos", sans-serif;
-    color: white;
+    font-weight: bold;
+    color: #fff;
 }
 
 input {
@@ -19,8 +21,13 @@ input {
     padding: 5px;
     border-radius: 5px;
     background: transparent;
-    color: white;
-    border: white solid 1px;
+    color: #fff;
+    border: #fff solid 1px;
+}
+
+input::placeholder {
+    color: #fff;
+    font-weight: lighter;
 }
 
 .RegisterDiv {
@@ -37,11 +44,13 @@ input {
     width: 100%;
     padding: 10% 5%;
     background: none;
+
 }
 
 .PartDiv {
     display: flex;
     flex-direction: column;
+    margin: 1rem;
 }
 
 #NacionalityField {
@@ -74,6 +83,11 @@ input {
 .Logo {
     align-self: center;
     justify-self: center;
+    margin: 2rem;
+}
+
+.Logo:hover {
+    transform: scale(1.05);
 }
 
 .LogoImg {

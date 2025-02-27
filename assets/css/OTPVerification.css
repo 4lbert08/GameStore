@@ -35,6 +35,12 @@ input {
     border-radius: 45px;
 }
 
+.LogoImg:hover {
+    background-color: #1E1Ead   ;
+    transform: scale(1.05);
+    border-radius: 50px;
+}
+
 .OTPDiv {
     position: relative;
     width: 50%;

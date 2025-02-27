@@ -1,82 +1,68 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sing up</title>
-  <link rel="stylesheet" href="../assets/css/SingUp.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign up</title>
+  <link rel="stylesheet" href="../../assets/css/SingUp.css">
 </head>
-<body>
-<!-- Grupo: Register -->
+<body data-page="signUp">
+
 <div class="RegisterDiv">
   <h1 style="text-align: center">Regístrate</h1>
 
-  <!-- Grupo: RegisterBox -->
   <div class="RegisterBox">
-    <form>
-      <!-- Grupo: UsernamePart -->
+    <form id="signUpForm">
       <div class="PartDiv">
         <label for="UsernameField">Nombre del usuario</label>
         <input type="text" id="UsernameField" name="Username" placeholder="Username" required>
       </div>
 
-      <!-- Grupo: EmailPart -->
       <div class="PartDiv">
         <label for="EmailField">Email del usuario</label>
         <input type="email" id="EmailField" name="Email" placeholder="Email address" required>
       </div>
 
-      <!-- Grupo: PasswordPart -->
       <div class="PartDiv">
         <label for="PasswordField">Contraseña del usuario</label>
         <input type="password" id="PasswordField" name="Password" placeholder="Password" required>
       </div>
 
-      <!-- Grupo: passwordRepeatPart -->
       <div class="PartDiv">
-        <label for="PasswordField">Repite la contraseña del usuario</label>
+        <label for="PasswordRepeatField">Repite la contraseña del usuario</label>
         <input type="password" id="PasswordRepeatField" name="PasswordRepeat" placeholder="Password again" required>
       </div>
 
-      <!-- Grupo: BirthdayPart -->
       <div class="PartDiv">
         <label for="BirthdayField">Cumpleaños del usuario</label>
         <input type="date" id="BirthdayField" name="Birthday" placeholder="Birthday" required>
       </div>
 
-      <!-- Grupo: NacionalityPart -->
       <div class="PartDiv">
         <label for="NacionalityField">Nacionalidad del usuario</label>
         <select id="NacionalityField" name="Nacionality">
-          <option value="">options...</option>
-          <option value="es">España</option>
-          <option value="mx">México</option>
-          <option value="ar">Argentina</option>
-          <option value="co">Colombia</option>
-          <option value="cl">Chile</option>
-          <option value="pe">Perú</option>
-          <option value="us">Estados Unidos</option>
-          <option value="fr">Francia</option>
-          <option value="de">Alemania</option>
-          <option value="it">Italia</option>
+          <option value="EU">EU</option>
+          <option value="NA">NA</option>
+          <option value="LATAM">LATAM</option>
+          <option value="AFR">AFR</option>
+          <option value="ASIA">ASIA</option>
         </select>
       </div>
 
-      <!-- Grupo: LogoPart -->
       <div class="Logo">
-        <a href="../templates/index.html">
-          <img class="LogoImg" src="../assets/imgs/logo.png" alt="Logo">
+        <a href="./index.html">
+          <img class="LogoImg" src="../../assets/imgs/logo.png" alt="Logo">
         </a>
       </div>
 
-      <!-- Grupo: Submit -->
       <div class="Submit">
-        <a href="">
-          <button class="RegisterButton" type="submit" >Sign up</button>
-        </a>
+        <button class="RegisterButton" type="submit">Sign up</button>
       </div>
     </form>
   </div>
 </div>
+
+<script type="module" src="../../assets/js/main.js"></script>
+
 </body>
 </html>

@@ -1,6 +1,8 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
+    width: 100%;
 }
 
 /* Header */
@@ -52,6 +54,7 @@ select {
 .search-bar input:focus {
     width: 80%;
     border-color: #093968;
+    outline: none;
 }
 
 /* Advanced search button */
@@ -100,12 +103,6 @@ select {
     width: 40px;
     height: 40px;
     margin-left: 6px;
-}
-
-.icons img:hover {
-    background-color: #1E1EBF   ;
-    transform: scale(1.05);
-    border-radius: 5px;
 }
 
 /* Media queries para dispositivos pequeños */
