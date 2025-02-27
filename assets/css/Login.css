@@ -79,7 +79,7 @@ input {
 
 .LoginButton {
     scale: 1.5;
-    margin-top: 5%;
+    margin-top: 2rem;
     color: white;
     text-transform: uppercase;
     padding: 10px;

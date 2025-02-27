@@ -56,10 +56,58 @@ footer {
     transition: transform 0.3s ease;
 }
 
-.about-link:hover .about-us-container p {
+.about-us-container:hover p {
     color: #ffcc00;
 }
 
-.about-link:hover .about-us-container img {
+.about-us-container:hover img {
     transform: scale(1.2);
+}
+
+@media (max-width: 1024px) {
+    .about-us-container {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .about-us-container p {
+        font-size: 24px;
+    }
+
+    .about-us-container img {
+        width: 35px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us-container {
+        gap: 8px;
+    }
+
+    .about-us-container p {
+        font-size: 22px;
+    }
+
+    .about-us-container img {
+        width: 30px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-us-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .about-us-container p {
+        font-size: 18px;
+    }
+
+    .about-us-container img {
+        width: 25px;
+        height: 30px;
+    }
 }

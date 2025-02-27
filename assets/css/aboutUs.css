@@ -13,15 +13,14 @@ body {
     color: #333;
 }
 
-/* Hero Section */
 .about-us-section {
     background: linear-gradient(to right, #f30202, #0101fd);
     color: #fff;
     padding: 60px 20px;
     text-align: center;
+    border-top: 2px ridge #272727;
 }
 
-/* General Container */
 .container {
     width: 90%;
     max-width: 1200px;

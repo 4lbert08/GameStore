@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Juegos</title>
+    <link rel="stylesheet" href="../assets/css/galleryOfGames.css">
+</head>
+<body>
+
+<section class="gallery-container" data-gallery>
+    <div class="title">
+        <h2>Título de la sección</h2>
+        <a href="#"><button>VER MÁS</button></a>
+    </div>
+
+    <div class="gallery">
+        <div class="game-slot"></div>
+        <div class="game-slot"></div>
+        <div class="game-slot"></div>
+        <div class="game-slot"></div>
+        <div class="game-slot"></div>
+    </div>
+</section>
+
+<script type="module">
+    import { initializeGalleries } from "../assets/js/modules/loadGallery.js";
+
+    // Si no hay galerías ya inicializadas, las cargamos
+    if (!window.galleriesInitialized) {
+        console.log("Cargando galerías desde galleryOfGames.html");
+        initializeGalleries();
+        window.galleriesInitialized = true; // Marcamos como cargadas para evitar conflictos
+    }
+</script>
+
+</body>
+</html>
