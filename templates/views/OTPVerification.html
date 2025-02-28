@@ -1,43 +1,38 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>OTP Verification</title>
+    <title>Verificación OTP</title>
     <link rel="stylesheet" href="../../assets/css/OTPVerification.css">
     <script type="module" src="../../assets/js/main.js"></script>
 </head>
 <body data-page="OTPVerification">
-<!-- Grupo: Top -->
-<div class="Top">
-    <!-- Grupo: Logo -->
-    <div class="Logo">
-        <a href="./index.html">
-            <img class="LogoImg" src="../../assets/imgs/logo.png" alt="Logo">
-        </a>
-    </div>
-</div>
 
-<!-- Grupo: OTP -->
-<div class="OTPDiv">
-    <h1 style="text-align: center">Verificación del cambio de contraseña</h1>
+<!-- Contenedor principal de OTP -->
+<main class="otp-container">
+    <h1 class="otp-title">Verificación del cambio de contraseña</h1>
 
-    <!-- Grupo: OTPBox -->
-    <div class="OTPBox">
+    <section class="otp-box">
         <form id="OTPForm">
-            <!-- Grupo: OTPPart -->
-            <div class="PartDiv">
+            <!-- Campo OTP -->
+            <div class="otp-input-group">
                 <label for="OTPField">Revisa tu correo electrónico para obtener el código de verificación que ha sido enviado.</label>
-                <input type="text" id="OTPField" name="OTPCode" placeholder="Introduce el código OTP ">
+                <input type="text" id="OTPField" name="OTPCode" placeholder="Introduce el código OTP" required>
             </div>
 
-            <!-- Grupo: Accept -->
-            <div class="Accept">
-                <button onclick="">Solicitar OTP</button>
-                <button class="AcceptButton" type="submit" >Aceptar</button>
+            <!-- Botón para solicitar un nuevo código -->
+            <div class="otp-request">
+                <button type="button">Solicitar OTP</button>
+            </div>
+
+            <!-- Botón para enviar el código -->
+            <div class="otp-submit">
+                <button class="accept-button" type="submit">Aceptar</button>
             </div>
         </form>
-    </div>
-</div>
+    </section>
+</main>
+
 </body>
 </html>

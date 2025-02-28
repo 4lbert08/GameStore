@@ -10,52 +10,59 @@
 
     <header id="main_header"></header>
 
-    <div class="userButton" id="userMenuButton"></div>
+    <div class="main_container">
+        <div class="userButton" id="userMenuButton"></div>
 
-    <div class="gen_container">
+        <div class="gen_container">
 
-        <div class="image_container">
-            <img class="image" src="../../assets/imgs/fifa22.png" alt="Imagen de perfil">
-            <p class="nickname">Berto_69</p>
+            <div class="image_container">
+                <img class="image" src="../../assets/imgs/fifa22.png" alt="Imagen de perfil">
+                <p class="nickname">Berto_69</p>
+            </div>
+
+            <div class="form_container">
+                <form action="form-handler.php" method="get">
+                    <div class="inputs_container">
+                        <label for="nickname">Cambiar el nickname</label>
+                        <input class="input" type="text" name="nickname" id="nickname">
+                    </div>
+
+                    <div class="inputs_container">
+                        <label for="birthday">Cambiar el cumpleaños</label>
+                        <input class="input" type="date" name="birthday" id="birthday">
+                    </div>
+
+                    <div class="inputs_container">
+                        <label for="profilePicture">Foto de perfil (Opcional)</label>
+                        <input class="input" type="file" name="profilePicture" id="profilePicture">
+                    </div>
+
+                    <div class="inputs_container">
+                        <label for="region">Cambiar de región</label>
+                        <select class="input" id="region" name="region">
+                            <option value="EU">EU</option>
+                            <option value="NA">NA</option>
+                            <option value="LATAM">LATAM</option>
+                            <option value="AFR">AFR</option>
+                            <option value="ASIA">ASIA</option>
+                        </select>
+                    </div>
+
+                    <div class="inputs_container">
+                        <label for="language">Cambiar de idioma</label>
+                        <select class="input" id="language" name="language">
+                            <option value="Español">Español</option>
+                            <option value="English">English</option>
+                        </select>
+                    </div>
+
+                    <div class="button_container">
+                        <input class="ApplyButton" type="submit" value="Aplicar" id="save">
+                    </div>
+                </form>
+            </div>
+
         </div>
-
-        <div class="form_container">
-            <form action="form-handler.php" method="get">
-                <div class="inputs_container">
-                    <label for="nickname">Cambiar el nickname</label>
-                    <input class="input" type="text" name="nickname" id="nickname">
-                </div>
-
-                <div class="inputs_container">
-                    <label for="birthday">Cambiar el cumpleaños</label>
-                    <input class="input" type="date" name="birthday" id="birthday">
-                </div>
-
-                <div class="inputs_container">
-                    <label for="region">Cambiar de región</label>
-                    <select class="input" id="region" name="region">
-                        <option value="EU">EU</option>
-                        <option value="NA">NA</option>
-                        <option value="LATAM">LATAM</option>
-                        <option value="AFR">AFR</option>
-                        <option value="ASIA">ASIA</option>
-                    </select>
-                </div>
-
-                <div class="inputs_container">
-                    <label for="language">Cambiar de idioma</label>
-                    <select class="input" id="language" name="language">
-                        <option value="Español">Español</option>
-                        <option value="English">English</option>
-                    </select>
-                </div>
-
-                <div class="button_container">
-                    <input class="ApplyButton" type="submit" value="Aplicar" id="save">
-                </div>
-            </form>
-        </div>
-
     </div>
 
     <footer id="footer"></footer>

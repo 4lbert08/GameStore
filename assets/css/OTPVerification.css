@@ -6,11 +6,12 @@ body {
     justify-content: center;
     align-items: center;
     background: #272727;
+    font-family: "Genos", sans-serif;
+    color: #fff;
 }
 
-h1, label, a {
-    font-family: "Genos", sans-serif;
-    color: white;
+label{
+    font-weight: bold;
 }
 
 input {
@@ -23,49 +24,33 @@ input {
     border: white solid 1px;
 }
 
-.Top {
-    padding: 2%;
-    display: flex;
-    flex-direction: row;
-}
 
-.LogoImg {
-    width: 200px;
-    background: #1E1EBF;
-    border-radius: 45px;
-}
 
-.LogoImg:hover {
-    background-color: #1E1Ead   ;
-    transform: scale(1.05);
-    border-radius: 50px;
-}
-
-.OTPDiv {
+/* Contenedor principal del OTP */
+.otp-container {
     position: relative;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
-.PartDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5%;
-}
-
-.OTPBox {
+/* Caja del formulario OTP */
+.otp-box {
     position: relative;
     width: 100%;
     padding: 10% 5%;
     background: none;
 }
 
-.OTPBox::before {
+.otp-title {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.otp-box::before {
     content: "";
     position: absolute;
     top: 0;
@@ -78,14 +63,35 @@ input {
     border-radius: inherit;
 }
 
-.Accept {
+/* Grupo de entrada del código OTP */
+.otp-input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.otp-input-group input::placeholder {
+    color: #fff;
+}
+
+/* Botón para solicitar un nuevo OTP */
+.otp-request {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+/* Botón de envío del OTP */
+.otp-submit {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.AcceptButton {
+.accept-button {
     scale: 1.5;
     margin-top: 5%;
     color: white;
