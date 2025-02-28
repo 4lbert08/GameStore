@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             break;
 
         case "advancedSearch":
+            console.log("Ejecutando script del advancedSearch...");
             await loadHTMLAndExecuteScripts("#second-header", "../partials/second_header.html");
 
             await loadHTMLAndExecuteScripts("#search-results", "../partials/gamesCardGallery.html");
@@ -78,17 +79,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             break;
-
-        case "seccionView":
-            console.log("Ejecutando script de seccionView...");
+        case "GameShowcase":
+            console.log("Ejecutando script del GameShowcase...");
             await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
-
-            await loadHTMLAndExecuteScripts("#gallery1", "../partials/gamesCardGallery.html");
-            initializeGalleries();
-
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
-            break;
-
+            await loadHTMLAndExecuteScripts("#gallery1", "../partials/gamesCardRowGallery.html");
+            initializeGalleries();
         default:
             console.warn("No se ha definido una acción para esta página.");
     }
