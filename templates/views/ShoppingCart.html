@@ -4,64 +4,60 @@
     <meta charset="UTF-8">
     <title>Cesta</title>
     <link rel="stylesheet" type="text/css" href="../../assets/css/ShoppingCart.css">
-    <script src="../../assets/js/modules/xml-include-file.js"></script>
+    <script type="module" src="../../assets/js/main.js"></script>
 </head>
 <body data-page="shoppingCart">
 
-<header xlu-include-file="../partials/header.html"></header>
+    <header id="main_header"></header>
 
-<h1>Cesta</h1>
+    <h1>Cesta</h1>
 
-<div class="CartDiv">
+    <div class="CartDiv">
 
-    <div class="cart_carousel">
-       <div xlu-include-file="../partials/gameInShoppingCart.html"> </div>
-       <div xlu-include-file="../partials/gameInShoppingCart.html"> </div>
-       <div xlu-include-file="../partials/gameInShoppingCart.html"> </div>
-       <div xlu-include-file="../partials/gameInShoppingCart.html"> </div>
-       <div xlu-include-file="../partials/gameInShoppingCart.html"> </div>
+        <div class="cart_carousel">
+           <div class="game-slot" ></div>
+           <div class="game-slot"></div>
+           <div class="game-slot"></div>
+           <div class="game-slot"></div>
+           <div class="game-slot"></div>
+        </div>
+
+
+      <div class="payment">
+
+            <div class="text">
+                Precio: XXXX$
+            </div>
+
+            <div class="text">
+                Descuento: XXXX$
+            </div>
+
+            <div class="text">
+                Precio: XXXX$
+            </div>
+
+            <form action="index.html" method="post">
+                <button class="ApplyButton" type="submit">  Proceder con el pago  </button>
+            </form>
+
+            <a class="keep_buying" href="index.html">
+                Seguir comprando
+                <img class="flecha" src="../../assets/imgs/flecha.png">
+            </a>
+
+      </div>
+
+
     </div>
 
+    <div class="suggested">
+        <div id="gameSuggested1"></div>
+        <div id="gameSuggested2"></div>
+        <div id="gameSuggested3"></div>
+    </div>
 
-  <div class="payment">
-
-        <div class="text">
-            Precio: XXXX$
-        </div>
-
-        <div class="text">
-            Descuento: XXXX$
-        </div>
-
-        <div class="text">
-            Precio: XXXX$
-        </div>
-
-        <form action="index.html" method="post">
-            <button class="ApplyButton" type="submit">  Proceder con el pago  </button>
-        </form>
-
-        <a class="keep_buying" href="index.html">
-            Seguir comprando
-            <img class="flecha" src="../../assets/imgs/flecha.png">
-        </a>
-
-  </div>
-
-
-</div>
-
-<div class="suggested">
-    <div xlu-include-file="../partials/gameSuggested.html"> </div>
-    <div xlu-include-file="../partials/gameSuggested.html"> </div>
-    <div xlu-include-file="../partials/gameSuggested.html"> </div>
-</div>
-
-<footer xlu-include-file="../partials/footer.html"></footer>
-
-<script>
-    document.addEventListener("DOMContentLoaded", xLuIncludeFile);
-</script>
+    <footer id="footer"></footer>
 </body>
 </html>
 

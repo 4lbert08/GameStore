@@ -1,6 +1,7 @@
 import { loadHTMLAndExecuteScripts } from "./modules/includeHTMLRecursive.js";
 import { initializeGalleries } from "./modules/loadGallery.js";
 import { handleFormSubmission } from "./modules/formHandler.js";
+import { initializeGameSlots } from "./modules/loadGamesSlots.js";
 
 console.log("Módulos importados correctamente.");
 
@@ -53,9 +54,17 @@ document.addEventListener("DOMContentLoaded", async () => {
             break;
 
 
-        case "":
-            console.log("Ejecutando script de OTPVerification...");
-            handleFormSubmission("#OTPForm", "ResetPassword.html");
+        case "shoppingCart":
+            console.log("Ejecutando script de ShoppingCart...");
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
+            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+
+            await loadHTMLAndExecuteScripts("#gameSuggested1", "../partials/gameSuggested.html");
+            await loadHTMLAndExecuteScripts("#gameSuggested2", "../partials/gameSuggested.html");
+            await loadHTMLAndExecuteScripts("#gameSuggested3", "../partials/gameSuggested.html");
+
+            initializeGameSlots()
+
             break;
 
         default:

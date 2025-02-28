@@ -1,4 +1,4 @@
-import { loadHTMLAndExecuteScripts } from "./includeHTMLRecursive.js"; // Asegúrate de que la ruta es correcta
+import { loadHTMLAndExecuteScripts } from "./includeHTMLRecursive.js";
 
 export function loadGames(container, galleryIndex) {
     console.log(`Ejecutando loadGames() para la galería ${galleryIndex}`);
