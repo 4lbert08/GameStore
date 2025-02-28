@@ -79,6 +79,16 @@ document.addEventListener("DOMContentLoaded", async () => {
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             break;
 
+        case "seccionView":
+            console.log("Ejecutando script de seccionView...");
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
+
+            await loadHTMLAndExecuteScripts("#gallery1", "../partials/gamesCardGallery.html");
+            initializeGalleries();
+
+            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+            break;
+
         default:
             console.warn("No se ha definido una acción para esta página.");
     }
