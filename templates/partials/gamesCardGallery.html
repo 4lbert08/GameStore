@@ -1,11 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Games Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevos Lanzamientos</title>
+    <link rel="stylesheet" href="../../assets/css/gamesCardGallery.css">
 </head>
+
 <body>
-    <header id="main_header"></header>
+    <section class="gallery-container" data-gallery>
+        <div class="gallery">
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+            <div class="game-slot"></div>
+        </div>
+        <!-- Paginación -->
+        <div class="pagination">
+            <button id="prevPage">&#9665;</button>
+            <span id="pageNumber">1</span>
+            <button id="nextPage">&#9655;</button>
+        </div>
+    </section>
+
+    <script type="module">
+        import { initializeGalleries } from "../../assets/js/modules/loadGallery.js";
+
+        // Si no hay galerías ya inicializadas, las cargamos
+        if (!window.galleriesInitialized) {
+            console.log("Cargando galerías desde gamesCardGallery.html");
+            initializeGalleries();
+            window.galleriesInitialized = true;
+        }
+    </script>
+
 </body>
 </html>
