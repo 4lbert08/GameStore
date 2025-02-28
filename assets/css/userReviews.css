@@ -1,0 +1,25 @@
+@import url('../fonts/fonts.css');
+
+
+body {
+    font-family: "Genos", sans-serif;
+    line-height: 1.6;
+    background-color: #272727;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.review-container {
+    width: 1175px;
+    height: 750px;
+    background-color: #6119b4;
+    place-self: center;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+
+.userButton{
+    display: grid;
+    place-items: center;
+}
