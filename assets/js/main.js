@@ -24,6 +24,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         case "aboutUs":
             console.log("Ejecutando script del aboutUs...");
             await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
+
+            await loadHTMLAndExecuteScripts("#memberCard1", "../partials/memberCard.html");
+            await loadHTMLAndExecuteScripts("#memberCard2", "../partials/memberCard.html");
+            await loadHTMLAndExecuteScripts("#memberCard3", "../partials/memberCard.html");
             break;
 
         case "userConfiguration":
@@ -57,13 +61,16 @@ document.addEventListener("DOMContentLoaded", async () => {
         case "shoppingCart":
             console.log("Ejecutando script de ShoppingCart...");
             await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
-            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+
+            initializeGameSlots()
 
             await loadHTMLAndExecuteScripts("#gameSuggested1", "../partials/gameSuggested.html");
             await loadHTMLAndExecuteScripts("#gameSuggested2", "../partials/gameSuggested.html");
             await loadHTMLAndExecuteScripts("#gameSuggested3", "../partials/gameSuggested.html");
 
-            initializeGameSlots()
+            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+
+
 
             break;
 
