@@ -4,32 +4,26 @@
   <meta charset="UTF-8">
   <title>Mis Reseñas</title>
   <link rel="stylesheet" type="text/css" href="../../assets/css/userReviews.css">
-  <script src="../../assets/js/modules/xml-include-file.js"></script>
+  <script type="module" src="../../assets/js/main.js"></script>
 </head>
-<body>
+<body data-page="userReviews">
 
-<header xlu-include-file="../partials/main_header.html"></header>
+<header id="main_header"></header>
 
-<div class="userButton" xlu-include-file="../partials/userMenuButton.html"></div>
+<div class="userButton" id="UserMenuButton"></div>
 
 
 <div class="review-container">
 
-  <div xlu-include-file="../partials/userReview.html"></div>
-  <div xlu-include-file="../partials/userReview.html"></div>
-  <div xlu-include-file="../partials/userReview.html"></div>
-  <div xlu-include-file="../partials/userReview.html"></div>
-  <div xlu-include-file="../partials/userReview.html"></div>
+  <div id="reviews1"></div>
+  <div id="reviews2"></div>
+  <div id="reviews3"></div>
 
 </div>
 
 
+<footer id="footer"></footer>
 
-<footer xlu-include-file="../partials/footer.html"></footer>
-
-<script>
-  document.addEventListener("DOMContentLoaded", xLuIncludeFile);
-</script>
 
 </body>
 </html>

@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <title>Pago</title>
     <link rel="stylesheet" type="text/css" href="../../assets/css/Payment.css">
-    <script src="../../assets/js/modules/xml-include-file.js"></script>
+    <script type="module" src="../../assets/js/main.js"></script>
 
 </head>
-<body>
+<body data-page="payment">
 
-<header xlu-include-file="../partials/main_header.html"></header>
+<header id="main_header"></header>
 
 
 <h1>
@@ -67,12 +67,7 @@
   </div>
 </div>
 
+<footer id="footer"></footer>
 
-<footer xlu-include-file="../partials/footer.html"></footer>
-
-
-<script>
-    document.addEventListener("DOMContentLoaded", xLuIncludeFile);
-</script>
 </body>
 </html>
