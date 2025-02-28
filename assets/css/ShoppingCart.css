@@ -72,7 +72,10 @@ a{
     margin: 100px 50px 50px 50px;
 }
 
+.cart_carousel{
+    overflow-y: auto;
 
+}
 
 .flecha{
     width: 75px;
