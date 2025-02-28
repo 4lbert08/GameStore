@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     switch (page) {
         case "home":
             console.log("Ejecutando script del home...");
-            await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             await loadHTMLAndExecuteScripts("#gallery1", "../partials/gamesCardRowGallery.html");
             await loadHTMLAndExecuteScripts("#gallery2", "../partials/gamesCardRowGallery.html");
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         case "aboutUs":
             console.log("Ejecutando script del aboutUs...");
-            await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
 
             await loadHTMLAndExecuteScripts("#memberCard1", "../partials/memberCard.html");
             await loadHTMLAndExecuteScripts("#memberCard2", "../partials/memberCard.html");
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         case "userConfiguration":
             console.log("Ejecutando script del userConfiguration...");
-            await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             await loadHTMLAndExecuteScripts("#userMenuButton", "../partials/userMenuButton.html");
             break;
@@ -57,10 +57,9 @@ document.addEventListener("DOMContentLoaded", async () => {
             handleFormSubmission("#OTPForm", "ResetPassword.html");
             break;
 
-
         case "shoppingCart":
             console.log("Ejecutando script de ShoppingCart...");
-            await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
 
             initializeGameSlots()
 
@@ -69,9 +68,15 @@ document.addEventListener("DOMContentLoaded", async () => {
             await loadHTMLAndExecuteScripts("#gameSuggested3", "../partials/gameSuggested.html");
 
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+            break;
 
+        case "advancedSearch":
+            await loadHTMLAndExecuteScripts("#second-header", "../partials/second_header.html");
 
+            await loadHTMLAndExecuteScripts("#search-results", "../partials/gamesCardGallery.html");
+            initializeGalleries();
 
+            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             break;
 
         default:

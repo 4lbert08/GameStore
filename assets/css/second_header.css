@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #f30202, #0101fd);
+    padding: 4px;
+    flex-wrap: nowrap;
+}
+
+/* Select container */
+.select-container {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+/* Select */
+select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: auto;
+    max-width: 100px;
+}
+
+.logo img {
+    height: 64px;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+    background: #871fbb;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+/* Icons */
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 1rem;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+}
+
+/* Evita que los elementos se colapsen en pantallas pequeñas */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        max-width: 80px;
+    }
+}
+
+/* Media queries para dispositivos muy pequeños */
+@media (max-width: 480px) {
+    select {
+        font-size: 14px;
+        padding: 4px;
+    }
+
+    .icons img {
+        width: 30px;
+        height: 30px;
+    }
+}

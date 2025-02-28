@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="../../assets/css/advancedSearch.css">
+    <script type="module" src="../../assets/js/main.js"></script>
+</head>
+<body data-page="advancedSearch">
+    <header id="second-header"></header>
+
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search">
+        <div class="filter-dropdowns">
+            <select class="filter-select">
+                <option selected disabled>SISTEMA</option>
+                <option value="pc">PC</option>
+                <option value="console">Consola</option>
+            </select>
+            <select class="filter-select">
+                <option selected disabled>PLATAFORMA</option>
+                <option value="ps5">PlayStation 5</option>
+                <option value="xbox">Xbox Series X</option>
+                <option value="switch">Nintendo Switch</option>
+            </select>
+            <select class="filter-select">
+                <option selected disabled>GÉNERO</option>
+                <option value="sandbox">OpenWorld</option>
+                <option value="rts">Estrategia en tiempo real</option>
+                <option value="shooter">Shooter</option>
+                <option value="moba">MOBA</option>
+                <option value="rpg">Juegos de rol</option>
+                <option value="simulation">Simulación y deportes</option>
+                <option value="puzzle">Puzzles y juegos de fiesta</option>
+                <option value="action">Acción-aventura</option>
+            </select>
+            <select class="filter-select">
+                <option selected disabled>PEGI</option>
+                <option value="3">PEGI 3</option>
+                <option value="7">PEGI 7</option>
+                <option value="12">PEGI 12</option>
+                <option value="16">PEGI 16</option>
+                <option value="18">PEGI 18</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="search-results"></div>
+
+    <footer id="footer"></footer>
+</body>
+</html>
