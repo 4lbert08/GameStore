@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", async () => {
             console.log("Ejecutando script del home...");
             await loadHTMLAndExecuteScripts("#main_header", "../partials/header.html");
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
-            await loadHTMLAndExecuteScripts("#gallery1", "../partials/galleryOfGames.html");
-            await loadHTMLAndExecuteScripts("#gallery2", "../partials/galleryOfGames.html");
-            await loadHTMLAndExecuteScripts("#gallery3", "../partials/galleryOfGames.html");
+            await loadHTMLAndExecuteScripts("#gallery1", "../partials/gamesCardRow.html");
+            await loadHTMLAndExecuteScripts("#gallery2", "../partials/gamesCardRow.html");
+            await loadHTMLAndExecuteScripts("#gallery3", "../partials/gamesCardRow.html");
             initializeGalleries();
             break;
 
