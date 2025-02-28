@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Genos", sans-serif;
 }
 
 .img{
@@ -17,7 +17,6 @@ body {
 }
 
 .inside_text{
-    font-family: "Genos", sans-serif;
     text-align: center;
     gap: 10px;
     align-items: center;
@@ -54,7 +53,7 @@ body {
     height: 200px;
 }
 
-.icon{
+.trashCan{
     height: 30px;
     width: 30px;
     align-items: center;
@@ -80,7 +79,7 @@ body {
 }
 
 
-button{
+.move_to_cart{
     font-family: "Genos", sans-serif;
     display: flex;
     align-items: center;

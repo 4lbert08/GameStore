@@ -1,6 +1,7 @@
 @import url('../fonts/fonts.css');
 body{
     background: #272727;
+    font-family: "Genos", sans-serif;
 }
 
 .payment{
@@ -21,28 +22,21 @@ body{
 }
 
 h1{
-    font-family: "Genos", sans-serif;
     display: grid;
     justify-content: center;
     color: #ffffff;
 }
 
 .text{
-    font-family: "Genos", sans-serif;
-
     font-size: 30px;
+    font-weight: bold;
     margin: 20px;
     color: #ffffff;
 }
 
-.cartCarousel{
-    display: flex;
-    flex-direction: column;
-    scroll-snap-type: y mandatory;
-}
-
 .ApplyButton {
     font-family: "Genos", sans-serif;
+    font-weight: bold;
     width: 400px;
     margin: 5%;
     color: white;
@@ -55,7 +49,7 @@ h1{
     cursor: pointer;
 }
 
-a{
+.keep_buying{
     text-decoration: none;
     font-size: 20px;
     display: flex;
