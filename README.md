@@ -66,8 +66,8 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 
 | Archivo Template     | Archivo en el que se carga      |
 | -------------------- | ------------------------------- |
-| `main_header.html`        | Todas las páginas menos en advancedSearch.html               |
-| `second_header.html`        | advancedSearch.html               |
+| `mainHeader.html`        | Todas las páginas menos en advancedSearch.html               |
+| `secondHeader.html`        | advancedSearch.html               |
 | `footer.html`        | Todas las páginas               |
 | `gameCard.html`        | Páginas que usan gamesCardGallery.html y gamesCardRowGallery.html|
 | `gameInShoppingCart.html`        | shoppingCart.html               |
