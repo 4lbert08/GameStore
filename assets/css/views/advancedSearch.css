@@ -11,8 +11,7 @@ body {
     background-color: #272727;
 }
 
-/* Estilos generales */
-.search-container {
+.search {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,8 +23,7 @@ body {
     margin: auto;
 }
 
-/* Barra de búsqueda */
-.search-bar {
+.search__bar {
     width: 80%;
     max-width: 600px;
     padding: 10px;
@@ -39,15 +37,13 @@ body {
     margin-top: 2rem;
 }
 
-/* Contenedor de desplegables */
-.filter-dropdowns {
+.search__filter-dropdowns {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
     margin-top: 3rem;
 }
 
-/* Estilos de los select */
 .filter-select {
     background: #6a0dad;
     color: white;

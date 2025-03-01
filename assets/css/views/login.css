@@ -34,13 +34,13 @@ input::placeholder {
     flex-direction: row;
 }
 
-.LogoImg {
+.Top__Logo__LogoImg {
     width: 200px;
     background: #1E1EBF;
     border-radius: 45px;
 }
 
-.LogoImg:hover {
+.Top__Logo__LogoImg:hover {
     background-color: #1E1Ead   ;
     transform: scale(1.05);
     border-radius: 50px;
@@ -61,14 +61,14 @@ input::placeholder {
     margin-bottom: 5%;
 }
 
-.LoginBox {
+.LoginDiv__LoginBox {
     position: relative;
     width: 100%;
     padding: 10% 5%;
     background: none;
 }
 
-.LoginBox::before {
+.LoginDiv__LoginBox::before {
     content: "";
     position: absolute;
     top: 0;

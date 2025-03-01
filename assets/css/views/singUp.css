@@ -80,7 +80,7 @@ input::placeholder {
     border-radius: inherit;
 }
 
-.Logo {
+.Top__Logo {
     align-self: center;
     justify-self: center;
     margin: 2rem;
@@ -90,7 +90,7 @@ input::placeholder {
     transform: scale(1.05);
 }
 
-.LogoImg {
+.Top__Logo__LogoImg {
     width: 150px;
     background: transparent;
     border-radius: 45px;
