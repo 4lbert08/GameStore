@@ -41,8 +41,9 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 
 ## 📂 Estructura del proyecto
 
+<pre>
 GameStore/
-│── assets/              # Recursos estáticos (imágenes, estilos, scripts, fuentes)
+├── assets/              # Recursos estáticos (imágenes, estilos, scripts, fuentes)
 │   ├── css/             # Estilos del proyecto
 │   │   ├── partials/    # Estilos de los componentes
 │   │   ├── views/       # Estilos de las páginas
@@ -53,12 +54,14 @@ GameStore/
 │   │   │   ├── functions/       # Funciones reutilizables
 │   │   │   ├── viewsScripts/    # Scripts específicos de cada página
 │
-│── templates/           # Archivos HTML del proyecto
+├── templates/           # Archivos HTML del proyecto
 │   ├── partials/        # Componentes reutilizables en HTML
 │   ├── views/           # Páginas principales
 │
-│── documentation/       # Documentación del proyecto
-│   ├── mockups/        # Diseños visuales (Mockups)
+└── documentation/       # Documentación del proyecto
+    ├── mockups/        # Diseños visuales (Mockups)
+</pre>
+
 
 
 ## 📂 Mockups y Storyboards
