@@ -13,12 +13,12 @@ body{
 }
 
 th{
-    width: 100%;
     padding: 0px 50px;
     font-weight: bold;
     font-size: 30px;
     border: 1px solid white;
     border-radius: 5px;
+    background: #2C1EEB;
 }
 
 td{
@@ -37,13 +37,12 @@ td{
 
 }
 
-.table{
+
+table{
     display: flex;
+    flex-direction: column;
     place-self: center;
     width: 75%;
-    height: 74.33vh;
-    background: #2C1EEB;
     border-radius: 10px;
     margin: 20px;
-    overflow-y: auto;
 }
