@@ -79,24 +79,41 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             break;
+
+        case "sectionView":
+            console.log("Ejecutando script del sectionView...");
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
+
+            await loadHTMLAndExecuteScripts("#gallery1", "../partials/gamesCardGallery.html");
+            initializeGalleries();
+
+            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+            break;
+
         case "GameShowcase":
             console.log("Ejecutando script del GameShowcase...");
             await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             await loadHTMLAndExecuteScripts("#gallery1", "../partials/gamesCardRowGallery.html");
             initializeGalleries();
+            break;
+
         case "payment":
-            console.log("Ejecutando script del GameShowcase...");
+            console.log("Ejecutando script del payment...");
             await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+            break;
+
         case "userReviews":
-            console.log("Ejecutando script del GameShowcase...");
+            console.log("Ejecutando script del userReviews...");
             await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             await loadHTMLAndExecuteScripts("#UserMenuButton", "../partials/userMenuButton.html");
             await loadHTMLAndExecuteScripts("#reviews1", "../partials/userReview.html");
             await loadHTMLAndExecuteScripts("#reviews2", "../partials/userReview.html");
             await loadHTMLAndExecuteScripts("#reviews3", "../partials/userReview.html");
+            break;
+
         default:
             console.warn("No se ha definido una acción para esta página.");
     }
