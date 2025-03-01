@@ -26,7 +26,7 @@ td{
     border: 1px solid white;
     border-radius: 5px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     background-color: #1E1EBF;
 }
@@ -34,10 +34,12 @@ td{
     width: 100%;
     height: 100%;
     background: #D00202;
-
 }
 
+a{
 
+    color: #ffffff;
+}
 table{
     display: flex;
     flex-direction: column;
