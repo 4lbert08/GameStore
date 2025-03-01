@@ -42,23 +42,23 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 ## 📂 Estructura del proyecto
 
 GameStore/
-│-- assets/                             # Directorio con los recursos estáticos del proyecto, como imágenes, estilos, scripts y fuentes.
-│   │-- css/                            # Directorio con los estilos del proyecto.
-│       │-- partials/                   # Directorio con los estilos de los componentes utilizados en el proyecto.
-│       │-- views/                      # Directorio con los estilos de las páginas del proyecto.
-│   │-- fonts/                          # Directorio con las fuentes utilizadas en el proyecto.
-│   │-- imgs/                           # Directorio con las imágenes utilizadas en el proyecto.
-│   │-- js/                             # Directorio con los JavaScripts utilizados en el proyecto.
-│       │-- modules/                  
-│           │-- functions/              # Directorio con los JavaScripts destinados a la declaración de las funciones.
-│           │-- viewsScripts/           # Directorio con los JavaScripts de las páginas en sí.
-│  
-│-- templates/                          # Directorio con todos los .html del proyecto.
-│   │-- partials/                       # Directorio con los .html destinados a la declaración de componentes.
-│   │-- views/                          # Directorio con los .html de las páginas en sí.
-│  
-│-- documentation/                      # Directorio con los Mockups y Storyboards.
-│   │-- mockups/                        # Directorio de Mockups.                 
+│── assets/              # Recursos estáticos (imágenes, estilos, scripts, fuentes)
+│   ├── css/             # Estilos del proyecto
+│   │   ├── partials/    # Estilos de los componentes
+│   │   ├── views/       # Estilos de las páginas
+│   ├── fonts/           # Fuentes utilizadas
+│   ├── imgs/            # Imágenes del proyecto
+│   ├── js/              # Scripts del proyecto
+│   │   ├── modules/     
+│   │   │   ├── functions/       # Funciones reutilizables
+│   │   │   ├── viewsScripts/    # Scripts específicos de cada página
+│
+│── templates/           # Archivos HTML del proyecto
+│   ├── partials/        # Componentes reutilizables en HTML
+│   ├── views/           # Páginas principales
+│
+│── documentation/       # Documentación del proyecto
+│   ├── mockups/        # Diseños visuales (Mockups)
 
 
 ## 📂 Mockups y Storyboards
