@@ -3,6 +3,7 @@ body{
     background: #272727;
     margin: 0;
     color: white;
+
 }
 
 
@@ -18,7 +19,7 @@ th{
     font-size: 30px;
     border: 1px solid white;
     border-radius: 5px;
-    background: #2C1EEB;
+    background: #2C2FFF;
 }
 
 td{
@@ -37,10 +38,11 @@ td{
 }
 
 a{
-
     color: #ffffff;
 }
+
 table{
+    font-family: "Genos", sans-serif;
     display: flex;
     flex-direction: column;
     place-self: center;

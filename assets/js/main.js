@@ -36,7 +36,12 @@ document.addEventListener("DOMContentLoaded", async () => {
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             await loadHTMLAndExecuteScripts("#userMenuButton", "../partials/userMenuButton.html");
             break;
-
+        case "userReceipts":
+            console.log("Ejecutando script del userConfiguration...");
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
+            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+            await loadHTMLAndExecuteScripts("#userMenuButton", "../partials/userMenuButton.html");
+            break;
         case "login":
             console.log("Ejecutando script de login...");
             handleFormSubmission("#loginForm", "userConfiguration.html");
@@ -115,6 +120,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             break;
 
         default:
+
             console.warn("No se ha definido una acción para esta página.");
     }
 });
