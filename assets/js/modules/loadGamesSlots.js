@@ -15,11 +15,11 @@ export function loadSlots(container) {
 
 export function initializeGameSlots() {
     setTimeout(() => {
-        const cartContainer = document.querySelector(".CartDiv");
+        const cartContainer = document.querySelector(".game-slot-container");
         if (cartContainer) {
             loadSlots(cartContainer);
         } else {
-            console.warn("No se encontró el contenedor .CartDiv");
+            console.warn("No se encontró el contenedor .game-slot-container");
         }
     }, 0);
 }

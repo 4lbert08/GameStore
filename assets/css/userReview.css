@@ -33,7 +33,7 @@ body {
     align-items: center;
     align-content: center;
 }
-.review{
+.UserReview{
     display: grid;
     width: 760px;
     height: 140px;

@@ -15,7 +15,7 @@ body{
     border-radius: 20px;
 }
 
-.CartDiv{
+.game-slot-container{
     display: flex;
     flex-direction: row;
     margin: 50px;

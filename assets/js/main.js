@@ -2,6 +2,7 @@ import { loadHTMLAndExecuteScripts } from "./modules/includeHTMLRecursive.js";
 import { initializeGalleries } from "./modules/loadGallery.js";
 import { handleFormSubmission } from "./modules/formHandler.js";
 import { initializeGameSlots } from "./modules/loadGamesSlots.js";
+import { initializeReviews } from "./modules/loadGameReviews.js";
 
 console.log("Módulos importados correctamente.");
 
@@ -36,6 +37,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             await loadHTMLAndExecuteScripts("#userMenuButton", "../partials/userMenuButton.html");
             break;
+
         case "userReceipts":
             console.log("Ejecutando script del userConfiguration...");
             await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
@@ -101,6 +103,9 @@ document.addEventListener("DOMContentLoaded", async () => {
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             await loadHTMLAndExecuteScripts("#gallery1", "../partials/gamesCardRowGallery.html");
             initializeGalleries();
+
+            initializeReviews();
+
             break;
 
         case "payment":
@@ -114,13 +119,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
             await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             await loadHTMLAndExecuteScripts("#UserMenuButton", "../partials/userMenuButton.html");
-            await loadHTMLAndExecuteScripts("#reviews1", "../partials/userReview.html");
-            await loadHTMLAndExecuteScripts("#reviews2", "../partials/userReview.html");
-            await loadHTMLAndExecuteScripts("#reviews3", "../partials/userReview.html");
+            initializeReviews();
             break;
 
         default:
-
             console.warn("No se ha definido una acción para esta página.");
     }
 });
