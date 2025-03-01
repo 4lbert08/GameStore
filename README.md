@@ -1,16 +1,16 @@
 # 🎮 GameStore - Plataforma de Venta de Videojuegos (41.3)
 
-## 📌 Integrantes del Proyecto
+## 📌 Integrantes del proyecto
 
 - Juan Francisco Del Rosario Machin
 - Juan Boissier García
 - Alberto José Rodríguez Ruano
 
-## 📝 Descripción del Proyecto
+## 📝 Descripción del proyecto
 
 GameStore es una plataforma de comercio electrónico especializada en la venta de videojuegos digitales. Los usuarios pueden explorar un catálogo de juegos, ver detalles y reseñas, agregar productos al carrito y realizar compras de manera rápida y segura.
 
-## 📋 Requisitos del Proyecto
+## 📋 Requisitos del proyecto
 
 ### Requisitos Funcionales (RF)
 
@@ -40,19 +40,43 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 - **Ubicación Mockups**: `documentacion/mockups`
 - **Ubicación Storyboards**: `documentacion/mockups_storyboards.pdf`
 
-## 📄 Páginas HTML del Proyecto
+## 📄 Páginas(Templates) HTML del proyecto
 
-| Página          | Mockup Implementado | Notas                              |
+| Página          | Mockup implementado | Notas                              |
 | --------------- | ------------------- | ---------------------------------- |
 | `index.html`    | `home_mockup`       | Página de inicio                   |
+| `advancedSearch.html`    | `advandedSearch_mockup`       | Página de busqueda avanzada                  |
+| `gameShowcase.html`    | `gameShowcase_mockup`       | Página del título seleccionado                   |
+| `viewMoreSections.html`    | `viewMoreSections_mockup`       | Página de ver más                   |
+| `login.html`    | `login_mockup`       | Página de login de usuario                   |
+| `forgotPassword.html`    | `forgotPassword_mockup`       | Página de contraseña olvidada                   |
+| `OPTVerification.html`    | `OPTVerification_mockup`       | Página de verificación de código                   |
+| `signUp.html`    | `signUp_mockup`       | Página de signUp                   |
+| `resetPassword.html`    | `resetPassword_mockup`       | Página de cambio de contraseña                   |
+| `userSettings.html`    | `userSettings_mockup`       | Página de configuración de usuario                   |
+| `myReviews.html`    | `myReviews_mockup`       | Página de reseñas de usuario                   |
+| `myOrders.html`    | `myOrders_mockup`       | Página de pedidos de usuario                   |
+| `cart.html`    | `cart_mockup`       | Página de carrito                   |
+| `checkout.html`    | `checkout_mockup`       | Página de pago                   |
+| `aboutUs.html`    | `aboutUs_mockup`       | Página de AboutUs                   |
 
 
-## 🖼️ Templates Utilizados
+
+## 🖼️ Templates parciales utilizados
 
 | Archivo Template     | Archivo en el que se carga      |
 | -------------------- | ------------------------------- |
-| `header.html`        | Todas las páginas               |
+| `main_header.html`        | Todas las páginas menos en advancedSearch.html               |
+| `second_header.html`        | advancedSearch.html               |
 | `footer.html`        | Todas las páginas               |
+| `gameCard.html`        | Páginas que usan gamesCardGallery.html y gamesCardRowGallery.html|
+| `gameInShoppingCart.html`        | shopingCart.html               |
+| `gameSuggested.html`        | shopingCart.html               |
+| `memberCard.html`        | aboutUs.html               |
+| `userMenuButton.html`        | userSetting.html, myOrders.html y myReviews.html               |
+| `userReview.html`        | myReviews.html               |
+| `gamesCardGallery.html`        | advancedSearch.html y viewMoreSections               |
+| `gamesCardRowGallery.html`        | index.html y gameShowcase.html               |
 
 
 ## 🔗 Enlaces
@@ -61,6 +85,4 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 - **Trello**: [https://trello.com/b/qtJ1w6iJ/tablero-pwm](#)
 
 ---
-
-📌 *Este documento servirá como referencia para el desarrollo del proyecto.*
 
