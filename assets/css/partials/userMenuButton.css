@@ -5,7 +5,7 @@ body {
 }
 
 
-.button_background{
+.userMenuButton{
     width: 530px;
     height: 60px;
     background: linear-gradient(to right, #f30202, #0101fd);
@@ -15,7 +15,7 @@ body {
     margin: 20px;
 }
 
-.inner_buttons{
+.userMenuButton__buttons{
     background-color: #EBEBEF;
     width: 33%;
     height: 50px;
@@ -26,12 +26,12 @@ body {
     justify-content: center;
 }
 
-.inner_buttons:hover {
+.userMenuButton__buttons:hover {
     transform: scale(1.05);
     background-color: #989898;
 }
 
-.text{
+.userMenuButton__text{
     color: #000;
     font-weight: 700;
     text-decoration: none;

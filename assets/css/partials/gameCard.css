@@ -23,24 +23,24 @@ a {
     margin: 0.5rem;
 }
 
-.game-cover {
+.game-card__cover {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.game-info {
+.game-card__info {
     font-family: "Genos", sans-serif;
     padding: 0 1rem 0.25rem 1rem;
 }
 
-.game-title {
+.game-card__title {
     font-size: 1.8rem;
     margin: 0.1rem 0;
     font-weight: 600;
 }
 
-.game-price {
+.game-card__price {
     color: #333;
     font-size: 1.5rem;
     margin: 0.1rem 0;

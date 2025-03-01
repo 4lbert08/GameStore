@@ -3,7 +3,7 @@ import {initializeGameSlots} from "../functions/loadGamesSlots.js";
 console.log("Funciones cargadas correctamente.");
 
 console.log("Ejecutando script del cart...");
-await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
+await loadHTMLAndExecuteScripts("#main_header", "../partials/mainHeader.html");
 
 initializeGameSlots()
 

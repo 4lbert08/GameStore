@@ -5,13 +5,13 @@ body {
     font-family: "Genos", sans-serif;
 }
 
-.game_img{
+.userReview__game-img{
     border-radius: 20px;
     height: 200px;
     width: 170px;
 }
 
-.game_containter{
+.userReview__game-containter{
     margin-left: 10px;
     margin-right:40px;
     align-content: center;
@@ -20,20 +20,20 @@ body {
     flex-direction: column;
 }
 
-.user_img{
+.userReview__user-img{
     width: 100px;
     height: 100px;
     border-radius: 50px;
 
 }
 
-.info{
+.userReview__info{
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
 }
-.UserReview{
+.userReview__Review{
     display: grid;
     width: 760px;
     height: 140px;
@@ -42,13 +42,13 @@ body {
     align-items: center;
 }
 
-.game_title{
+.userReview__game-title{
     font-family: "Genos", sans-serif;
     color: white;
     font-weight: bold;
     font-size: 20px;
 }
-.review_text{
+.userReview__text{
     color: #FFFFFF;
     display: flex;
     font-size: 20px;
@@ -67,7 +67,7 @@ body {
     background-color: #663399FF;
 }
 
-.container{
+.userReview{
     background-color: transparent;
     display: flex;
     align-items: center;
