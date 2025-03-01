@@ -17,14 +17,14 @@
     padding: 20px;
 }
 
-.game-slot {
+.cart__game {
     background: #1e1e1e;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease-in-out;
 }
 
-.game-slot:hover {
+.cart__game:hover {
     transform: scale(1.05);
 }
 

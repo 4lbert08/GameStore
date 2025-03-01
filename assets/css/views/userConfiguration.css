@@ -61,7 +61,7 @@ header{
     margin-left: 30px;
 }
 
-.inputs_container {
+.checkout__card-input {
     display: flex;
     flex-direction: column;
     padding: 10px;

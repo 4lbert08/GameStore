@@ -3,7 +3,7 @@ import { loadHTMLAndExecuteScripts } from "./includeHTMLRecursive.js";
 export function loadGames(container, galleryIndex) {
     console.log(`Ejecutando loadGames() para la galería ${galleryIndex}`);
 
-    const gameSlots = container.querySelectorAll(".game-slot");
+    const gameSlots = container.querySelectorAll(".cart__game");
     gameSlots.forEach((slot, index) => {
         const gameId = `game-${galleryIndex}-${index + 1}`;
         slot.id = gameId;

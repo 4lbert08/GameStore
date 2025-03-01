@@ -17,52 +17,52 @@
     Pago
 </h1>
 
-<div class="container">
+<div class="checkout">
 
-    <div class="methods">
-    <div class="dropdown">
+    <div class="checkout__methods">
+    <div class="checkout__methods-dropdown">
       <button class="dropbtn">VISA</button>
       <div class="dropdown-content">
-        <div class="payment_method">
-            <form action="form-handler.php" method="get">
-                <div class="inputs_container">
+        <div class="checkout__method-card">
+            <form action="" method="get">
+                <div class="checkout__card-input">
                     <label for="Number">Número de la tarjeta</label>
                     <input class="input" type ="text" name="nickname" id="Number"  value="1234 5678 9012 3456">
                 </div>
-                <div class="CVV_caducidad_container">
-                    <div class="inputs_container">
-                        <label for="caducidad">Fecha de caducidad</label>
-                        <input class="inputCVVcad" type ="text" name="nickname" id="caducidad"  value="MM/YY">
+                <div class="checkout__card-inputsmall">
+                    <div class="checkout__card-input">
+                        <label for="expiredate">Fecha de caducidad</label>
+                        <input class="input-small" type ="text" name="nickname" id="expiredate" value="MM/YY">
                     </div>
-                    <div class="inputs_container">
+                    <div class="checkout__card-input">
                         <label for="CVV">CVV</label>
-                        <input class="inputCVVcad" type ="text" name="nickname" id="CVV"  value="XXX">
+                        <input class="input-small" type ="text" name="nickname" id="CVV" value="XXX">
                     </div>
                 </div>
-                <div class="inputs_container">
-                    <label for="Titular">Titular de la tarjeta</label>
-                    <input class="input" type ="text" name="nickname" id="Titular"  value="John Doe ">
+                <div class="checkout__card-input">
+                    <label for="cardHolder">Titular de la tarjeta</label>
+                    <input class="input" type ="text" name="nickname" id="cardHolder" value="John Doe ">
                 </div>
             </form>
         </div>
       </div>
     </div>
-        <div class="linked_methods">
+        <div class="checkout__methods-linked">
             <a class="link" href="https://www.paypal.com/es/home">Paypal</a>
         </div>
-        <div class="linked_methods">
+        <div class="checkout__methods-linked">
             <a class="link" href="https://bizum.com/es/">Bizum</a>
         </div>
     </div>
 
 
 
-  <div class="resumen">
+  <div class="checkout__resumen">
     <h1>Resumen</h1>
-    <p class="text">Titulo - Plataforma - Precio</p>
-    <p class="text">Titulo - Plataforma - Precio</p>
-    <p class="text">Titulo - Plataforma - Precio</p>
-    <p class="text">Total: XXXX$</p>
+    <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
+    <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
+    <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
+    <p class="checkout_resumen-text">Total: XXXX$</p>
       <button class="button">Comprar</button>
   </div>
 </div>

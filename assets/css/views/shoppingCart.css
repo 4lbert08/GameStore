@@ -15,7 +15,7 @@ body{
     border-radius: 20px;
 }
 
-.game-slot-container{
+.cart{
     display: flex;
     flex-direction: row;
     margin: 50px;
@@ -27,14 +27,14 @@ h1{
     color: #ffffff;
 }
 
-.text{
+.payment__text{
     font-size: 30px;
     font-weight: bold;
     margin: 20px;
     color: #ffffff;
 }
 
-.ApplyButton {
+.payment__ApplyButton {
     font-family: "Genos", sans-serif;
     font-weight: bold;
     width: 400px;
@@ -49,7 +49,7 @@ h1{
     cursor: pointer;
 }
 
-.keep_buying{
+.payment__keep_buying{
     text-decoration: none;
     font-size: 20px;
     display: flex;
@@ -71,7 +71,7 @@ h1{
 
 }
 
-.flecha{
+.payment__flecha{
     width: 75px;
     height: 25px;
 }

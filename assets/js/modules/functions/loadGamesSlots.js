@@ -3,7 +3,7 @@ import { loadHTMLAndExecuteScripts } from "./includeHTMLRecursive.js";
 export function loadSlots(container) {
     console.log("Ejecutando loadSlots() en el contenedor:", container);
 
-    const gameSlots = container.querySelectorAll(".game-slot");
+    const gameSlots = container.querySelectorAll(".cart__game");
     gameSlots.forEach((slot, index) => {
         const slotId = `game-slot-${index + 1}`;
         slot.id = slotId;
@@ -15,7 +15,7 @@ export function loadSlots(container) {
 
 export function initializeGameSlots() {
     setTimeout(() => {
-        const cartContainer = document.querySelector(".game-slot-container");
+        const cartContainer = document.querySelector(".cart");
         if (cartContainer) {
             loadSlots(cartContainer);
         } else {
