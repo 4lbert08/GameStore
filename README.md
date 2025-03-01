@@ -1,14 +1,17 @@
 # 🎮 GameStore - Plataforma de Venta de Videojuegos (41.3)
 
+
 ## 📌 Integrantes del proyecto
 
 - Juan Francisco Del Rosario Machin
 - Juan Boissier García
 - Alberto José Rodríguez Ruano
 
+
 ## 📝 Descripción del proyecto
 
 GameStore es una plataforma de comercio electrónico especializada en la venta de videojuegos digitales. Los usuarios pueden explorar un catálogo de juegos, ver detalles y reseñas, agregar productos al carrito y realizar compras de manera rápida y segura.
+
 
 ## 📋 Requisitos del proyecto
 
@@ -35,12 +38,36 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 6. Debe de tener una temática atractiva visualmente usando una escala de colores de rojo, azul y morado.
 7. Permitir una fácil interacción.
 
+
+## 📂 Estructura del proyecto
+
+GameStore/
+│-- assets/                             # Directorio con los recursos estáticos del proyecto, como imágenes, estilos, scripts y fuentes.
+│   │-- css/                            # Directorio con los estilos del proyecto.
+│       │-- partials/                   # Directorio con los estilos de los componentes utilizados en el proyecto.
+│       │-- views/                      # Directorio con los estilos de las páginas del proyecto.
+│   │-- fonts/                          # Directorio con las fuentes utilizadas en el proyecto.
+│   │-- imgs/                           # Directorio con las imágenes utilizadas en el proyecto.
+│   │-- js/                             # Directorio con los JavaScripts utilizados en el proyecto.
+│       │-- modules/                  
+│           │-- functions/              # Directorio con los JavaScripts destinados a la declaración de las funciones.
+│           │-- viewsScripts/           # Directorio con los JavaScripts de las páginas en sí.
+│  
+│-- templates/                          # Directorio con todos los .html del proyecto.
+│   │-- partials/                       # Directorio con los .html destinados a la declaración de componentes.
+│   │-- views/                          # Directorio con los .html de las páginas en sí.
+│  
+│-- documentation/                      # Directorio con los Mockups y Storyboards.
+│   │-- mockups/                        # Directorio de Mockups.                 
+
+
 ## 📂 Mockups y Storyboards
 
 - **Ubicación Mockups**: `documentation/mockups`
 - **Ubicación Storyboard Login**: `documentation/StoryBoard-Login.png`
 - **Ubicación Storyboard**: `documentation/StoryBoard.png`
 - **Ubicación Storyboard por escrito**: `documentation/Storyboard redactado.pdf`
+
 
 ## 📄 Páginas(Templates) HTML del proyecto
 
@@ -63,7 +90,6 @@ Estas son las páginas de nuestra web.
 | `cart.html`    | `cart_mockup`       | Página de carrito                   |
 | `checkout.html`    | `checkout_mockup`       | Página de pago                   |
 | `aboutUs.html`    | `aboutUs_mockup`       | Página de AboutUs                   |
-
 
 
 ## 🖼️ Templates parciales utilizados
@@ -89,5 +115,6 @@ Estos son elementos html "componentes" que son cargados en las páginas de la we
 
 - **Figma**: [https://www.figma.com/design/cce85AsKYbHsWryGC4aJGa/MOCKUPS-PWM?m=auto&t=PlizMet0r5Rgm5UZ-6](#)
 - **Trello**: [https://trello.com/b/qtJ1w6iJ/tablero-pwm](#)
+-**PowerPoint**: [https://alumnosulpgc-my.sharepoint.com/:p:/g/personal/juan_del111_alu_ulpgc_es/EVa3iOpl8qNMmvmCZOqM1LEBggGdQMi6UYnNEfOOEYWcng?e=AJuOsa](#)
 
 
