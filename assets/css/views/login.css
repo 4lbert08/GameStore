@@ -81,7 +81,7 @@ input::placeholder {
     border-radius: inherit;
 }
 
-.Submit {
+.signUp__submit {
     display: flex;
     flex-direction: column;
     justify-content: center;

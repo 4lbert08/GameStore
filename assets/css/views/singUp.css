@@ -30,7 +30,7 @@ input::placeholder {
     font-weight: lighter;
 }
 
-.RegisterDiv {
+.signUp {
     position: relative;
     width: 50%;
     display: flex;
@@ -39,7 +39,7 @@ input::placeholder {
     align-items: center;
 }
 
-.RegisterBox {
+.signUp__box {
     position: relative;
     width: 100%;
     padding: 10% 5%;
@@ -47,7 +47,7 @@ input::placeholder {
 
 }
 
-.PartDiv {
+.signUp__box-input {
     display: flex;
     flex-direction: column;
     margin: 1rem;
@@ -67,7 +67,7 @@ input::placeholder {
     color: black;
 }
 
-.RegisterBox::before {
+.signUp__box::before {
     content: "";
     position: absolute;
     top: 0;
@@ -80,24 +80,24 @@ input::placeholder {
     border-radius: inherit;
 }
 
-.Top__Logo {
+.signUp__logo {
     align-self: center;
     justify-self: center;
     margin: 2rem;
 }
 
-.Top__Logo:hover {
+.signUp__logo:hover {
     transform: scale(1.05);
 }
 
-.Top__Logo__LogoImg {
+.signUp__logo-img {
     width: 150px;
     background: transparent;
     border-radius: 45px;
 }
 
 
-.Submit {
+.signUp__submit {
     display: flex;
     flex-direction: column;
     justify-content: center;

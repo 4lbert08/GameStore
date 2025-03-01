@@ -9,7 +9,7 @@ body {
     font-weight: bold;
 }
 
-.ReviewsContainer {
+.myReviews__ReviewsContainer {
     width: 1175px;
     height: 750px;
     background-color: #6119b4;
@@ -21,7 +21,7 @@ body {
 }
 
 
-.userButton{
+.myReviews__userButton{
     display: grid;
     place-items: center;
 }
