@@ -45,12 +45,12 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 | Página          | Mockup implementado | Notas                              |
 | --------------- | ------------------- | ---------------------------------- |
 | `index.html`    | `home_mockup`       | Página de inicio                   |
-| `advancedSearch.html`    | `advandedSearch_mockup`       | Página de busqueda avanzada                  |
+| `advancedSearch.html`    | `advancedSearch_mockup`       | Página de busqueda avanzada                  |
 | `gameShowcase.html`    | `gameShowcase_mockup`       | Página del título seleccionado                   |
 | `viewMoreSections.html`    | `viewMoreSections_mockup`       | Página de ver más                   |
 | `login.html`    | `login_mockup`       | Página de login de usuario                   |
 | `forgotPassword.html`    | `forgotPassword_mockup`       | Página de contraseña olvidada                   |
-| `OPTVerification.html`    | `OPTVerification_mockup`       | Página de verificación de código                   |
+| `OTPVerification.html`    | `OTPVerification_mockup`       | Página de verificación de código                   |
 | `signUp.html`    | `signUp_mockup`       | Página de signUp                   |
 | `resetPassword.html`    | `resetPassword_mockup`       | Página de cambio de contraseña                   |
 | `userSettings.html`    | `userSettings_mockup`       | Página de configuración de usuario                   |
@@ -70,12 +70,12 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 | `second_header.html`        | advancedSearch.html               |
 | `footer.html`        | Todas las páginas               |
 | `gameCard.html`        | Páginas que usan gamesCardGallery.html y gamesCardRowGallery.html|
-| `gameInShoppingCart.html`        | shopingCart.html               |
-| `gameSuggested.html`        | shopingCart.html               |
+| `gameInShoppingCart.html`        | shoppingCart.html               |
+| `gameSuggested.html`        | shoppingCart.html               |
 | `memberCard.html`        | aboutUs.html               |
 | `userMenuButton.html`        | userSetting.html, myOrders.html y myReviews.html               |
 | `userReview.html`        | myReviews.html               |
-| `gamesCardGallery.html`        | advancedSearch.html y viewMoreSections               |
+| `gamesCardGallery.html`        | advancedSearch.html y viewMoreSections.html               |
 | `gamesCardRowGallery.html`        | index.html y gameShowcase.html               |
 
 
