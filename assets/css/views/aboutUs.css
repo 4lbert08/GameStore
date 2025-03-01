@@ -12,7 +12,7 @@ body {
     background-color: #272727;
 }
 
-.about-us-section {
+.introduction {
     background: linear-gradient(to right, #f30202, #0101fd);
     color: #fff;
     padding: 60px 20px;
@@ -20,7 +20,7 @@ body {
     border-top: 2px ridge #272727;
 }
 
-.container {
+.aboutUs {
     width: 90%;
     max-width: 1200px;
     margin: 20px auto;
@@ -39,12 +39,12 @@ body {
 }
 
 /* Info Section (Text Content) */
-.info-section {
+.aboutUs__info {
     text-align: center;
     padding: 20px;
 }
 
-.info-section p {
+.aboutUs__info p {
     font-size: 1.1rem;
     color: #444;
     max-width: 800px;
@@ -53,7 +53,7 @@ body {
 }
 
 /* Team Section */
-.team-section {
+.aboutUs__team-section {
     margin-top: 40px;
 }
 
@@ -66,14 +66,14 @@ body {
 }
 
 /* Member Info Styling */
-.container {
+.aboutUs {
     padding: 20px;
     flex: 1;
     text-align: center;
 }
 
 /* Social Media Section */
-.social-media {
+.aboutUs__social-media {
     text-align: center;
     margin-top: 40px;
 }
