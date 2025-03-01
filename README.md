@@ -37,10 +37,14 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 
 ## 📂 Mockups y Storyboards
 
-- **Ubicación Mockups**: `documentacion/mockups`
-- **Ubicación Storyboards**: `documentacion/mockups_storyboards.pdf`
+- **Ubicación Mockups**: `documentation/mockups`
+- **Ubicación Storyboard Login**: `documentation/StoryBoard-Login.png`
+- **Ubicación Storyboard**: `documentation/StoryBoard.png`
+- **Ubicación Storyboard por escrito**: `documentation/Storyboard redactado.pdf`
 
 ## 📄 Páginas(Templates) HTML del proyecto
+
+Estas son las páginas de nuestra web. 
 
 | Página          | Mockup implementado | Notas                              |
 | --------------- | ------------------- | ---------------------------------- |
@@ -64,6 +68,8 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 
 ## 🖼️ Templates parciales utilizados
 
+Estos son elementos html "componentes" que son cargados en las páginas de la web.
+
 | Archivo Template     | Archivo en el que se carga      |
 | -------------------- | ------------------------------- |
 | `mainHeader.html`        | Todas las páginas menos en advancedSearch.html               |
@@ -84,5 +90,4 @@ GameStore es una plataforma de comercio electrónico especializada en la venta d
 - **Figma**: [https://www.figma.com/design/cce85AsKYbHsWryGC4aJGa/MOCKUPS-PWM?m=auto&t=PlizMet0r5Rgm5UZ-6](#)
 - **Trello**: [https://trello.com/b/qtJ1w6iJ/tablero-pwm](#)
 
----
 
