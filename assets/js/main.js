@@ -97,6 +97,11 @@ document.addEventListener("DOMContentLoaded", async () => {
             await loadHTMLAndExecuteScripts("#reviews1", "../partials/userReview.html");
             await loadHTMLAndExecuteScripts("#reviews2", "../partials/userReview.html");
             await loadHTMLAndExecuteScripts("#reviews3", "../partials/userReview.html");
+        case "receipts":
+            console.log("Ejecutando script del GameShowcase...");
+            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
+            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
+            await loadHTMLAndExecuteScripts("#UserMenuButton", "../partials/userMenuButton.html");
         default:
             console.warn("No se ha definido una acción para esta página.");
     }
