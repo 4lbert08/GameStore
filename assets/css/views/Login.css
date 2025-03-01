@@ -1,4 +1,4 @@
-@import url('../fonts/fonts.css');
+@import url('../../fonts/fonts.css');
 
 body {
     display: flex;
@@ -6,13 +6,11 @@ body {
     justify-content: center;
     align-items: center;
     background: #272727;
-    padding: 3rem;
 }
 
 h1, label, a {
     font-family: "Genos", sans-serif;
-    font-weight: bold;
-    color: #fff;
+    color: white;
 }
 
 input {
@@ -21,8 +19,8 @@ input {
     padding: 5px;
     border-radius: 5px;
     background: transparent;
-    color: #fff;
-    border: #fff solid 1px;
+    color: white;
+    border: white solid 1px;
 }
 
 input::placeholder {
@@ -30,7 +28,25 @@ input::placeholder {
     font-weight: lighter;
 }
 
-.RegisterDiv {
+.Top {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.LogoImg {
+    width: 200px;
+    background: #1E1EBF;
+    border-radius: 45px;
+}
+
+.LogoImg:hover {
+    background-color: #1E1Ead   ;
+    transform: scale(1.05);
+    border-radius: 50px;
+}
+
+.LoginDiv {
     position: relative;
     width: 50%;
     display: flex;
@@ -39,35 +55,20 @@ input::placeholder {
     align-items: center;
 }
 
-.RegisterBox {
+.PartDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.LoginBox {
     position: relative;
     width: 100%;
     padding: 10% 5%;
     background: none;
-
 }
 
-.PartDiv {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-}
-
-#NacionalityField {
-    width: 40%;
-    margin: 5px 0;
-    padding: 5px;
-    border-radius: 5px;
-    background: transparent;
-    color: white;
-    border: white solid 1px;
-}
-
-#NacionalityField option {
-    color: black;
-}
-
-.RegisterBox::before {
+.LoginBox::before {
     content: "";
     position: absolute;
     top: 0;
@@ -80,23 +81,6 @@ input::placeholder {
     border-radius: inherit;
 }
 
-.Logo {
-    align-self: center;
-    justify-self: center;
-    margin: 2rem;
-}
-
-.Logo:hover {
-    transform: scale(1.05);
-}
-
-.LogoImg {
-    width: 150px;
-    background: transparent;
-    border-radius: 45px;
-}
-
-
 .Submit {
     display: flex;
     flex-direction: column;
@@ -104,9 +88,9 @@ input::placeholder {
     align-items: center;
 }
 
-.RegisterButton {
+.LoginButton {
     scale: 1.5;
-    margin-top: 5%;
+    margin-top: 2rem;
     color: white;
     text-transform: uppercase;
     padding: 10px;
@@ -114,4 +98,3 @@ input::placeholder {
     border: white solid 2px;
     border-radius: 5px;
 }
-

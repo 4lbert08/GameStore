@@ -1,4 +1,4 @@
-@import url('../fonts/fonts.css');
+@import url('../../fonts/fonts.css');
 
 body {
     display: flex;
@@ -6,11 +6,12 @@ body {
     justify-content: center;
     align-items: center;
     background: #272727;
+    font-family: "Genos", sans-serif;
+    color: #fff;
 }
 
-h1, label, a {
-    font-family: "Genos", sans-serif;
-    color: white;
+label{
+    font-weight: bold;
 }
 
 input {
@@ -41,31 +42,31 @@ input {
     border-radius: 50px;
 }
 
-.ValidationDiv {
+/* Contenedor principal del OTP */
+.otp-container {
     position: relative;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 
-.PartDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5%;
-}
-
-.ValidationBox {
+/* Caja del formulario OTP */
+.otp-box {
     position: relative;
     width: 100%;
     padding: 10% 5%;
     background: none;
 }
 
-.ValidationBox::before {
+.otp-title {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.otp-box::before {
     content: "";
     position: absolute;
     top: 0;
@@ -78,19 +79,41 @@ input {
     border-radius: inherit;
 }
 
-#ValidationText {
-    text-align: center;
-    font-family: "sans-serif";
-    font-size: medium;
+/* Grupo de entrada del código OTP */
+.otp-input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
 }
 
-.Icons, .IconContainer {
+.otp-input-group input::placeholder {
+    color: #fff;
+}
+
+/* Botón para solicitar un nuevo OTP */
+.otp-request {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+/* Botón de envío del OTP */
+.otp-submit {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.Icon {
-    width: 20%;
+.accept-button {
+    scale: 1.5;
+    margin-top: 5%;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    background: #1E1EBF;
+    border: white solid 2px;
+    border-radius: 5px;
 }

@@ -1,4 +1,4 @@
-@import url('../fonts/fonts.css');
+@import url('../../fonts/fonts.css');
 
 * {
     margin: 0;
@@ -34,7 +34,7 @@ body {
     outline: none;
     font-size: 16px;
     text-indent: 30px;
-    background: #f5f5f5 url('../../assets/imgs/search-icon.webp') no-repeat 10px center;
+    background: #f5f5f5 url('../../imgs/search-icon.webp') no-repeat 10px center;
     background-size: 16px;
     margin-top: 2rem;
 }

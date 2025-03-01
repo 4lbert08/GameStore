@@ -1,8 +1,8 @@
-import { loadHTMLAndExecuteScripts } from "./modules/includeHTMLRecursive.js";
-import { initializeGalleries } from "./modules/loadGallery.js";
-import { handleFormSubmission } from "./modules/formHandler.js";
-import { initializeGameSlots } from "./modules/loadGamesSlots.js";
-import { initializeReviews } from "./modules/loadGameReviews.js";
+import { loadHTMLAndExecuteScripts } from "./modules/functions/includeHTMLRecursive.js";
+import { initializeGalleries } from "./modules/functions/loadGallery.js";
+import { handleFormSubmission } from "./modules/functions/formHandler.js";
+import { initializeGameSlots } from "./modules/functions/loadGamesSlots.js";
+import { initializeReviews } from "./modules/functions/loadGameReviews.js";
 
 console.log("Módulos importados correctamente.");
 
@@ -13,22 +13,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     switch (page) {
         case "home":
-            console.log("Ejecutando script del home...");
-            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
-            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
-            await loadHTMLAndExecuteScripts("#gallery1", "../partials/gamesCardRowGallery.html");
-            await loadHTMLAndExecuteScripts("#gallery2", "../partials/gamesCardRowGallery.html");
-            await loadHTMLAndExecuteScripts("#gallery3", "../partials/gamesCardRowGallery.html");
-            initializeGalleries();
+
             break;
 
         case "aboutUs":
-            console.log("Ejecutando script del aboutUs...");
-            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
-
-            await loadHTMLAndExecuteScripts("#memberCard1", "../partials/memberCard.html");
-            await loadHTMLAndExecuteScripts("#memberCard2", "../partials/memberCard.html");
-            await loadHTMLAndExecuteScripts("#memberCard3", "../partials/memberCard.html");
             break;
 
         case "userConfiguration":
@@ -55,8 +43,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             break;
 
         case "lostPassword":
-            console.log("Ejecutando script de lostPassword...");
-            handleFormSubmission("#lostPasswordForm", "OTPVerification.html");
             break;
 
         case "OTPVerification":
@@ -65,26 +51,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             break;
 
         case "shoppingCart":
-            console.log("Ejecutando script de ShoppingCart...");
-            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
 
-            initializeGameSlots()
-
-            await loadHTMLAndExecuteScripts("#gameSuggested1", "../partials/gameSuggested.html");
-            await loadHTMLAndExecuteScripts("#gameSuggested2", "../partials/gameSuggested.html");
-            await loadHTMLAndExecuteScripts("#gameSuggested3", "../partials/gameSuggested.html");
-
-            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             break;
 
         case "advancedSearch":
-            console.log("Ejecutando script del advancedSearch...");
-            await loadHTMLAndExecuteScripts("#second-header", "../partials/second_header.html");
-
-            await loadHTMLAndExecuteScripts("#search-results", "../partials/gamesCardGallery.html");
-            initializeGalleries();
-
-            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             break;
 
         case "sectionView":
@@ -98,20 +68,9 @@ document.addEventListener("DOMContentLoaded", async () => {
             break;
 
         case "GameShowcase":
-            console.log("Ejecutando script del GameShowcase...");
-            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
-            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
-            await loadHTMLAndExecuteScripts("#gallery1", "../partials/gamesCardRowGallery.html");
-            initializeGalleries();
-
-            initializeReviews();
-
             break;
 
         case "payment":
-            console.log("Ejecutando script del payment...");
-            await loadHTMLAndExecuteScripts("#main_header", "../partials/main_header.html");
-            await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
             break;
 
         case "userReviews":

@@ -1,4 +1,4 @@
-@import url('../fonts/fonts.css');
+@import url('../../fonts/fonts.css');
 
 footer {
     background: linear-gradient(to right, #f30202, #0101fd);
