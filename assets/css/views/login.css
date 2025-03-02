@@ -46,7 +46,7 @@ input::placeholder {
     border-radius: 50px;
 }
 
-.LoginDiv {
+.loginDiv {
     position: relative;
     width: 50%;
     display: flex;
@@ -55,20 +55,20 @@ input::placeholder {
     align-items: center;
 }
 
-.PartDiv {
+.loginDiv__PartDiv {
     display: flex;
     flex-direction: column;
     margin-bottom: 5%;
 }
 
-.LoginDiv__LoginBox {
+.loginDiv__LoginBox {
     position: relative;
     width: 100%;
     padding: 10% 5%;
     background: none;
 }
 
-.LoginDiv__LoginBox::before {
+.loginDiv__LoginBox::before {
     content: "";
     position: absolute;
     top: 0;
@@ -81,7 +81,7 @@ input::placeholder {
     border-radius: inherit;
 }
 
-.signUp__submit {
+.loginDiv__submit {
     display: flex;
     flex-direction: column;
     justify-content: center;
