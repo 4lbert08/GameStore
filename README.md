@@ -129,5 +129,6 @@ Además, hemos aplicado la metodología BEM (Block, Element, Modifier) para orga
 - **Figma**: [https://www.figma.com/design/cce85AsKYbHsWryGC4aJGa/MOCKUPS-PWM?m=auto&t=PlizMet0r5Rgm5UZ-6](#)
 - **Trello**: [https://trello.com/b/qtJ1w6iJ/tablero-pwm](#)
 - **PowerPoint**: [https://alumnosulpgc-my.sharepoint.com/:p:/g/personal/juan_del111_alu_ulpgc_es/EVa3iOpl8qNMmvmCZOqM1LEBggGdQMi6UYnNEfOOEYWcng?e=AJuOsa](#)
+- **Video de presentación**: [https://youtu.be/8K0sm3cLqRQ](#)
 
 
