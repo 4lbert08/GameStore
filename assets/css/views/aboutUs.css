@@ -30,7 +30,6 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Titles */
 .title {
     text-align: center;
     font-size: 2rem;
@@ -38,7 +37,6 @@ body {
     color: #2c3e50;
 }
 
-/* Info Section (Text Content) */
 .aboutUs__info {
     text-align: center;
     padding: 20px;
@@ -52,12 +50,10 @@ body {
     text-align: justify;
 }
 
-/* Team Section */
 .aboutUs__team-section {
     margin-top: 40px;
 }
 
-/* Team Member Layout */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -65,14 +61,12 @@ body {
     gap: 20px;
 }
 
-/* Member Info Styling */
 .aboutUs {
     padding: 20px;
     flex: 1;
     text-align: center;
 }
 
-/* Social Media Section */
 .aboutUs__social-media {
     text-align: center;
     margin-top: 40px;
@@ -85,7 +79,6 @@ body {
     margin-top: 15px;
 }
 
-/* Social Media Icons */
 .social-icons a img {
     width: 40px;
     height: 40px;
@@ -96,7 +89,6 @@ body {
     transform: scale(1.1);
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     .row {
         flex-direction: column;

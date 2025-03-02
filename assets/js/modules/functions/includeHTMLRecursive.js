@@ -15,10 +15,8 @@ export async function loadHTMLAndExecuteScripts(selector, sourceFile) {
         console.log(`Insertando contenido en ${selector}`);
         container.innerHTML = html;
 
-        // Esperar a que las imágenes terminen de cargar
         await loadImages(container);
 
-        // Ejecutar scripts dentro del nuevo contenido
         await executeScriptsSequentially(container);
 
     } catch (error) {
@@ -26,16 +24,14 @@ export async function loadHTMLAndExecuteScripts(selector, sourceFile) {
     }
 }
 
-// Espera a que las imágenes dentro del contenedor se carguen antes de continuar
 function loadImages(container) {
     const images = container.querySelectorAll("img");
     return Promise.all(Array.from(images).map(img => new Promise(resolve => {
         img.onload = resolve;
-        img.onerror = resolve; // Para evitar bloqueos si hay errores en imágenes
+        img.onerror = resolve;
     })));
 }
 
-// Ejecuta scripts en orden para evitar problemas de dependencias
 async function executeScriptsSequentially(container) {
     const scripts = container.querySelectorAll("script");
     for (const script of scripts) {
@@ -44,7 +40,7 @@ async function executeScriptsSequentially(container) {
 
             if (script.src) {
                 scriptTag.src = script.src;
-                scriptTag.async = false; // Mantiene el orden de ejecución
+                scriptTag.async = false;
                 scriptTag.onload = resolve;
             } else {
                 scriptTag.textContent = script.textContent;

@@ -5,7 +5,6 @@ a {
     text-decoration: none;
 }
 
-/* Contenedor de imágenes */
 .cards-container {
     display: flex;
     flex-wrap: wrap;

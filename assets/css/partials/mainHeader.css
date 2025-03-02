@@ -5,7 +5,6 @@ body {
     width: 100%;
 }
 
-/* Header */
 .mainHeader {
     display: flex;
     align-items: center;
@@ -15,7 +14,6 @@ body {
     flex-wrap: wrap;
 }
 
-/* Select container */
 .mainHeader__select-container {
     display: flex;
     align-items: center;
@@ -24,7 +22,6 @@ body {
     margin: auto;
 }
 
-/* Select */
 select {
     padding: 5px;
     font-size: 16px;
@@ -33,7 +30,6 @@ select {
     cursor: pointer;
 }
 
-/* Search bar */
 .mainHeader__search-bar {
     display: flex;
     align-items: flex-end;
@@ -57,7 +53,6 @@ select {
     outline: none;
 }
 
-/* Advanced search button */
 .mainHeader__advanced-search {
     margin-left: 10px;
     background: #909090;
@@ -71,7 +66,6 @@ select {
     transform: scale(1.05);
 }
 
-/* Logo */
 .mainHeader__logo {
     display: flex;
     align-items: center;
@@ -90,7 +84,6 @@ select {
     border-radius: 50px;
 }
 
-/* Icons */
 .mainHeader__icons {
     display: flex;
     align-items: center;
@@ -105,7 +98,6 @@ select {
     margin-left: 6px;
 }
 
-/* Media queries para dispositivos pequeños */
 @media (max-width: 768px) {
     .mainHeader {
         flex-direction: column;
@@ -138,7 +130,6 @@ select {
     }
 }
 
-/* Media queries para dispositivos muy pequeños */
 @media (max-width: 480px) {
     .mainHeader__search-bar input {
         width: 90%;
