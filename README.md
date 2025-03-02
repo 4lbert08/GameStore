@@ -72,7 +72,7 @@ GameStore/
 - **Ubicación Storyboard por escrito**: `documentation/Storyboard redactado.pdf`
 
 
-## 📄 Páginas(Templates) HTML del proyecto
+## 📄 Páginas (Templates) HTML del proyecto
 
 Estas son las páginas de nuestra web. 
 
@@ -95,7 +95,7 @@ Estas son las páginas de nuestra web.
 | `aboutUs.html`    | `aboutUs_mockup`       | Página de AboutUs                   |
 
 
-## 🖼️ Templates parciales utilizados
+## 🖼️ Componentes (Templates) utilizados
 
 Estos son elementos html "componentes" que son cargados en las páginas de la web.
 
@@ -113,6 +113,16 @@ Estos son elementos html "componentes" que son cargados en las páginas de la we
 | `gamesCardGallery.html`        | advancedSearch.html y viewMoreSections.html               |
 | `gamesCardRowGallery.html`        | index.html y gameShowcase.html               |
 
+
+## ➕ Otros aspectos
+
+Hemos desarrollado varios scripts con funcionalidades reutilizables que explicaré más adelante:
+
+- Un script llamado formHandler.js, que al modificar el preventDefault, nos permite redirigir la navegación del usuario hacia las vistas que necesitemos.
+- Los scripts loadGallery, loadGameReviews y loadGamesSlots tienen funciones específicas: el primero carga las galerías de juegos, el segundo se encarga de los comentarios de los juegos y el tercero administra los slots del carrito de compra de cada usuario.
+- También hemos implementado dos funciones para la carga de HTML, aunque damos prioridad al uso de includeHTMLRecursive.js, ya que su funcionamiento permite cargar el HTML de forma recursiva.
+
+Además, hemos aplicado la metodología BEM (Block, Element, Modifier) para organizar mejor la estructura de nombres en nuestro código. BEM es un enfoque que facilita la escritura de CSS más escalable y mantenible. Se basa en dividir los estilos en bloques independientes, elementos dentro de esos bloques y modificadores que alteran su apariencia o comportamiento. Esto nos ayuda a evitar colisiones de nombres en los estilos y hace que el código sea más fácil de entender y reutilizar.
 
 ## 🔗 Enlaces
 
