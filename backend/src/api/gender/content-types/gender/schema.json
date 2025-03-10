@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "genders",
+  "info": {
+    "singularName": "gender",
+    "pluralName": "genders",
+    "displayName": "Genre",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "minLength": 1,
+      "maxLength": 25
+    }
+  }
+}
