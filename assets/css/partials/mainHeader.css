@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(to right, #f30202, #0101fd);
-    padding: 4px;
+    padding: 8px;
     flex-wrap: wrap;
 }
 
@@ -18,12 +18,12 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
 }
 
 select {
-    padding: 5px;
+    padding: 6px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -32,23 +32,23 @@ select {
 
 .mainHeader__search-bar {
     display: flex;
-    align-items: flex-end;
-    flex: 1;
+    align-items: center;
+    flex-grow: 1;
     justify-content: center;
-    margin: 10px 0;
+    margin: 8px 0;
 }
 
 .mainHeader__search-bar input {
-    width: 40%;
-    max-width: 60%;
-    transition: width 0.3s ease-in-out;
+    width: 50%;
+    max-width: 500px;
     padding: 6px;
     border: 1px solid #555;
     border-radius: 15px;
+    transition: width 0.3s ease-in-out;
 }
 
 .mainHeader__search-bar input:focus {
-    width: 80%;
+    width: 70%;
     border-color: #093968;
     outline: none;
 }
@@ -56,13 +56,14 @@ select {
 .mainHeader__advanced-search {
     margin-left: 10px;
     background: #909090;
-    padding: 5px 10px;
+    padding: 6px 12px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .mainHeader__advanced-search:hover {
-    background-color: #606060   ;
+    background-color: #606060;
     transform: scale(1.05);
 }
 
@@ -70,16 +71,16 @@ select {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 128px;
+    margin-right: auto;
 }
 
 .mainHeader__logo img {
     height: 64px;
+    transition: transform 0.3s ease;
 }
 
-
 .mainHeader__logo:hover {
-    background-color: #1E1EBF   ;
+    background-color: #1E1EBF;
     transform: scale(1.05);
     border-radius: 50px;
 }
@@ -87,35 +88,38 @@ select {
 .mainHeader__icons {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-left: 20px;
-    padding-right: 20px;
+    gap: 8px;
+    padding-right: 15px;
 }
 
 .mainHeader__icons img {
-    width: 40px;
-    height: 40px;
-    margin-left: 6px;
+    width: 36px;
+    height: 36px;
+    transition: transform 0.3s ease;
+}
+
+.mainHeader__icons img:hover {
+    transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
     .mainHeader {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
         padding: 10px;
+        text-align: center;
     }
 
     .mainHeader__logo {
-        margin-right: 0;
-        margin-bottom: 10px;
+        margin: 10px 0;
     }
 
     .mainHeader__search-bar {
-        width: 100%;
+        width: 90%;
     }
 
     .mainHeader__search-bar input {
-        width: 80%;
+        width: 100%;
         max-width: 100%;
     }
 
@@ -126,18 +130,18 @@ select {
 
     .mainHeader__icons {
         justify-content: center;
-        margin: 10px 0;
+        padding: 10px 0;
     }
 }
 
 @media (max-width: 480px) {
     .mainHeader__search-bar input {
-        width: 90%;
+        width: 70%;
     }
 
     .mainHeader__advanced-search {
-        padding: 5px;
-        font-size: 14px;
+        padding: 4px 8px;
+        font-size: 13px;
     }
 
     select {
@@ -146,7 +150,7 @@ select {
     }
 
     .mainHeader__icons img {
-        width: 30px;
-        height: 30px;
+        width: 28px;
+        height: 28px;
     }
 }

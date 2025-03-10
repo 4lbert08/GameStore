@@ -13,7 +13,7 @@ a {
 }
 
 .game-card {
-    width: 200px;
+    width: 10rem;
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
