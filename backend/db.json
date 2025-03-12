@@ -1,0 +1,706 @@
+{
+  "game": [
+    {
+      "id": 5,
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "description": "The Legend of Zelda: Breath of the Wild para Nintendo Switch es un juego de acción y aventuras de Nintendo, la última entrega de la larga serie de The Legend of Zelda. El juego ofrece un formato de mundo abierto, con amplia libertad y pocas instrucciones para los jugadores. La jugabilidad consiste en recolectar utensilios y materiales, completar misiones secundarias y resolver ingeniosos puzles y mazmorras.",
+      "gameCover": "https://m.media-amazon.com/images/I/81U-DS7w+CL.jpg",
+      "price": 59.99,
+      "discount": 0,
+      "releaseDate": "2017-03-03",
+      "trailer": "https://www.youtube.com/watch?v=1rPxiXXxftE",
+      "Images": [
+        "https://gaming-cdn.com/images/products/2616/screenshot/the-legend-of-zelda-breath-of-the-wild-switch-juego-nintendo-eshop-europe-wallpaper-2.jpg?v=1730381682",
+        "https://gaming-cdn.com/images/products/2616/screenshot/the-legend-of-zelda-breath-of-the-wild-switch-juego-nintendo-eshop-europe-wallpaper-3.jpg?v=1730381682",
+        "https://gaming-cdn.com/images/products/2616/screenshot/the-legend-of-zelda-breath-of-the-wild-switch-juego-nintendo-eshop-europe-wallpaper-4.jpg?v=1730381682",
+        "https://gaming-cdn.com/images/products/2616/screenshot/the-legend-of-zelda-breath-of-the-wild-switch-juego-nintendo-eshop-europe-wallpaper-5.jpg?v=1730381682"
+      ],
+      "stock": 50
+    },
+    {
+      "id": 12,
+      "name": "Elden Ring-PC",
+      "description": "Elden Ring para PC es un RPG de acción (ARPG) escrito por las superestrellas George RR Martin (el autor de la serie de libros Song of Ice and Fire que engendró la serie de televisión Game of Thrones) y Hidetaka Miyazaki (que es famoso por muchos videojuegos, como los de la serie Souls, Bloodborne o Sekiro, entre otros).",
+      "gameCover": "https://gaming-cdn.com/images/products/4824/616x353/elden-ring-pc-juego-steam-europe-cover.jpg?v=1734078514",
+      "price": 60,
+      "discount": 0,
+      "releaseDate": "2022-02-25",
+      "trailer": "https://www.youtube.com/watch?v=E3Huy2cdih0",
+      "Images": [
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-2.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-3.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-4.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-5.jpg?v=1734078514"
+      ],
+      "stock": 30
+    },
+    {
+      "id": 14,
+      "name": "Elden Ring-PS4",
+      "description": "Elden Ring para PC es un RPG de acción (ARPG) escrito por las superestrellas George RR Martin (el autor de la serie de libros Song of Ice and Fire que engendró la serie de televisión Game of Thrones) y Hidetaka Miyazaki (que es famoso por muchos videojuegos, como los de la serie Souls, Bloodborne o Sekiro, entre otros).",
+      "gameCover": "https://gaming-cdn.com/images/products/4824/616x353/elden-ring-pc-juego-steam-europe-cover.jpg?v=1734078514",
+      "price": 60,
+      "discount": 0,
+      "releaseDate": "2022-02-25",
+      "trailer": "https://www.youtube.com/watch?v=E3Huy2cdih0",
+      "Images": [
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-2.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-3.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-4.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-5.jpg?v=1734078514"
+      ],
+      "stock": 30
+    },
+    {
+      "id": 16,
+      "name": "Elden Ring-PS5",
+      "description": "Elden Ring para PC es un RPG de acción (ARPG) escrito por las superestrellas George RR Martin (el autor de la serie de libros Song of Ice and Fire que engendró la serie de televisión Game of Thrones) y Hidetaka Miyazaki (que es famoso por muchos videojuegos, como los de la serie Souls, Bloodborne o Sekiro, entre otros).",
+      "gameCover": "https://gaming-cdn.com/images/products/4824/616x353/elden-ring-pc-juego-steam-europe-cover.jpg?v=1734078514",
+      "price": 60,
+      "discount": 0,
+      "releaseDate": "2022-02-25",
+      "trailer": "https://www.youtube.com/watch?v=E3Huy2cdih0",
+      "Images": [
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-2.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-3.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-4.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-5.jpg?v=1734078514"
+      ],
+      "stock": 30
+    },
+    {
+      "id": 19,
+      "name": "Cyberpunk 2077-Xbox Series X|S",
+      "description": "Cyberpunk 2077 es una historia de acción y aventura en mundo abierto ambientada en Night City, una megalópolis obsesionada con el poder, el glamur y la modificación corporal. Tu personaje es V, un mercenario que persigue un implante único que permite alcanzar la inmortalidad. Podrás personalizar las mejoras cibernéticas, las habilidades y el estilo de juego del personaje para dar forma a un mundo y a una historia que depende de tus decisiones.",
+      "gameCover": "https://gaming-cdn.com/images/products/3578/616x353/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-cover.jpg?v=1732116101",
+      "price": 30,
+      "discount": 0,
+      "releaseDate": "2020-12-10",
+      "trailer": "https://www.youtube.com/watch?v=8X2kIfS6fb8",
+      "Images": [
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-2.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-3.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-4.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-5.jpg?v=1732116101"
+      ],
+      "stock": 25
+    },
+    {
+      "id": 20,
+      "name": "Elden Ring-Xbox Series X|S",
+      "description": "Elden Ring para PC es un RPG de acción (ARPG) escrito por las superestrellas George RR Martin (el autor de la serie de libros Song of Ice and Fire que engendró la serie de televisión Game of Thrones) y Hidetaka Miyazaki (que es famoso por muchos videojuegos, como los de la serie Souls, Bloodborne o Sekiro, entre otros).",
+      "gameCover": "https://gaming-cdn.com/images/products/4824/616x353/elden-ring-pc-juego-steam-europe-cover.jpg?v=1734078514",
+      "price": 60,
+      "discount": 0,
+      "releaseDate": "2022-02-25",
+      "trailer": "https://www.youtube.com/watch?v=E3Huy2cdih0",
+      "Images": [
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-2.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-3.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-4.jpg?v=1734078514",
+        "https://gaming-cdn.com/images/products/4824/screenshot/elden-ring-pc-juego-steam-europe-wallpaper-5.jpg?v=1734078514"
+      ],
+      "stock": 30
+    },
+    {
+      "id": 22,
+      "name": "Cyberpunk 2077-PC",
+      "description": "Cyberpunk 2077 es una historia de acción y aventura en mundo abierto ambientada en Night City, una megalópolis obsesionada con el poder, el glamur y la modificación corporal. Tu personaje es V, un mercenario que persigue un implante único que permite alcanzar la inmortalidad. Podrás personalizar las mejoras cibernéticas, las habilidades y el estilo de juego del personaje para dar forma a un mundo y a una historia que depende de tus decisiones.",
+      "gameCover": "https://gaming-cdn.com/images/products/3578/616x353/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-cover.jpg?v=1732116101",
+      "price": 30,
+      "discount": 0,
+      "releaseDate": "2020-12-10",
+      "trailer": "https://www.youtube.com/watch?v=8X2kIfS6fb8",
+      "Images": [
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-2.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-3.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-4.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-5.jpg?v=1732116101"
+      ],
+      "stock": 25
+    },
+    {
+      "id": 24,
+      "name": "Cyberpunk 2077-PS4",
+      "description": "Cyberpunk 2077 es una historia de acción y aventura en mundo abierto ambientada en Night City, una megalópolis obsesionada con el poder, el glamur y la modificación corporal. Tu personaje es V, un mercenario que persigue un implante único que permite alcanzar la inmortalidad. Podrás personalizar las mejoras cibernéticas, las habilidades y el estilo de juego del personaje para dar forma a un mundo y a una historia que depende de tus decisiones.",
+      "gameCover": "https://gaming-cdn.com/images/products/3578/616x353/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-cover.jpg?v=1732116101",
+      "price": 30,
+      "discount": 0,
+      "releaseDate": "2020-12-10",
+      "trailer": "https://www.youtube.com/watch?v=8X2kIfS6fb8",
+      "Images": [
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-2.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-3.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-4.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-5.jpg?v=1732116101"
+      ],
+      "stock": 25
+    },
+    {
+      "id": 26,
+      "name": "Cyberpunk 2077-PS5",
+      "description": "Cyberpunk 2077 es una historia de acción y aventura en mundo abierto ambientada en Night City, una megalópolis obsesionada con el poder, el glamur y la modificación corporal. Tu personaje es V, un mercenario que persigue un implante único que permite alcanzar la inmortalidad. Podrás personalizar las mejoras cibernéticas, las habilidades y el estilo de juego del personaje para dar forma a un mundo y a una historia que depende de tus decisiones.",
+      "gameCover": "https://gaming-cdn.com/images/products/3578/616x353/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-cover.jpg?v=1732116101",
+      "price": 30,
+      "discount": 0,
+      "releaseDate": "2020-12-10",
+      "trailer": "https://www.youtube.com/watch?v=8X2kIfS6fb8",
+      "Images": [
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-2.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-3.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-4.jpg?v=1732116101",
+        "https://gaming-cdn.com/images/products/3578/screenshot/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-wallpaper-5.jpg?v=1732116101"
+      ],
+      "stock": 25
+    },
+    {
+      "id": 27,
+      "name": "God of War: Ragnarök-PS5",
+      "description": "Desarrollado por Santa Monica Studio y adaptado para PC en colaboración con Jetpack Interactive, llega God of War Ragnarök, un épico y emotivo viaje en el que Kratos y Atreus deberán decidir a qué se aferran y qué dejan ir.",
+      "gameCover": "https://gaming-cdn.com/images/products/16797/616x353/god-of-war-ragnarok-pc-juego-steam-europe-cover.jpg?v=1727531756",
+      "price": 39.99,
+      "discount": 0,
+      "releaseDate": "2022-11-09",
+      "trailer": "https://www.youtube.com/watch?v=hfJ4Km46A-0",
+      "Images": [
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-2.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-3.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-4.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-5.jpg?v=1727531756"
+      ],
+      "stock": 10
+    },
+    {
+      "id": 33,
+      "name": "God of War: Ragnarök-PS4",
+      "description": "Desarrollado por Santa Monica Studio y adaptado para PC en colaboración con Jetpack Interactive, llega God of War Ragnarök, un épico y emotivo viaje en el que Kratos y Atreus deberán decidir a qué se aferran y qué dejan ir.",
+      "gameCover": "https://gaming-cdn.com/images/products/16797/616x353/god-of-war-ragnarok-pc-juego-steam-europe-cover.jpg?v=1727531756",
+      "price": 39.99,
+      "discount": 0,
+      "releaseDate": "2022-11-09",
+      "trailer": "https://www.youtube.com/watch?v=hfJ4Km46A-0",
+      "Images": [
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-2.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-3.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-4.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-5.jpg?v=1727531756"
+      ],
+      "stock": 10
+    },
+    {
+      "id": 34,
+      "name": "God of War: Ragnarök-Xbox Series X|S",
+      "description": "Desarrollado por Santa Monica Studio y adaptado para PC en colaboración con Jetpack Interactive, llega God of War Ragnarök, un épico y emotivo viaje en el que Kratos y Atreus deberán decidir a qué se aferran y qué dejan ir.",
+      "gameCover": "https://gaming-cdn.com/images/products/16797/616x353/god-of-war-ragnarok-pc-juego-steam-europe-cover.jpg?v=1727531756",
+      "price": 39.99,
+      "discount": 0,
+      "releaseDate": "2022-11-09",
+      "trailer": "https://www.youtube.com/watch?v=hfJ4Km46A-0",
+      "Images": [
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-2.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-3.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-4.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-5.jpg?v=1727531756"
+      ],
+      "stock": 10
+    },
+    {
+      "id": 36,
+      "name": "God of War: Ragnarök-PC",
+      "description": "Desarrollado por Santa Monica Studio y adaptado para PC en colaboración con Jetpack Interactive, llega God of War Ragnarök, un épico y emotivo viaje en el que Kratos y Atreus deberán decidir a qué se aferran y qué dejan ir.",
+      "gameCover": "https://gaming-cdn.com/images/products/16797/616x353/god-of-war-ragnarok-pc-juego-steam-europe-cover.jpg?v=1727531756",
+      "price": 39.99,
+      "discount": 0,
+      "releaseDate": "2022-11-09",
+      "trailer": "https://www.youtube.com/watch?v=hfJ4Km46A-0",
+      "Images": [
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-2.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-3.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-4.jpg?v=1727531756",
+        "https://gaming-cdn.com/images/products/16797/screenshot/god-of-war-ragnarok-pc-juego-steam-europe-wallpaper-5.jpg?v=1727531756"
+      ],
+      "stock": 10
+    },
+    {
+      "id": 38,
+      "name": "Stardew Valley-PS4",
+      "description": "Stardew Valley para PC es un juego que permite a los jugadores alejarse del ajetreo y el bullicio de su vida diaria, ya sea en la escuela o en el trabajo, y ver cómo es hacerse cargo de una granja un poco deteriorada, trabajar para cosechar, recaudar dinero, hacer manualidades para los vecinos y mucho más. Este juego de simulación de granja es un RPG de acción, aunque la acción es muy relajada y está más orientada a la agricultura, en lugar de la acción de batalla de un RPG más clásico.",
+      "gameCover": "https://gaming-cdn.com/images/products/1767/616x353/stardew-valley-pc-mac-juego-steam-cover.jpg?v=1704800467",
+      "price": 10.65,
+      "discount": 0,
+      "releaseDate": "2016-02-26",
+      "trailer": "https://www.youtube.com/watch?v=8A7A1X1TVNc",
+      "Images": [
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-2.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-3.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-4.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-5.jpg?v=1704800467"
+      ],
+      "stock": 80
+    },
+    {
+      "id": 40,
+      "name": "Stardew Valley-PC",
+      "description": "Stardew Valley para PC es un juego que permite a los jugadores alejarse del ajetreo y el bullicio de su vida diaria, ya sea en la escuela o en el trabajo, y ver cómo es hacerse cargo de una granja un poco deteriorada, trabajar para cosechar, recaudar dinero, hacer manualidades para los vecinos y mucho más. Este juego de simulación de granja es un RPG de acción, aunque la acción es muy relajada y está más orientada a la agricultura, en lugar de la acción de batalla de un RPG más clásico.",
+      "gameCover": "https://gaming-cdn.com/images/products/1767/616x353/stardew-valley-pc-mac-juego-steam-cover.jpg?v=1704800467",
+      "price": 10.65,
+      "discount": 0,
+      "releaseDate": "2016-02-26",
+      "trailer": "https://www.youtube.com/watch?v=8A7A1X1TVNc",
+      "Images": [
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-2.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-3.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-4.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-5.jpg?v=1704800467"
+      ],
+      "stock": 80
+    },
+    {
+      "id": 42,
+      "name": "Stardew Valley-Xbox One",
+      "description": "Stardew Valley para PC es un juego que permite a los jugadores alejarse del ajetreo y el bullicio de su vida diaria, ya sea en la escuela o en el trabajo, y ver cómo es hacerse cargo de una granja un poco deteriorada, trabajar para cosechar, recaudar dinero, hacer manualidades para los vecinos y mucho más. Este juego de simulación de granja es un RPG de acción, aunque la acción es muy relajada y está más orientada a la agricultura, en lugar de la acción de batalla de un RPG más clásico.",
+      "gameCover": "https://gaming-cdn.com/images/products/1767/616x353/stardew-valley-pc-mac-juego-steam-cover.jpg?v=1704800467",
+      "price": 10.65,
+      "discount": 0,
+      "releaseDate": "2016-02-26",
+      "trailer": "https://www.youtube.com/watch?v=8A7A1X1TVNc",
+      "Images": [
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-2.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-3.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-4.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-5.jpg?v=1704800467"
+      ],
+      "stock": 80
+    },
+    {
+      "id": 44,
+      "name": "Stardew Valley-Switch",
+      "description": "Stardew Valley para PC es un juego que permite a los jugadores alejarse del ajetreo y el bullicio de su vida diaria, ya sea en la escuela o en el trabajo, y ver cómo es hacerse cargo de una granja un poco deteriorada, trabajar para cosechar, recaudar dinero, hacer manualidades para los vecinos y mucho más. Este juego de simulación de granja es un RPG de acción, aunque la acción es muy relajada y está más orientada a la agricultura, en lugar de la acción de batalla de un RPG más clásico.",
+      "gameCover": "https://gaming-cdn.com/images/products/1767/616x353/stardew-valley-pc-mac-juego-steam-cover.jpg?v=1704800467",
+      "price": 10.65,
+      "discount": 0,
+      "releaseDate": "2016-02-26",
+      "trailer": "https://www.youtube.com/watch?v=8A7A1X1TVNc",
+      "Images": [
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-2.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-3.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-4.jpg?v=1704800467",
+        "https://gaming-cdn.com/images/products/1767/screenshot/stardew-valley-pc-mac-juego-steam-wallpaper-5.jpg?v=1704800467"
+      ],
+      "stock": 80
+    },
+    {
+      "id": 46,
+      "name": "Tom Clancy's Rainbow Six Siege-PC",
+      "description": "Tom Clancy's Rainbow Six Siege es un shooter táctico realista por equipos en el que una cuidadosa planificación y ejecución de tu estrategia son claves para conseguir la victoria.",
+      "gameCover": "https://gaming-cdn.com/images/products/16191/616x353/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-cover.jpg?v=1730298760",
+      "price": 7.25,
+      "discount": 0,
+      "releaseDate": "2015-12-01",
+      "trailer": "https://www.youtube.com/watch?v=6wlvYh0h63k",
+      "Images": [
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-2.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-3.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-4.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-5.jpg?v=1730298760"
+      ],
+      "stock": 90
+    },
+    {
+      "id": 51,
+      "name": "Tom Clancy's Rainbow Six Siege-PS5",
+      "description": "Tom Clancy's Rainbow Six Siege es un shooter táctico realista por equipos en el que una cuidadosa planificación y ejecución de tu estrategia son claves para conseguir la victoria.",
+      "gameCover": "https://gaming-cdn.com/images/products/16191/616x353/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-cover.jpg?v=1730298760",
+      "price": 7.25,
+      "discount": 0,
+      "releaseDate": "2015-12-01",
+      "trailer": "https://www.youtube.com/watch?v=6wlvYh0h63k",
+      "Images": [
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-2.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-3.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-4.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-5.jpg?v=1730298760"
+      ],
+      "stock": 90
+    },
+    {
+      "id": 54,
+      "name": "Tom Clancy's Rainbow Six Siege-PS4",
+      "description": "Tom Clancy's Rainbow Six Siege es un shooter táctico realista por equipos en el que una cuidadosa planificación y ejecución de tu estrategia son claves para conseguir la victoria.",
+      "gameCover": "https://gaming-cdn.com/images/products/16191/616x353/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-cover.jpg?v=1730298760",
+      "price": 7.25,
+      "discount": 0,
+      "releaseDate": "2015-12-01",
+      "trailer": "https://www.youtube.com/watch?v=6wlvYh0h63k",
+      "Images": [
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-2.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-3.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-4.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-5.jpg?v=1730298760"
+      ],
+      "stock": 90
+    },
+    {
+      "id": 56,
+      "name": "Tom Clancy's Rainbow Six Siege-Xbox Series X|S",
+      "description": "Tom Clancy's Rainbow Six Siege es un shooter táctico realista por equipos en el que una cuidadosa planificación y ejecución de tu estrategia son claves para conseguir la victoria.",
+      "gameCover": "https://gaming-cdn.com/images/products/16191/616x353/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-cover.jpg?v=1730298760",
+      "price": 7.25,
+      "discount": 0,
+      "releaseDate": "2015-12-01",
+      "trailer": "https://www.youtube.com/watch?v=6wlvYh0h63k",
+      "Images": [
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-2.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-3.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-4.jpg?v=1730298760",
+        "https://gaming-cdn.com/images/products/16191/screenshot/tom-clancy-s-rainbow-six-siege-playstation-5-playstation-4-juego-playstation-store-wallpaper-5.jpg?v=1730298760"
+      ],
+      "stock": 90
+    }
+  ],
+  "genre": [
+    {
+      "id": 2,
+      "Name": "Acción"
+    },
+    {
+      "id": 4,
+      "Name": "Arcade"
+    },
+    {
+      "id": 6,
+      "Name": "Aventura"
+    },
+    {
+      "id": 8,
+      "Name": "Carreras"
+    },
+    {
+      "id": 35,
+      "Name": "Cloud Gaming"
+    },
+    {
+      "id": 37,
+      "Name": "Cooperativo local"
+    },
+    {
+      "id": 39,
+      "Name": "Cooperativo online"
+    },
+    {
+      "id": 41,
+      "Name": "Deporte"
+    },
+    {
+      "id": 43,
+      "Name": "Early Access"
+    },
+    {
+      "id": 45,
+      "Name": "Entrenamiento"
+    },
+    {
+      "id": 47,
+      "Name": "Estrategia"
+    },
+    {
+      "id": 49,
+      "Name": "FPS"
+    },
+    {
+      "id": 51,
+      "Name": "Free to Play"
+    },
+    {
+      "id": 53,
+      "Name": "Gestión"
+    },
+    {
+      "id": 55,
+      "Name": "Indies"
+    },
+    {
+      "id": 57,
+      "Name": "Lucha"
+    },
+    {
+      "id": 59,
+      "Name": "MMO"
+    },
+    {
+      "id": 61,
+      "Name": "Multijugador"
+    },
+    {
+      "id": 63,
+      "Name": "Multiplataforma"
+    },
+    {
+      "id": 65,
+      "Name": "Otro"
+    },
+    {
+      "id": 67,
+      "Name": "Plataformas"
+    },
+    {
+      "id": 69,
+      "Name": "PvP"
+    },
+    {
+      "id": 71,
+      "Name": "RPG"
+    },
+    {
+      "id": 73,
+      "Name": "Simulación"
+    },
+    {
+      "id": 75,
+      "Name": "Software"
+    }
+  ],
+  "pegi": [
+    {
+      "id": 2,
+      "name": "PEGI 3"
+    },
+    {
+      "id": 4,
+      "name": "PEGI 7"
+    },
+    {
+      "id": 6,
+      "name": "PEGI 12"
+    },
+    {
+      "id": 8,
+      "name": "PEGI 16"
+    },
+    {
+      "id": 10,
+      "name": "PEGI 18"
+    }
+  ],
+  "platform": [
+    {
+      "id": 2,
+      "name": "Battle.net"
+    },
+    {
+      "id": 4,
+      "name": "Epic Games"
+    },
+    {
+      "id": 6,
+      "name": "Microsoft Store"
+    },
+    {
+      "id": 8,
+      "name": "Nintendo eShop"
+    },
+    {
+      "id": 10,
+      "name": "EA app"
+    },
+    {
+      "id": 12,
+      "name": "Other"
+    },
+    {
+      "id": 14,
+      "name": "PlayStation Store"
+    },
+    {
+      "id": 16,
+      "name": "Rockstar"
+    },
+    {
+      "id": 18,
+      "name": "Steam"
+    },
+    {
+      "id": 20,
+      "name": "Ubisoft Connect"
+    }
+  ],
+  "system": [
+    {
+      "id": 2,
+      "name": "PC"
+    },
+    {
+      "id": 4,
+      "name": "MAC"
+    },
+    {
+      "id": 6,
+      "name": "Linux"
+    },
+    {
+      "id": 8,
+      "name": "Switch"
+    },
+    {
+      "id": 10,
+      "name": "PlayStation 4"
+    },
+    {
+      "id": 12,
+      "name": "PlayStation 5"
+    },
+    {
+      "id": 14,
+      "name": "Xbox One"
+    },
+    {
+      "id": 16,
+      "name": "Xbox Series X|S"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "ShadowFox92",
+      "email": "shadowfox92@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "1990-03-20",
+      "region": "EU",
+      "profileImage": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": 2,
+      "username": "LunarEclipseX",
+      "email": "lunareclipsex@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "1968-03-12",
+      "region": "NA",
+      "profileImage": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 3,
+      "username": "CyberNinja",
+      "email": "cyberninja@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "2000-08-02",
+      "region": "LATAM",
+      "profileImage": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": 4,
+      "username": "PixelPioneer",
+      "email": "pixelpioneer@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "2006-04-16",
+      "region": "EU",
+      "profileImage": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": 10,
+      "username": "LunaNight87",
+      "email": "lunanight87@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "1987-11-14",
+      "region": "NA",
+      "profileImage": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 11,
+      "username": "CyberSamurai33",
+      "email": "cybersamurai33@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "1995-06-07",
+      "region": "JP",
+      "profileImage": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": 12,
+      "username": "DarkWizard99",
+      "email": "darkwizard99@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "1999-09-22",
+      "region": "EU",
+      "profileImage": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": 13,
+      "username": "MysticMage64",
+      "email": "mysticmage64@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "1985-04-15",
+      "region": "NA",
+      "profileImage": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": 14,
+      "username": "RedDragon88",
+      "email": "reddragon88@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "1988-08-03",
+      "region": "EU",
+      "profileImage": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+      "id": 15,
+      "username": "SilentReaper74",
+      "email": "silentreaper74@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "1992-12-30",
+      "region": "EU",
+      "profileImage": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+      "id": 16,
+      "username": "BlazePhoenix21",
+      "email": "blazephoenix21@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "2000-02-12",
+      "region": "NA",
+      "profileImage": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": 17,
+      "username": "ShadowKnight56",
+      "email": "shadowknight56@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "1994-10-01",
+      "region": "EU",
+      "profileImage": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": 18,
+      "username": "NeonViper74",
+      "email": "neonviper74@example.com",
+      "provider": "local",
+      "confirmed": false,
+      "blocked": false,
+      "birthdate": "1993-01-18",
+      "region": "JP",
+      "profileImage": "https://i.pravatar.cc/150?img=10"
+    }
+  ]
+}
