@@ -140,6 +140,10 @@ select {
         min-width: auto;
     }
 
+    .mainHeader__logo:hover {
+         background-color: #551eaf;
+     }
+
     .mainHeader__logo img {
         width: 5rem;
         height: 4rem;
@@ -191,6 +195,10 @@ select {
         min-width: auto;
     }
 
+    .mainHeader__logo:hover {
+        background-color: #6f1eaf;
+    }
+
     .mainHeader__search-bar {
         margin: 0;
         min-width: 5rem;
@@ -215,7 +223,7 @@ select {
         width: 3rem;
         height: 3rem;
         background: #F76786;
-        border: solid 3px #F42854;
+        border: solid 3px #ff0000;
         border-radius: 50px;
         align-items: center;
         justify-content: center;
@@ -232,5 +240,3 @@ select {
         width: 2rem;
     }
 }
-
-
