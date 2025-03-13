@@ -41,7 +41,7 @@ input::placeholder {
 }
 
 .Top__Logo__LogoImg:hover {
-    background-color: #1E1Ead   ;
+    background-color: #1E1EAD;
     transform: scale(1.05);
     border-radius: 50px;
 }
@@ -97,4 +97,39 @@ input::placeholder {
     background: #1E1EBF;
     border: white solid 2px;
     border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .Top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loginDiv {
+        width: 80%;
+    }
+
+    .Top__Logo__LogoImg {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .Top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loginDiv {
+        width: 90%;
+    }
+
+    .Top__Logo__LogoImg {
+        width: 120px;
+    }
+
+    .LoginButton {
+        scale: 1.2;
+        padding: 8px;
+    }
 }
