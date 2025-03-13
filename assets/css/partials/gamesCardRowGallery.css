@@ -40,7 +40,6 @@ section {
     padding: 0.6rem 1.2rem;
     font-size: 1rem;
     font-weight: bold;
-    letter-spacing: 0.5px;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s, transform 0.2s;
@@ -61,50 +60,7 @@ section {
     padding: 0.5rem;
 }
 
-.game-card {
-    width: 200px;
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-    text-align: center;
-    margin: 0;
-    flex-grow: 1;
-}
-
-.game-card:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-
-.game-cover {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.game-info {
-    font-family: "Genos", sans-serif;
-    padding: 0 1rem 0.25rem 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.game-title {
-    font-size: 1.8rem;
-    margin: 0.1rem 0;
-    font-weight: 600;
-}
-
-.game-price {
-    color: #333;
-    font-size: 1.5rem;
-    margin: 0.1rem 0;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     section {
         padding: 0.5rem;
     }
@@ -124,5 +80,36 @@ section {
         gap: 0.5rem;
         padding: 0.5rem;
         justify-content: center;
+    }
+
+    .cart__game:nth-child(n+5) {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: 0.5rem;
+    }
+
+    .title {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .gallery {
+        gap: 0.5rem;
+        padding: 0.5rem;
+        justify-content: center;
+    }
+
+    .cart__game:nth-child(n+5) {
+        display: none;
     }
 }

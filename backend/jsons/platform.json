@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2,
+    "name": "Battle.net"
+  },
+  {
+    "id": 4,
+    "name": "Epic Games"
+  },
+  {
+    "id": 6,
+    "name": "Microsoft Store"
+  },
+  {
+    "id": 8,
+    "name": "Nintendo eShop"
+  },
+  {
+    "id": 10,
+    "name": "EA app"
+  },
+  {
+    "id": 12,
+    "name": "Other"
+  },
+  {
+    "id": 14,
+    "name": "PlayStation Store"
+  },
+  {
+    "id": 16,
+    "name": "Rockstar"
+  },
+  {
+    "id": 18,
+    "name": "Steam"
+  },
+  {
+    "id": 20,
+    "name": "Ubisoft Connect"
+  }
+]

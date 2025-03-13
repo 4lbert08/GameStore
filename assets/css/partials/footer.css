@@ -2,12 +2,12 @@
 
 footer {
     background: linear-gradient(to right, #f30202, #0101fd);
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     margin: 0;
     width: 100%;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 2rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ footer {
 .aboutUs__link-container {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .aboutUs__link-container p {
@@ -37,7 +37,7 @@ footer {
     font-style: italic;
     transition: color 0.3s ease;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
     height: 100%;
@@ -51,8 +51,8 @@ footer {
 }
 
 .aboutUs__link-container img {
-    width: 40px;
-    height: 45px;
+    width: 4rem;
+    height: 4rem;
     transition: transform 0.3s ease;
 }
 
@@ -64,50 +64,34 @@ footer {
     transform: scale(1.2);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
     .aboutUs__link-container {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
+        display: flex;
+        gap: 1rem;
     }
 
     .aboutUs__link-container p {
-        font-size: 24px;
+        font-size: 2rem;
     }
 
     .aboutUs__link-container img {
-        width: 35px;
-        height: 40px;
-    }
-}
-
-@media (max-width: 768px) {
-    .aboutUs__link-container {
-        gap: 8px;
-    }
-
-    .aboutUs__link-container p {
-        font-size: 22px;
-    }
-
-    .aboutUs__link-container img {
-        width: 30px;
-        height: 35px;
+        width: 2rem;
+        height: 2rem;
     }
 }
 
 @media (max-width: 480px) {
     .aboutUs__link-container {
-        flex-direction: column;
-        gap: 5px;
+        display: flex;
+        gap: 0.5rem;
     }
 
     .aboutUs__link-container p {
-        font-size: 18px;
+        font-size: 1.5rem;
     }
 
     .aboutUs__link-container img {
-        width: 25px;
-        height: 30px;
+        width: 2rem;
+        height: 2rem;
     }
 }

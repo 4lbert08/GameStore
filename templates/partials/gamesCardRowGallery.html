@@ -10,26 +10,25 @@
 <section class="gallery-container" data-gallery>
     <div class="title">
         <h2>Título de la sección</h2>
-        <a href="../views/viewMoreSections.html"><button>VER MÁS</button></a>
+        <button onclick="location.href='../views/viewMoreSections.html'">VER MÁS</button>
     </div>
 
     <div class="gallery">
-        <div class="cart__game"></div>
-        <div class="cart__game"></div>
-        <div class="cart__game"></div>
-        <div class="cart__game"></div>
-        <div class="cart__game"></div>
+        <div id="cart1" class="cart__game"></div>
+        <div id="cart2" class="cart__game"></div>
+        <div id="cart3" class="cart__game"></div>
+        <div id="cart4" class="cart__game"></div>
+        <div id="cart5" class="cart__game"></div>
+        <div id="cart6" class="cart__game"></div>
     </div>
 </section>
 
 <script type="module">
     import { initializeGalleries } from "../../assets/js/modules/functions/loadGallery.js";
 
-    // Si no hay galerías ya inicializadas, las cargamos
-    if (!window.galleriesInitialized) {
-        console.log("Cargando galerías desde gamesCardRowGallery.html");
+    if (!sessionStorage.getItem("galleriesInitialized")) {
         initializeGalleries();
-        window.galleriesInitialized = true; // Marcamos como cargadas para evitar conflictos
+        sessionStorage.setItem("galleriesInitialized", "true");
     }
 </script>
 
