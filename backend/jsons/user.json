@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "username": "ShadowFox92",
+    "email": "shadowfox92@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "1990-03-20",
+    "region": "EU",
+    "profileImage": "https://i.pravatar.cc/150?img=1"
+  },
+  {
+    "id": 2,
+    "username": "LunarEclipseX",
+    "email": "lunareclipsex@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "1968-03-12",
+    "region": "NA",
+    "profileImage": "https://i.pravatar.cc/150?img=2"
+  },
+  {
+    "id": 3,
+    "username": "CyberNinja",
+    "email": "cyberninja@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "2000-08-02",
+    "region": "LATAM",
+    "profileImage": "https://i.pravatar.cc/150?img=3"
+  },
+  {
+    "id": 4,
+    "username": "PixelPioneer",
+    "email": "pixelpioneer@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "2006-04-16",
+    "region": "EU",
+    "profileImage": "https://i.pravatar.cc/150?img=4"
+  },
+  {
+    "id": 10,
+    "username": "LunaNight87",
+    "email": "lunanight87@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "1987-11-14",
+    "region": "NA",
+    "profileImage": "https://i.pravatar.cc/150?img=2"
+  },
+  {
+    "id": 11,
+    "username": "CyberSamurai33",
+    "email": "cybersamurai33@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "1995-06-07",
+    "region": "JP",
+    "profileImage": "https://i.pravatar.cc/150?img=3"
+  },
+  {
+    "id": 12,
+    "username": "DarkWizard99",
+    "email": "darkwizard99@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "1999-09-22",
+    "region": "EU",
+    "profileImage": "https://i.pravatar.cc/150?img=4"
+  },
+  {
+    "id": 13,
+    "username": "MysticMage64",
+    "email": "mysticmage64@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "1985-04-15",
+    "region": "NA",
+    "profileImage": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "id": 14,
+    "username": "RedDragon88",
+    "email": "reddragon88@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "1988-08-03",
+    "region": "EU",
+    "profileImage": "https://i.pravatar.cc/150?img=6"
+  },
+  {
+    "id": 15,
+    "username": "SilentReaper74",
+    "email": "silentreaper74@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "1992-12-30",
+    "region": "EU",
+    "profileImage": "https://i.pravatar.cc/150?img=7"
+  },
+  {
+    "id": 16,
+    "username": "BlazePhoenix21",
+    "email": "blazephoenix21@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "2000-02-12",
+    "region": "NA",
+    "profileImage": "https://i.pravatar.cc/150?img=8"
+  },
+  {
+    "id": 17,
+    "username": "ShadowKnight56",
+    "email": "shadowknight56@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "1994-10-01",
+    "region": "EU",
+    "profileImage": "https://i.pravatar.cc/150?img=9"
+  },
+  {
+    "id": 18,
+    "username": "NeonViper74",
+    "email": "neonviper74@example.com",
+    "provider": "local",
+    "confirmed": false,
+    "blocked": false,
+    "birthdate": "1993-01-18",
+    "region": "JP",
+    "profileImage": "https://i.pravatar.cc/150?img=10"
+  }
+]

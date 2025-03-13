@@ -1,0 +1,34 @@
+[
+  {
+    "id": 2,
+    "name": "PC"
+  },
+  {
+    "id": 4,
+    "name": "MAC"
+  },
+  {
+    "id": 6,
+    "name": "Linux"
+  },
+  {
+    "id": 8,
+    "name": "Switch"
+  },
+  {
+    "id": 10,
+    "name": "PlayStation 4"
+  },
+  {
+    "id": 12,
+    "name": "PlayStation 5"
+  },
+  {
+    "id": 14,
+    "name": "Xbox One"
+  },
+  {
+    "id": 16,
+    "name": "Xbox Series X|S"
+  }
+]

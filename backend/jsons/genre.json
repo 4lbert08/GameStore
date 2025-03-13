@@ -1,0 +1,102 @@
+[
+  {
+    "id": 2,
+    "Name": "Acción"
+  },
+  {
+    "id": 4,
+    "Name": "Arcade"
+  },
+  {
+    "id": 6,
+    "Name": "Aventura"
+  },
+  {
+    "id": 8,
+    "Name": "Carreras"
+  },
+  {
+    "id": 35,
+    "Name": "Cloud Gaming"
+  },
+  {
+    "id": 37,
+    "Name": "Cooperativo local"
+  },
+  {
+    "id": 39,
+    "Name": "Cooperativo online"
+  },
+  {
+    "id": 41,
+    "Name": "Deporte"
+  },
+  {
+    "id": 43,
+    "Name": "Early Access"
+  },
+  {
+    "id": 45,
+    "Name": "Entrenamiento"
+  },
+  {
+    "id": 47,
+    "Name": "Estrategia"
+  },
+  {
+    "id": 49,
+    "Name": "FPS"
+  },
+  {
+    "id": 51,
+    "Name": "Free to Play"
+  },
+  {
+    "id": 53,
+    "Name": "Gestión"
+  },
+  {
+    "id": 55,
+    "Name": "Indies"
+  },
+  {
+    "id": 57,
+    "Name": "Lucha"
+  },
+  {
+    "id": 59,
+    "Name": "MMO"
+  },
+  {
+    "id": 61,
+    "Name": "Multijugador"
+  },
+  {
+    "id": 63,
+    "Name": "Multiplataforma"
+  },
+  {
+    "id": 65,
+    "Name": "Otro"
+  },
+  {
+    "id": 67,
+    "Name": "Plataformas"
+  },
+  {
+    "id": 69,
+    "Name": "PvP"
+  },
+  {
+    "id": 71,
+    "Name": "RPG"
+  },
+  {
+    "id": 73,
+    "Name": "Simulación"
+  },
+  {
+    "id": 75,
+    "Name": "Software"
+  }
+]
