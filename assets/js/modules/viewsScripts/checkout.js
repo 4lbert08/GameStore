@@ -1,6 +1,8 @@
 import {loadHTMLAndExecuteScripts} from "../functions/includeHTMLRecursive.js";
+import {VISAHandler} from "../functions/VISAHandler.js";
 console.log("Funciones cargadas correctamente.")
 
 console.log("Ejecutando script del checkout...");
+VISAHandler();
 await loadHTMLAndExecuteScripts("#main_header", "../partials/mainHeader.html");
 await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
