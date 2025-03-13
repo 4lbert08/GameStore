@@ -118,7 +118,7 @@ input::placeholder {
 }
 
 /* Media Queries */
-@media (max-width: 48rem) {
+@media (max-width: 900px) {
     .signUp {
         width: 80%;
     }
@@ -128,7 +128,7 @@ input::placeholder {
     }
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 480px) {
     .signUp {
         width: 90%;
     }
