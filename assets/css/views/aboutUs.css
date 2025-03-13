@@ -15,73 +15,73 @@ body {
 .introduction {
     background: linear-gradient(to right, #f30202, #0101fd);
     color: #fff;
-    padding: 60px 20px;
+    padding: 3.75rem 1.25rem;
     text-align: center;
-    border-top: 2px ridge #272727;
+    border-top: 0.125rem ridge #272727;
 }
 
 .aboutUs {
     width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
+    max-width: 75rem;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.625rem;
+    box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.1);
 }
 
 .title {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     color: #2c3e50;
 }
 
 .aboutUs__info {
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .aboutUs__info p {
     font-size: 1.1rem;
     color: #444;
-    max-width: 800px;
-    margin: 10px auto;
+    max-width: 50rem;
+    margin: 0.625rem auto;
     text-align: justify;
 }
 
 .aboutUs__team-section {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .aboutUs {
-    padding: 20px;
+    padding: 1.25rem;
     flex: 1;
     text-align: center;
 }
 
 .aboutUs__social-media {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin-top: 15px;
+    gap: 0.9375rem;
+    margin-top: 0.9375rem;
 }
 
 .social-icons a img {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     transition: transform 0.3s ease;
 }
 
@@ -89,19 +89,31 @@ body {
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 768px) {
-    .row {
-        flex-direction: column;
-        align-items: center;
+@media screen and (max-width: 900px) {
+    .aboutUs {
+        width: 95%;
     }
-
-    .column {
-        width: 100%;
-        max-width: 400px;
+    .title {
+        font-size: 1.75rem;
     }
+    .aboutUs__info p {
+        font-size: 1rem;
+    }
+}
 
-    .social-icons {
-        flex-direction: row;
-        justify-content: center;
+
+@media screen and (max-width: 480px) {
+    .introduction {
+        padding: 2.5rem 1rem;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .aboutUs__info p {
+        font-size: 0.9rem;
+    }
+    .social-icons a img {
+        width: 2rem;
+        height: 2rem;
     }
 }

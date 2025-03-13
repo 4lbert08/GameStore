@@ -17,23 +17,23 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 100%;
-    max-width: 800px;
+    max-width: 50rem;
     margin: auto;
 }
 
 .search__bar {
     width: 80%;
-    max-width: 600px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
+    max-width: 37.5rem;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 1.25rem;
     outline: none;
-    font-size: 16px;
-    text-indent: 30px;
-    background: #f5f5f5 url('../../imgs/search-icon.webp') no-repeat 10px center;
-    background-size: 16px;
+    font-size: 1rem;
+    text-indent: 1.875rem;
+    background: #f5f5f5 url('../../imgs/search-icon.webp') no-repeat 0.625rem center;
+    background-size: 1rem;
     margin-top: 2rem;
 }
 
@@ -42,15 +42,18 @@ body {
     justify-content: center;
     gap: 1.5rem;
     margin-top: 3rem;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 50rem;
 }
 
 .filter-select {
     background: #6a0dad;
     color: white;
     border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-size: 14px;
+    padding: 0.625rem 0.9375rem;
+    border-radius: 0.3125rem;
+    font-size: 0.875rem;
     cursor: pointer;
     transition: background 0.3s ease;
 }
@@ -59,6 +62,47 @@ body {
     background: #520c9e;
 }
 
-#search-results{
+#search-results {
     padding: 1rem;
+}
+
+.stock-sector {
+    align-items: flex-start;
+}
+
+.stock-sector label {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.stock-sector input {
+    width: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .search__bar {
+        width: 90%;
+    }
+    .search__filter-dropdowns {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .search__bar {
+        width: 95%;
+        font-size: 0.875rem;
+    }
+    .search__filter-dropdowns {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .filter-select {
+        width: 80%;
+    }
 }
