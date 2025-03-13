@@ -136,7 +136,7 @@ button {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     input {
         width: 75%;
     }
