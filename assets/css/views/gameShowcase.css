@@ -1,9 +1,7 @@
 @import url('../../fonts/fonts.css');
 
-
-
 .Titles {
-    font-size: 75px;
+    font-size: 5rem;
     font-family: "Genos", sans-serif;
     color: white;
 }
@@ -19,42 +17,45 @@
     flex-direction: column;
     justify-content: left;
     align-items: center;
-    padding: 2vw 10vw;
+    padding: 2% 5%;
     gap: 5rem;
 }
 
 #GameShowcase {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20%;
+    flex-direction: column;
+    width: 100%;
 }
 
 #GameContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 
-#GameImage{
-    width: 50vw;
-    max-width: 550px;
-    max-height: 800px;
+#GameImage {
+    width: 70%;
+    max-width: 34.375rem;
+    max-height: 50rem;
     height: auto;
-    border: 5px solid black;
-    border-radius: 20px;
+    border: 0.3125rem solid black;
+    border-radius: 1.25rem;
+    margin-right: auto;
 }
 
 #PriceContainer {
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     background: none;
-    padding: 2vw 5vw;
+    padding: 1vw 3vw;
     border: 5px solid black;
 }
+
 
 #PriceContainer::before {
     content: "";
@@ -66,27 +67,36 @@
     z-index: -1;
 }
 
+#LogoImgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .LogoImg {
-    width: 15vw;
+    width: 80%;
     max-width: 200px;
     height: auto;
-    margin-bottom: 2vw;
 }
 
 #Price {
-    color: white;
-    background-color: black;
-    padding: 1vw;
-    border: 2px solid #6119B4;
-    margin-bottom: 2vw;
+    width: 80%;
+    text-align: center;
+    padding: 5%;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #000000;
 }
 
 #CartButton {
+    width: 80%;
+    text-align: center;
+    padding: 5%;
+    font-size: 1rem;
     color: white;
     background-color: #441991;
-    padding: 1vw;
-    border: 2px solid white;
 }
+
 
 .SubTitles {
     font-family: "Genos", sans-serif;
@@ -103,16 +113,45 @@
 }
 #GameMedia {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#GameMedia__GameVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
 }
 
 #GameImages {
     display: flex;
     flex-direction: column;
-    margin-left: 2vw;
+    justify-content: left;
+    width: 100%;
 }
 
-.Subtitles__MediaImagesRow {
+#ImagesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MediaImagesRow {
     display: flex;
     flex-direction: row;
     gap: 1vw;
@@ -120,21 +159,30 @@
 }
 
 .MediaImage {
-    width: 10vw;
-    max-width: 200px;
-    max-height: 200px;
+    width: 30vw;
+    max-width: 650px;
+    max-height: 400px;
 }
 
 #ReviewArea {
     display: flex;
     flex-direction: column;
     justify-content: left;
+    width: 100%;
 }
 
 #ReviewForm {
     display: flex;
     flex-direction: row;
     justify-content: left;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 #Review {
@@ -188,4 +236,65 @@
 .ReviewContent {
     color: #fff;
     font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    #GameShowcase {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #GameContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    #GameImage {
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #GameShowcase {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #GameContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .Titles {
+        font-size: 3rem;
+    }
+
+    .SubTitles {
+        font-size: 2rem;
+    }
+
+    .GameDescription {
+        font-size: 1rem;
+    }
+
+    #GameImage {
+        margin-right: 0;
+    }
+
+    .LogoImg {
+        display: none;
+    }
+
+    .userReview__game-title {
+        display: none;
+    }
+    .userReview__game-img {
+        display: none;
+    }
 }
