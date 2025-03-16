@@ -11,60 +11,65 @@
 
 <header id="main_header"></header>
 
+<div class="main_container">
+    <div class="main">
 
-<h1>
-    <a href="cart.html"> <img class="flecha" src="../../assets/imgs/flecha.png"> </a>
-    Pago
-</h1>
+        <h1>
+            <a href="cart.html"> <img class="flecha" src="../../assets/imgs/flecha.png"> </a>
+            Pago
+        </h1>
 
-<div class="checkout">
+        <div class="checkout">
 
-    <div class="checkout__methods">
-    <div class="checkout__methods-dropdown">
-      <button class="dropbtn">VISA</button>
-      <div class="dropdown-content">
-        <div class="checkout__method-card">
-            <form action="" method="get">
-                <div class="checkout__card-input">
-                    <label for="VISANumber">Número de la tarjeta</label>
-                    <input class="input" type ="text" name="nickname" id="VISANumber"  placeholder="1234 5678 9012 3456">
-                </div>
-                <div class="checkout__card-inputsmall">
-                    <div class="checkout__card-input">
-                        <label for="expiredate">Fecha de caducidad</label>
-                        <input class="input-small" type ="text" name="nickname" id="expiredate" placeholder="MM/YY">
+            <div class="checkout__methods">
+                <div class="checkout__methods-dropdown">
+                    <button class="dropbtn">VISA</button>
+                    <div class="dropdown-content">
+                        <div class="checkout__method-card">
+                            <form action="" method="get">
+                                <div class="checkout__card-input">
+                                    <label for="VISANumber">Número de la tarjeta</label>
+                                    <input class="input" type ="text" name="nickname" id="VISANumber"  placeholder="1234 5678 9012 3456">
+                                </div>
+                                <div class="checkout__card-inputsmall">
+                                    <div class="checkout__card-input">
+                                        <label for="expiredate">Fecha de caducidad</label>
+                                        <input class="input-small" type ="text" name="nickname" id="expiredate" placeholder="MM/YY">
+                                    </div>
+                                    <div class="checkout__card-input">
+                                        <label for="CVV">CVV</label>
+                                        <input class="input-small" type ="text" name="nickname" id="CVV" placeholder="XXX">
+                                    </div>
+                                </div>
+                                <div class="checkout__card-input">
+                                    <label for="cardHolder">Titular de la tarjeta</label>
+                                    <input class="input" type ="text" name="nickname" id="cardHolder" placeholder="John Doe ">
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    <div class="checkout__card-input">
-                        <label for="CVV">CVV</label>
-                        <input class="input-small" type ="text" name="nickname" id="CVV" placeholder="XXX">
-                    </div>
                 </div>
-                <div class="checkout__card-input">
-                    <label for="cardHolder">Titular de la tarjeta</label>
-                    <input class="input" type ="text" name="nickname" id="cardHolder" placeholder="John Doe ">
+                <div class="checkout__methods-linked">
+                    <a class="link" href="https://www.paypal.com/es/home">Paypal</a>
                 </div>
-            </form>
+                <div class="checkout__methods-linked">
+                    <a class="link" href="https://bizum.com/es/">Bizum</a>
+                </div>
+            </div>
+
+
+
+            <div class="checkout__resumen">
+                <h2>Resumen</h2>
+                <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
+                <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
+                <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
+                <p class="checkout_resumen-text">Total: XXXX$</p>
+                <button class="button">Comprar</button>
+            </div>
         </div>
-      </div>
+
     </div>
-        <div class="checkout__methods-linked">
-            <a class="link" href="https://www.paypal.com/es/home">Paypal</a>
-        </div>
-        <div class="checkout__methods-linked">
-            <a class="link" href="https://bizum.com/es/">Bizum</a>
-        </div>
-    </div>
-
-
-
-  <div class="checkout__resumen">
-    <h1>Resumen</h1>
-    <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
-    <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
-    <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
-    <p class="checkout_resumen-text">Total: XXXX$</p>
-      <button class="button">Comprar</button>
-  </div>
 </div>
 
 <footer id="footer"></footer>

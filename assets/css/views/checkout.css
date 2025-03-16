@@ -1,19 +1,57 @@
 @import url('../../fonts/fonts.css');
-body{
+
+html, body {
+    width: 100%;
+    height: 100%;
     background: #272727;
-    color: #ffffff;
-    font-weight: bold;
-    margin: 0;
+    font-family: "Genos", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.main_container{
+    flex:1;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
-    font-family: "Genos", sans-serif;
+    color: #FFFFFF;
+    padding: 2rem;
     place-self: center;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    font-weight: 900;
+    width: auto;
+    height: auto;
+}
+
+h2{
+    color: #FFFFFF;
+    padding: 1rem;
+    place-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    width: 5rem;
+    height: auto;
+}
+
+label{
+    color: #fff;
 }
 
 .dropdown-content {
@@ -24,7 +62,6 @@ h1{
 }
 
 .dropbtn{
-    font-family: "Genos", sans-serif;
     font-weight: bold;
     font-size: 50px;
     place-self: center;
@@ -34,6 +71,7 @@ h1{
     border-radius: 10px;
     color: white;
 }
+
 .checkout__methods-dropdown:focus-within .dropdown-content {
     display: grid;
     place-self: center;
@@ -61,20 +99,25 @@ h1{
     background: #B11262;
     margin: 50px auto;
     border-radius: 20px;
+    align-items: center;
     justify-items: center;
     display: flex;
     flex-direction: column;
 }
 .checkout_resumen-text{
+    color: #fff;
+    margin: 0.126rem;
+    padding: 0;
     font-size: 20px;
 }
 
 .button{
-    font-family: "Genos", sans-serif;
     font-size: 25px;
-    width: 475px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
     color: white;
-    height: 300px;
+    height: auto;
     background: #6119b4;
     border-radius: 10px;
 }
@@ -87,7 +130,6 @@ h1{
 }
 
 .input{
-    font-family: "Genos", sans-serif;
     font-size: 15px;
     width: 100%;
     max-width: 400px;
@@ -100,7 +142,6 @@ h1{
 }
 
 .input-small{
-    font-family: "Genos", sans-serif;
     font-size: 15px;
     width: 95%;
     margin: 5px 0;
@@ -111,6 +152,13 @@ h1{
     background-color: #6119b4;
 }
 
+.input-small::placeholder{
+    color: #fff;
+}
+
+.input::placeholder{
+    color: #fff;
+}
 
 .checkout__card-inputsmall{
     display: flex;
@@ -139,7 +187,6 @@ h1{
 }
 
 .checkout{
-    font-family: "Genos", sans-serif;
     display: flex;
     flex-direction: row;
     min-height: 74.33vh;
@@ -151,4 +198,9 @@ h1{
     position: absolute;
     align-self: center;
     right: 95%;
+}
+
+footer {
+    width: 100%;
+    flex-shrink: 0;
 }
