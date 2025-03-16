@@ -38,6 +38,14 @@ select {
     margin: 0.5rem 0;
 }
 
+.mainHeader__search-bar form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0;
+}
+
 .mainHeader__search-bar input {
     width: 50%;
     min-width: 10rem;
@@ -48,7 +56,7 @@ select {
 }
 
 .mainHeader__search-bar input:focus {
-    width: 80%;
+    width: 90%;
     border-color: #093968;
     font-size: 1.25rem;
     outline: none;
@@ -153,7 +161,7 @@ select {
         margin: 0;
     }
 
-    .mainHeader__search-bar input,
+    .mainHeader__search-bar form,
     .mainHeader__search-bar__search-icon {
         display: none;
     }
@@ -213,7 +221,7 @@ select {
         height: 4rem;
     }
 
-    .mainHeader__search-bar input,
+    .mainHeader__search-bar form,
     .mainHeader__search-bar button {
         display: none;
     }
