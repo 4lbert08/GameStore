@@ -10,58 +10,62 @@
 
     <header id="main_header"></header>
 
-    <div class="configuration__userButton" id="userMenuButton"></div>
-    <div>
+    <div class="main_container">
+        <div class="main">
 
-        <div class="userConfiguration">
+            <div class="configuration__userButton" id="userMenuButton"></div>
+            <div>
+                <div class="userConfiguration">
 
-            <div class="userConfiguration__image-container">
-                <img class="userConfiguration__image" src="../../assets/imgs/fifa22.png" alt="Imagen de perfil">
-                <p class="userConfiguration__nickname">Berto</p>
+                    <div class="userConfiguration__image-container">
+                        <img class="userConfiguration__image" src="../../assets/imgs/fifa22.png" alt="Imagen de perfil">
+                        <p class="userConfiguration__nickname">Berto</p>
+                    </div>
+
+                    <div class="userConfiguration__form">
+                        <form action="" method="get">
+                            <div>
+                                <label for="nickname">Cambiar el nickname</label>
+                                <input class="userConfiguration__form-input" type="text" name="nickname" id="nickname">
+                            </div>
+
+                            <div>
+                                <label for="birthday">Cambiar el cumpleaños</label>
+                                <input class="userConfiguration__form-input" type="date" name="birthday" id="birthday">
+                            </div>
+
+                            <div>
+                                <label for="profilePicture">Foto de perfil (Opcional)</label>
+                                <input class="userConfiguration__form-input" type="file" name="profilePicture" id="profilePicture">
+                            </div>
+
+                            <div>
+                                <label for="region">Cambiar de región</label>
+                                <select class="userConfiguration__form-input" id="region" name="region">
+                                    <option value="EU">EU</option>
+                                    <option value="NA">NA</option>
+                                    <option value="LATAM">LATAM</option>
+                                    <option value="AFR">AFR</option>
+                                    <option value="ASIA">ASIA</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="language">Cambiar de idioma</label>
+                                <select class="userConfiguration__form-input" id="language" name="language">
+                                    <option value="Español">Español</option>
+                                    <option value="English">English</option>
+                                </select>
+                            </div>
+
+                            <div >
+                                <input class="userConfiguration__ApplyButton" type="submit" value="Aplicar" id="save">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
             </div>
-
-            <div class="userConfiguration__form">
-                <form action="" method="get">
-                    <div>
-                        <label for="nickname">Cambiar el nickname</label>
-                        <input class="userConfiguration__form-input" type="text" name="nickname" id="nickname">
-                    </div>
-
-                    <div>
-                        <label for="birthday">Cambiar el cumpleaños</label>
-                        <input class="userConfiguration__form-input" type="date" name="birthday" id="birthday">
-                    </div>
-
-                    <div>
-                        <label for="profilePicture">Foto de perfil (Opcional)</label>
-                        <input class="userConfiguration__form-input" type="file" name="profilePicture" id="profilePicture">
-                    </div>
-
-                    <div>
-                        <label for="region">Cambiar de región</label>
-                        <select class="userConfiguration__form-input" id="region" name="region">
-                            <option value="EU">EU</option>
-                            <option value="NA">NA</option>
-                            <option value="LATAM">LATAM</option>
-                            <option value="AFR">AFR</option>
-                            <option value="ASIA">ASIA</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label for="language">Cambiar de idioma</label>
-                        <select class="userConfiguration__form-input" id="language" name="language">
-                            <option value="Español">Español</option>
-                            <option value="English">English</option>
-                        </select>
-                    </div>
-
-                    <div >
-                        <input class="userConfiguration__ApplyButton" type="submit" value="Aplicar" id="save">
-                    </div>
-                </form>
-            </div>
-
         </div>
     </div>
 

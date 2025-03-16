@@ -1,11 +1,31 @@
 @import url('../../fonts/fonts.css');
-body{
-    background: #272727;
-    margin: 0;
-    color: white;
 
+html, body {
+    font-family: "Genos", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #272727;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
 }
 
+header {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.main_container{
+    flex:1;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 .myOrders__userButton {
     display: flex;
@@ -48,5 +68,10 @@ table{
     place-self: center;
     width: 75%;
     border-radius: 10px;
-    margin: 20px;
+    margin: 1rem 2rem 6rem 2rem;
+}
+
+footer {
+    width: 100%;
+    flex-shrink: 0;
 }
