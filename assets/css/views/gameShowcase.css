@@ -37,7 +37,7 @@ header {
     color: white;
 }
 
-#Main {
+#main_content {
     display: flex;
     flex-direction: column;
     justify-content: left;
