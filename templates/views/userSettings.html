@@ -18,7 +18,7 @@
                 <div class="userConfiguration">
 
                     <div class="userConfiguration__image-container">
-                        <img class="userConfiguration__image" src="../../assets/imgs/fifa22.png" alt="Imagen de perfil">
+                        <img class="userConfiguration__image" id="ProfilePicture" src="../../assets/imgs/fifa22.png" alt="Imagen de perfil">
                         <p class="userConfiguration__nickname">Berto</p>
                     </div>
 
@@ -26,7 +26,7 @@
                         <form action="" method="get">
                             <div>
                                 <label for="nickname">Cambiar el nickname</label>
-                                <input class="userConfiguration__form-input" type="text" name="nickname" id="nickname">
+                                <input class="userConfiguration__form-input" type="text" name="nickname" id="nickname" maxlength="30">
                             </div>
 
                             <div>
@@ -35,8 +35,8 @@
                             </div>
 
                             <div>
-                                <label for="profilePicture">Foto de perfil (Opcional)</label>
-                                <input class="userConfiguration__form-input" type="file" name="profilePicture" id="profilePicture">
+                                <label for="profilePictureInput">Foto de perfil (Opcional)</label>
+                                <input class="userConfiguration__form-input" type="file" name="profilePicture" id="profilePictureInput">
                             </div>
 
                             <div>
