@@ -25,6 +25,17 @@ input {
     font-size: 1rem;
 }
 
+#privacyToggler{
+    background: transparent;
+
+
+}
+
+.passwordContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 input::placeholder {
     color: #FFFFFF;
     font-weight: lighter;

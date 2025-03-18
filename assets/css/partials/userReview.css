@@ -23,6 +23,7 @@ body {
     margin-right:3rem;
     align-content: center;
     align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
 }
@@ -32,6 +33,15 @@ body {
     height: 7rem;
     border-radius: 50px;
 
+}
+
+.userReview__user-containter{
+    margin-left: 1rem;
+    margin-right:3rem;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .userReview__info{
@@ -55,6 +65,16 @@ body {
     font-weight: bold;
     font-size: 2rem;
 }
+
+
+.userReview__user-name{
+    font-family: "Genos", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
 .userReview__text{
     color: #FFFFFF;
     display: flex;
@@ -121,6 +141,10 @@ body {
     .userReview__user-img {
         width: 5rem;
         height: 5rem;
+    }
+
+    .userReview__user-name {
+        font-size: 0.975rem;
     }
 
     .userReview__Review {
