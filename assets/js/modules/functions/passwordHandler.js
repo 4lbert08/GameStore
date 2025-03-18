@@ -14,7 +14,7 @@ export function passwordHandler(formSelector) {
         return;
     }
 
-    let regex = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&_])[A-Za-z\d@$!%*?&_]{8,}$/;
+    let regex = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&_.])[A-Za-z\d@$!%*?&_]{8,}$/;
 
     passwordField.addEventListener("input", function () {
         if (!regex.test(passwordField.value)) {
