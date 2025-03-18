@@ -27,8 +27,6 @@ input {
 
 #privacyToggler{
     background: transparent;
-
-
 }
 
 .passwordContainer{
@@ -80,6 +78,7 @@ input::placeholder {
     width: 100%;
     padding: 5rem 2.5rem;
     background: none;
+    box-sizing: border-box;
 }
 
 .loginDiv__LoginBox::before {
