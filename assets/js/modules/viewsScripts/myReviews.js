@@ -1,5 +1,5 @@
 import {loadHTMLAndExecuteScripts} from "../functions/includeHTMLRecursive.js";
-import {initializeReviews} from "../functions/loadGameReviews";
+import {initializeReviews} from "../functions/loadGameReviews.js";
 console.log("Funciones cargadas correctamente.");
 
 console.log("Ejecutando script del myReviews...");
