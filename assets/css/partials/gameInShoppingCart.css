@@ -75,10 +75,11 @@ html, body {
     width: 100%;
 }
 #cartItem__select-quantity{
-    font-family: "Genos", sans-serif;
     background-color: #4a236c;
     color: #FFFFFF;
-    height: 100%;
+    height: 110%;
+    text-align: center;
+    text-align-last: center;
 }
 
 .cartItem__move_to_cart{
@@ -183,5 +184,12 @@ html, body {
     .trashCan {
         height: 1.5rem;
         width: 1.5rem;
+    }
+
+    #cartItem__select-quantity{
+        width: 3rem;
+        height: 2rem;
+        text-align: center;
+        font-size: 1rem;
     }
 }
