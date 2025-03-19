@@ -17,8 +17,8 @@ header {
     flex-shrink: 0;
 }
 
-.main_container{
-    flex:1;
+.main_container {
+    flex: 1;
 }
 
 .main {
@@ -28,18 +28,18 @@ header {
 }
 
 .ReviewsContainer {
-    width: 1175px;
-    height: 750px;
+    width: 90%;
+    max-width: 73.4375rem;
+    height: 46.875rem;
     background-color: #6119b4;
     place-self: center;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 0.625rem;
+    border-radius: 0.9375rem;
     margin: 1rem 2rem 6rem 2rem;
     overflow-y: auto;
 }
 
-
-.myReviews__userButton{
+.myReviews__userButton {
     display: grid;
     place-items: center;
 }
@@ -49,3 +49,21 @@ footer {
     flex-shrink: 0;
 }
 
+@media screen and (max-width: 900px) {
+    .ReviewsContainer {
+        width: 95%;
+        height: 40rem;
+        margin: 1rem 1rem 4rem 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ReviewsContainer {
+        width: 98%;
+        height: 35rem;
+        margin: 0.5rem 0.5rem 2rem 0.5rem;
+        padding: 0.3125rem;
+        border-radius: 0.625rem;
+    }
+}
