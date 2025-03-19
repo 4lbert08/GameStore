@@ -25,6 +25,8 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .myOrders__userButton {
@@ -33,42 +35,15 @@ header {
     width: 100%;
 }
 
-th{
-    padding: 0px 50px;
-    font-weight: bold;
-    font-size: 30px;
-    border: 1px solid white;
-    border-radius: 5px;
-    background: #2C2FFF;
-}
-
-td{
-    height: 10vh;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 25px;
-    text-align: center;
-    background-color: #1E1EBF;
-}
-.myOrders__receipt {
-    width: 100%;
-    height: 100%;
-    background: #D00202;
-}
-
-a{
-    color: #ffffff;
-}
-
-table{
-    font-family: "Genos", sans-serif;
+.myOrders__ordersContainer {
+    width: 90%;
+    max-width: 73.4375rem;
+    height: 46.875rem;
+    background-color: transparent;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
-    place-self: center;
-    width: 75%;
-    border-radius: 10px;
-    margin: 1rem 2rem 6rem 2rem;
+    gap: 3rem;
 }
 
 footer {
