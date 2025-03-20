@@ -25,10 +25,9 @@
 <script type="module">
     import { initializeGalleries } from "../../assets/js/modules/functions/loadGallery.js";
 
-    if (!sessionStorage.getItem("galleriesInitialized")) {
+    document.addEventListener('DOMContentLoaded', () => {
         initializeGalleries();
-        sessionStorage.setItem("galleriesInitialized", "true");
-    }
+    });
 </script>
 
 </body>

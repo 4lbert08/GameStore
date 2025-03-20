@@ -13,13 +13,16 @@ a {
 }
 
 .game-card {
-    width: 10rem;
+    width: 12rem;
+    height: 18rem;
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     text-align: center;
     margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .game-card:hover {
@@ -29,19 +32,29 @@ a {
 
 .game-card__cover {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 12rem;
+    object-fit: cover;
 }
 
 .game-card__info {
     font-family: "Genos", sans-serif;
-    padding: 0 1rem 0.25rem 1rem;
+    padding: 0.5rem 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .game-card__title {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin: 0.1rem 0;
     font-weight: 600;
+    overflow-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .game-card__price {
@@ -56,7 +69,12 @@ a {
     }
 
     .game-card {
-        width: 8rem;
+        width: 10rem;
+        height: 15rem;
+    }
+
+    .game-card__cover {
+        height: 10rem;
     }
 
     .game-card__title {
@@ -74,7 +92,12 @@ a {
     }
 
     .game-card {
-        width: 7rem;
+        width: 8rem;
+        height: 12rem;
+    }
+
+    .game-card__cover {
+        height: 8rem;
     }
 
     .game-card__title {

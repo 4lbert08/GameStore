@@ -1,5 +1,5 @@
 import {loadHTMLAndExecuteScripts} from "../functions/includeHTMLRecursive.js";
-import {initializeGalleries} from "../functions/loadGallery.js";
+import {initializeRowGalleries} from "../functions/loadRowGallery.js";
 console.log(loadHTMLAndExecuteScripts());
 
 console.log("Ejecutando script del index...");
@@ -8,4 +8,14 @@ await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
 await loadHTMLAndExecuteScripts("#gallery1", "../partials/gamesCardRowGallery.html");
 await loadHTMLAndExecuteScripts("#gallery2", "../partials/gamesCardRowGallery.html");
 await loadHTMLAndExecuteScripts("#gallery3", "../partials/gamesCardRowGallery.html");
-initializeGalleries();
+const titles = [
+    "Nuevos Lanzamientos",
+    "Ofertas del Momento",
+    "Mas Comprados"
+];
+const jsons = [
+    "../../../backend/jsons/newGames.json",
+    "../../../backend/jsons/oferts.json",
+    "../../../backend/jsons/popularGames.json"
+];
+initializeRowGalleries(titles, jsons);

@@ -1,6 +1,5 @@
 export async function loadHTMLAndExecuteScripts(selector, sourceFile) {
     console.log(`Intentando cargar ${sourceFile} en ${selector}`);
-
     try {
         const response = await fetch(sourceFile);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -16,9 +15,7 @@ export async function loadHTMLAndExecuteScripts(selector, sourceFile) {
         container.innerHTML = html;
 
         await loadImages(container);
-
         await executeScriptsSequentially(container);
-
     } catch (error) {
         console.error(`Error al cargar ${sourceFile}:`, error);
     }
@@ -37,16 +34,15 @@ async function executeScriptsSequentially(container) {
     for (const script of scripts) {
         await new Promise(resolve => {
             const scriptTag = document.createElement("script");
-
             if (script.src) {
                 scriptTag.src = script.src;
                 scriptTag.async = false;
                 scriptTag.onload = resolve;
+                scriptTag.onerror = resolve;
             } else {
                 scriptTag.textContent = script.textContent;
                 resolve();
             }
-
             document.body.appendChild(scriptTag);
         });
     }
