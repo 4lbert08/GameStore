@@ -60,7 +60,7 @@ section {
     padding: 0.5rem;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 800px) and (max-width: 1100px) {
     section {
         padding: 0.5rem;
     }
@@ -87,7 +87,7 @@ section {
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 800px) {
     section {
         padding: 0.5rem;
     }
