@@ -120,6 +120,7 @@ header {
     width: 100%;
     word-wrap: break-word;
     margin: 0;
+    text-align: justify;
 }
 #GameMedia {
     display: flex;
@@ -288,8 +289,8 @@ header {
         font-size: 2rem;
     }
 
-    .GameDescription {
-        font-size: 1rem;
+    #DescriptionParagraph {
+        font-size: 1.25rem;
     }
 
     #GameImage {
