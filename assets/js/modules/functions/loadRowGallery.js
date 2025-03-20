@@ -45,9 +45,22 @@ export async function loadGames(container, galleryIndex, jsonPath, customTitle =
     if (titleElement) {
         titleElement.textContent = finalTitle;
     }
+
+    setupViewMoreButton();
 }
 
-export function initializeRowGalleries(titles, jsonPaths) {
+const setupViewMoreButton = () => {
+    const viewMoreButton = container.querySelector('.title button');
+    if (viewMoreButton) {
+        const encodedTitle = encodeURIComponent(finalTitle);
+        const encodedJsonPath = encodeURIComponent(jsonPath);
+        viewMoreButton.onclick = () => {
+            location.href = `../views/viewMoreSections.html?title=${encodedTitle}&jsonPath=${encodedJsonPath}`;
+        };
+    }
+};
+
+export function initializeRowGalleries(titles = [], jsonPaths = []) {
     setTimeout(() => {
         const galleries = document.querySelectorAll(".gallery-container");
         galleries.forEach((gallery, galleryIndex) => {

@@ -2,52 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/partials/gamesCardGallery.css">
 </head>
-
 <body>
-    <section class="gallery-container" data-gallery>
-        <div class="gallery">
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-            <div class="cart__game"></div>
-        </div>
-        <!-- Paginación -->
-        <div class="pagination">
-            <button id="prevPage">&#9665;</button>
-            <span id="pageNumber">1</span>
-            <button id="nextPage">&#9655;</button>
-        </div>
-    </section>
+<section class="gallery-container" data-gallery>
 
-    <script type="module">
-        import { initializeGalleries } from "../../assets/js/modules/functions/loadGallery.js";
+    <div class="gallery"></div>
 
-        // Si no hay galerías ya inicializadas, las cargamos
-        if (!window.galleriesInitialized) {
-            console.log("Cargando galerías desde gamesCardGallery.html");
-            initializeGalleries();
-            window.galleriesInitialized = true;
-        }
-    </script>
+    <div class="pagination">
+        <button id="prevPage">◁</button>
+        <span id="pageNumber">1</span>
+        <button id="nextPage">▷</button>
+    </div>
 
+</section>
+
+<script type="module">
+    import { initializeGalleries } from "../../assets/js/modules/functions/loadGallery.js";
+
+    if (!window.galleriesInitialized) {
+        console.log("Cargando galerías desde gamesCardGallery.html");
+        initializeGalleries();
+        window.galleriesInitialized = true;
+    }
+</script>
 </body>
 </html>
