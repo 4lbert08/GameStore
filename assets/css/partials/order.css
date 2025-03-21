@@ -27,7 +27,7 @@ body {
     max-width: 56.25rem;
     width: 100%;
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
 }
 
 .order-content {

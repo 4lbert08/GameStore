@@ -39,6 +39,10 @@ header {
     overflow-y: auto;
 }
 
+.ReviewsContainer::-webkit-scrollbar {
+    display: none;
+}
+
 .myReviews__userButton {
     display: grid;
     place-items: center;

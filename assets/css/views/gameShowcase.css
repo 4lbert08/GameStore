@@ -226,6 +226,10 @@ header {
     border-radius: 10px;
 }
 
+.ReviewsContainer::-webkit-scrollbar {
+    display: none;
+}
+
 .Review {
     display: flex;
     align-items: center;

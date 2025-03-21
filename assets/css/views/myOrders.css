@@ -45,6 +45,11 @@ header {
     flex-direction: column;
     padding: 5rem;
     gap: 3rem;
+
+}
+
+.myOrders__ordersContainer::-webkit-scrollbar {
+    display: none;
 }
 
 footer {
