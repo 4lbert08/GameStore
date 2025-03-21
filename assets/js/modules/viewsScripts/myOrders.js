@@ -1,9 +1,15 @@
 import {loadHTMLAndExecuteScripts} from "../functions/includeHTMLRecursive.js";
-import {initializeOrders} from "../functions/loadUserOrders.js";
+import {initializeUserOrders} from "../functions/loadUserOrders.js";
 console.log("Funciones cargadas correctamente.");
 
 console.log("Ejecutando script del myOrders...");
 await loadHTMLAndExecuteScripts("#main_header", "../partials/mainHeader.html");
 await loadHTMLAndExecuteScripts("#footer", "../partials/footer.html");
 await loadHTMLAndExecuteScripts("#userMenuButton", "../partials/userMenuButton.html");
-initializeOrders();
+
+//TODO
+// Deberíamos hacer que dependiendo de la url coja un json u otro (dependiendo del user)
+const json = [
+    "../../../backend/jsons/userExampleOrders.json",
+];
+initializeUserOrders(json);

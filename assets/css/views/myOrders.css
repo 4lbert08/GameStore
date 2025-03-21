@@ -43,7 +43,7 @@ header {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 5rem;
     gap: 3rem;
 }
 
