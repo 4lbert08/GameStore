@@ -1,102 +1,127 @@
 [
   {
     "id": 2,
-    "Name": "Acción"
+    "Name": "Acción",
+    "games": [12, 14, 16,20]
   },
   {
     "id": 4,
-    "Name": "Arcade"
+    "Name": "Arcade",
+    "games": []
   },
   {
     "id": 6,
-    "Name": "Aventura"
+    "Name": "Aventura",
+    "games": [5,27,33,34,36]
   },
   {
     "id": 8,
-    "Name": "Carreras"
+    "Name": "Carreras",
+    "games": []
   },
   {
     "id": 35,
-    "Name": "Cloud Gaming"
+    "Name": "Cloud Gaming",
+    "games": []
   },
   {
     "id": 37,
-    "Name": "Cooperativo local"
+    "Name": "Cooperativo local",
+    "games": []
   },
   {
     "id": 39,
-    "Name": "Cooperativo online"
+    "Name": "Cooperativo online",
+    "games": []
   },
   {
     "id": 41,
-    "Name": "Deporte"
+    "Name": "Deporte",
+    "games": []
   },
   {
     "id": 43,
-    "Name": "Early Access"
+    "Name": "Early Access",
+    "games": []
   },
   {
     "id": 45,
-    "Name": "Entrenamiento"
+    "Name": "Entrenamiento",
+    "games": []
   },
   {
     "id": 47,
-    "Name": "Estrategia"
+    "Name": "Estrategia",
+    "games": []
   },
   {
     "id": 49,
-    "Name": "FPS"
+    "Name": "FPS",
+    "games": [46, 51, 54, 56]
   },
   {
     "id": 51,
-    "Name": "Free to Play"
+    "Name": "Free to Play",
+    "games": []
   },
   {
     "id": 53,
-    "Name": "Gestión"
+    "Name": "Gestión",
+    "games": []
   },
   {
     "id": 55,
-    "Name": "Indies"
+    "Name": "Indies",
+    "games": [38, 40, 42, 44]
   },
   {
     "id": 57,
-    "Name": "Lucha"
+    "Name": "Lucha",
+    "games": []
   },
   {
     "id": 59,
-    "Name": "MMO"
+    "Name": "MMO",
+    "games": []
   },
   {
     "id": 61,
-    "Name": "Multijugador"
+    "Name": "Multijugador",
+    "games": []
   },
   {
     "id": 63,
-    "Name": "Multiplataforma"
+    "Name": "Multiplataforma",
+    "games": []
   },
   {
     "id": 65,
-    "Name": "Otro"
+    "Name": "Otro",
+    "games": []
   },
   {
     "id": 67,
-    "Name": "Plataformas"
+    "Name": "Plataformas",
+    "games": []
   },
   {
     "id": 69,
-    "Name": "PvP"
+    "Name": "PvP",
+    "games": [46, 51, 54, 56]
   },
   {
     "id": 71,
-    "Name": "RPG"
+    "Name": "RPG",
+    "games": [12,14,16,19,20,22,24,26,38,40,42,44]
   },
   {
     "id": 73,
-    "Name": "Simulación"
+    "Name": "Simulación",
+    "games": [38,40,42,44]
   },
   {
     "id": 75,
-    "Name": "Software"
+    "Name": "Software",
+    "games": []
   }
 ]

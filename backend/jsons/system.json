@@ -1,34 +1,42 @@
 [
   {
     "id": 2,
-    "name": "PC"
+    "name": "PC",
+    "games": [12,22,36,40,56]
   },
   {
     "id": 4,
-    "name": "MAC"
+    "name": "MAC",
+    "games": []
   },
   {
     "id": 6,
-    "name": "Linux"
+    "name": "Linux",
+    "games": []
   },
   {
     "id": 8,
-    "name": "Switch"
+    "name": "Switch",
+    "games": [5,44]
   },
   {
     "id": 10,
-    "name": "PlayStation 4"
+    "name": "PlayStation 4",
+    "games": [14,24,33,38,54]
   },
   {
     "id": 12,
-    "name": "PlayStation 5"
+    "name": "PlayStation 5",
+    "games": [16,26,27,51]
   },
   {
     "id": 14,
-    "name": "Xbox One"
+    "name": "Xbox One",
+    "games": [42]
   },
   {
     "id": 16,
-    "name": "Xbox Series X|S"
+    "name": "Xbox Series X|S",
+    "games": [19,20,34,56]
   }
 ]

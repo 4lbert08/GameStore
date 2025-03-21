@@ -1,6 +1,6 @@
 import {loadHTMLAndExecuteScripts} from "../functions/includeHTMLRecursive.js";
 import {initializeRowGalleries} from "../functions/loadRowGallery.js";
-console.log(loadHTMLAndExecuteScripts());
+console.log("Funciones cargadas correctamente.");
 
 console.log("Ejecutando script del index...");
 await loadHTMLAndExecuteScripts("#main_header", "../partials/mainHeader.html");

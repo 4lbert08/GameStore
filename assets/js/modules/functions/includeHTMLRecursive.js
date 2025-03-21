@@ -34,6 +34,8 @@ async function executeScriptsSequentially(container) {
     for (const script of scripts) {
         await new Promise(resolve => {
             const scriptTag = document.createElement("script");
+            scriptTag.type = "module";
+
             if (script.src) {
                 scriptTag.src = script.src;
                 scriptTag.async = false;
@@ -41,9 +43,13 @@ async function executeScriptsSequentially(container) {
                 scriptTag.onerror = resolve;
             } else {
                 scriptTag.textContent = script.textContent;
+                document.body.appendChild(scriptTag);
                 resolve();
             }
-            document.body.appendChild(scriptTag);
+
+            if (script.src) {
+                document.body.appendChild(scriptTag);
+            }
         });
     }
 }

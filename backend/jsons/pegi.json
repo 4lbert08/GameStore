@@ -1,22 +1,27 @@
 [
   {
     "id": 2,
-    "name": "PEGI 3"
+    "name": "PEGI 3",
+    "games": []
   },
   {
     "id": 4,
-    "name": "PEGI 7"
+    "name": "PEGI 7",
+    "games": [5,38,40,42,44]
   },
   {
     "id": 6,
-    "name": "PEGI 12"
+    "name": "PEGI 12",
+    "games": []
   },
   {
     "id": 8,
-    "name": "PEGI 16"
+    "name": "PEGI 16",
+    "games": []
   },
   {
     "id": 10,
-    "name": "PEGI 18"
+    "name": "PEGI 18",
+    "games": [12,14,16,19,20,22,24,26,27,33,34,36,46,51,54,56]
   }
 ]
