@@ -33,14 +33,18 @@
         </div>
 
         <div class="mainHeader__icons">
-            <a href="../views/cart.html">
-                <img class="icon" src="../../assets/imgs/carrito.webp" alt="Carrito">
+            <a id=cartLink href="../views/login.html">
+                <img id="cartIcon" src="../../assets/imgs/carrito.webp" alt="Carrito">
             </a>
-            <a href="../views/login.html">
-                <img class="icon" src="../../assets/imgs/log_in_icon.png" alt="Usuario">
+            <a id="logLink" href="../views/login.html">
+                <img id="logIcon" src="../../assets/imgs/log_in_icon.png" alt="Usuario">
             </a>
         </div>
     </div>
 </header>
+<script type="module">
+    import { updateHeaderBasedOnUser } from "../../assets/js/modules/functions/loaders/userHeaderLoader.js";
+    updateHeaderBasedOnUser();
+</script>
 </body>
 </html>

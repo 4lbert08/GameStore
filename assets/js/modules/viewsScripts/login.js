@@ -30,6 +30,8 @@ function handleFormSubmission(formSelector, redirectUrl) {
         if (storedUser && storedUser.password === password) {
             console.log("Inicio de sesión exitoso.");
 
+            localStorage.setItem("user", JSON.stringify(storedUser));
+
             console.log("Datos del usuario:", storedUser.userName, storedUser.address);
 
             setTimeout(() => {
