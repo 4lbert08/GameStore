@@ -1,5 +1,5 @@
-import {handleFormSubmission} from "../functions/formHandler.js";
-import {passwordToggler} from "../functions/passwordToggler.js";
+import {handleFormSubmission} from "../functions/handlers/formHandler.js";
+import {passwordToggler} from "../functions/handlers/passwordToggler.js";
 console.log("Funciones cargadas correctamente.");
 
 console.log("Ejecutando script del logIn...");

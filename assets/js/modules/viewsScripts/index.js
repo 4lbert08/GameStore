@@ -1,5 +1,5 @@
-import {loadHTMLAndExecuteScripts} from "../functions/includeHTMLRecursive.js";
-import {initializeRowGalleries} from "../functions/loadRowGallery.js";
+import {loadHTMLAndExecuteScripts} from "../functions/handlers/includeHTMLRecursive.js";
+import {initializeRowGalleries} from "../functions/loaders/loadRowGallery.js";
 console.log("Funciones cargadas correctamente.");
 
 console.log("Ejecutando script del index...");

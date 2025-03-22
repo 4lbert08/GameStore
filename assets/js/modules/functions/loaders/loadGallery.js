@@ -1,4 +1,4 @@
-import { loadHTMLAndExecuteScripts } from "./includeHTMLRecursive.js";
+import { loadHTMLAndExecuteScripts } from "../handlers/includeHTMLRecursive.js";
 import { loadJson } from "./loadJson.js";
 
 const GAMES_PER_PAGE = 20;

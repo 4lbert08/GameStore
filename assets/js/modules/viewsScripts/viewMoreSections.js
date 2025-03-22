@@ -1,5 +1,5 @@
-import {loadHTMLAndExecuteScripts} from "../functions/includeHTMLRecursive.js";
-import {initializeGalleries} from "../functions/loadGallery.js";
+import {loadHTMLAndExecuteScripts} from "../functions/handlers/includeHTMLRecursive.js";
+import {initializeGalleries} from "../functions/loaders/loadGallery.js";
 console.log("Funciones cargadas correctamente.");
 
 console.log("Ejecutando script del viewMoreSections...");

@@ -1,5 +1,5 @@
-import {loadHTMLAndExecuteScripts} from "../functions/includeHTMLRecursive.js";
-import {VISAHandler} from "../functions/VISAHandler.js";
+import {loadHTMLAndExecuteScripts} from "../functions/handlers/includeHTMLRecursive.js";
+import {VISAHandler} from "../functions/handlers/VISAHandler.js";
 console.log("Funciones cargadas correctamente.")
 
 console.log("Ejecutando script del checkout...");

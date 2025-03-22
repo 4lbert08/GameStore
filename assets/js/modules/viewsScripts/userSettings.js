@@ -1,5 +1,5 @@
-import {loadHTMLAndExecuteScripts} from "../functions/includeHTMLRecursive.js";
-import {profilePictureHandler} from "../functions/profilePictureHandler.js";
+import {loadHTMLAndExecuteScripts} from "../functions/handlers/includeHTMLRecursive.js";
+import {profilePictureHandler} from "../functions/handlers/profilePictureHandler.js";
 console.log("Funciones cargadas correctamente.");
 
 console.log("Ejecutando script del userConfiguration...");

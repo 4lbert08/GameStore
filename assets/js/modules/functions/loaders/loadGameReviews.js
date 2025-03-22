@@ -1,4 +1,4 @@
-import { loadHTMLAndExecuteScripts } from "./includeHTMLRecursive.js";
+import { loadHTMLAndExecuteScripts } from "../handlers/includeHTMLRecursive.js";
 
 export function loadReviews(container) {
     console.log("Ejecutando loadCommentaries() en el contenedor:", container);

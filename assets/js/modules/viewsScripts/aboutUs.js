@@ -1,4 +1,4 @@
-import {loadHTMLAndExecuteScripts} from "../functions/includeHTMLRecursive.js";
+import {loadHTMLAndExecuteScripts} from "../functions/handlers/includeHTMLRecursive.js";
 console.log("Funciones cargadas correctamente.")
 
 console.log("Ejecutando script del aboutUs...");
