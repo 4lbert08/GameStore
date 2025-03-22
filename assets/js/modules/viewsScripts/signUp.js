@@ -22,7 +22,6 @@ export function handleFormSubmission(formSelector, redirectUrl) {
     form.addEventListener("submit", function (event) {
         event.preventDefault();
 
-        // Obtener los valores de los campos
         const email = document.querySelector("#EmailField").value;
         const password = document.querySelector("#PasswordField").value;
         const passwordRepeat = document.querySelector("#PasswordRepeatField").value;
@@ -30,34 +29,29 @@ export function handleFormSubmission(formSelector, redirectUrl) {
         const birthday = document.querySelector("#BirthdayField").value;
         const nacionality = document.querySelector("#NacionalityField").value;
 
-        // Validar que la dirección de email tenga un formato correcto
         const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
         if (!emailPattern.test(email)) {
             alert("Por favor, ingresa un email válido.");
             return;
         }
 
-        // Validar que las contraseñas coincidan
         if (password !== passwordRepeat) {
             alert("Las contraseñas no coinciden.");
             return;
         }
 
-        // Validar que la contraseña cumpla con los requisitos
         const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+.])[A-Za-z\d!@#$%^&*()_+.]{8,}$/;
         if (!passwordPattern.test(password)) {
             alert("La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una minúscula, un número y un carácter especial.");
             return;
         }
 
-        // Validar que el nombre de usuario no esté vacío
         if (!userName || !birthday) {
             alert("Por favor, llena todos los campos.");
             return;
         }
 
-        // Crear el objeto del usuario
-        const user = {
+        const storedUser = {
             email: email,
             password: password,
             userName: userName,
@@ -65,12 +59,11 @@ export function handleFormSubmission(formSelector, redirectUrl) {
             nacionality: nacionality
         };
 
-        // Almacenar el usuario en localStorage
-        localStorage.setItem(email, JSON.stringify(user));
+        localStorage.setItem(email, JSON.stringify(storedUser));
+        localStorage.setItem("user", JSON.stringify(storedUser));
 
-        console.log("Usuario registrado:", user);
+        console.log("Usuario registrado:", storedUser);
 
-        // Redirigir a la página de configuración de usuario
         setTimeout(() => {
             window.location.href = redirectUrl;
         }, 0);
