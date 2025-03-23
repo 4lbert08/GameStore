@@ -1,24 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../../assets/css/partials/gameInShoppingCart.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../assets/css/partials/gameSuggested.css" rel="stylesheet">
+  <title>Juego Recomendado</title>
 </head>
 <body>
 
-<div class="cartItem">
-  <div > <img class="cartItem__img" src="../../assets/imgs/fifa22.png"></div>
-  <div class="info">
-    <div class="cartItem__top_text">
-      <div class="cartItem__inside_text">Fifa 22</div>
-      <div class="cartItem__inside_text">-</div>
-      <div class="cartItem__inside_text">Plataforma</div>
+<div class="gameRecommended-card">
+  <div class="gameRecommended-status">Recomendado</div>
+  <div class="gameRecommended-content">
+    <div class="product-image">
+      <img src="../../assets/imgs/fifa22.png" alt="FIFA 22">
+      <div class="product-name">FIFA 22</div>
     </div>
-    <div class="cartItem__bottom_text">
-      <div class="cartItem__inside_text">Precio: XXXX$</div>
-      <button class="cartItem__move_to_cart" >Mover a la cesta <img class="cartItem__flecha" src="../../assets/imgs/flecha.png"></button>
+
+    <div class="gameRecommended-details">
+      <div class="gameRecommended-specs">
+        <div class="spec-item">
+          <span class="spec-label">Sistema: PC</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-label">Plataforma: Steam</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-label">Precio: 50$</span>
+        </div>
+      </div>
+      <div class="gameRecommended-description">
+        <p>Experiencia de fútbol definitiva con gráficos mejorados y jugabilidad realista.</p>
+      </div>
+    </div>
+
+    <div class="gameRecommended-actions">
+      <button class="details-btn">🔍 Ver detalles</button>
+      <button class="add-to-cart-btn">🛒 Añadir al carrito</button>
     </div>
   </div>
 </div>
+
 </body>
 </html>
