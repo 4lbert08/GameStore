@@ -113,6 +113,19 @@ header {
     color: #ffffff;
 }
 
+button {
+    padding: 10px 20px;
+    background-color: #6119B4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #6119BF;
+}
+
 footer {
     width: 100%;
     flex-shrink: 0;
