@@ -1,4 +1,5 @@
 import {loadJson} from "./jsonLoader.js";
+import {initializeReviews} from "./gameCommentariesLoader.js";
 
 export async function loadGameDetails() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -83,4 +84,5 @@ export async function loadGameDetails() {
         // Deberemos hacer una función aparte para esta funcionalidad
     };
 
+    initializeReviews("game", gameId);
 }

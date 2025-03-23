@@ -12,62 +12,72 @@ body {
     background: #272727;
 }
 
-.userReview__game-img{
-    border-radius: 20px;
-    height: 12rem;
+.userReview {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 75rem;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-bottom: 0.125rem solid black;
+}
+
+.userReview__game-containter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    flex-shrink: 0;
     width: 10rem;
 }
 
-.userReview__game-containter{
-    margin-left: 1rem;
-    margin-right:3rem;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+.userReview__game-img {
+    border-radius: 1.25rem;
+    height: 12rem;
+    width: 10rem;
+    object-fit: cover;
 }
 
-.userReview__user-img{
-    width: 7.25rem;
-    height: 7rem;
-    border-radius: 50px;
-
-}
-
-.userReview__user-containter{
-    margin-left: 1rem;
-    margin-right:3rem;
-    align-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.userReview__info{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-}
-.userReview__Review{
-    display: grid;
-    width: 90%;
-    height: 100%;
-    padding: 2rem;
-    align-content: center;
-    align-items: center;
-}
-
-.userReview__game-title{
+.userReview__game-title {
     font-family: "Genos", sans-serif;
     color: white;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    white-space: normal;
+    word-break: break-word;
+    width: 100%;
 }
 
+.userReview__info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex: 1;
+    gap: 1.5rem;
+}
 
-.userReview__user-name{
+.userReview__user-containter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 0.5rem;
+}
+
+.userReview__user-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userReview__user-name {
     font-family: "Genos", sans-serif;
     color: white;
     font-weight: bold;
@@ -75,52 +85,52 @@ body {
     text-align: center;
 }
 
-.userReview__text{
+.userReview__Review {
+    flex: 1;
+    padding: 0;
+}
+
+.userReview__text {
     color: #FFFFFF;
-    display: flex;
-    width: 100%;
     font-size: 1.25rem;
     font-weight: bold;
-    padding: 1.5rem;
     font-family: "Genos", sans-serif;
     text-align: justify;
-    gap: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    word-break: break-word;
 }
 
-.select_container {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    width: 3rem;
-    height: 3rem;
-    background-color: #663399FF;
+.no-comments {
+    color: #888;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: "Genos", sans-serif;
+    margin: 2rem 0;
 }
 
-.userReview{
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    width: 90%;
-    height: 20rem;
-    margin: auto;
-    border-bottom: black solid 2px;
-}
-
-@media (max-width: 900px) {
+@media (max-width: 56.25rem) {
     .userReview {
-        width: 90%;
         flex-direction: column;
-        height: auto;
-        padding: 1.25rem;
+        width: 90%;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+
+    .userReview__game-containter {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .userReview__info {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
     }
 
     .userReview__Review {
         width: 100%;
-        height: auto;
-    }
-
-    .userReview__game-containter {
-        display: none;
     }
 
     .userReview__text {
@@ -128,31 +138,35 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
     .userReview {
         width: 100%;
         padding: 0.625rem;
     }
 
+    .userReview__game-img {
+        height: 10rem;
+        width: 8rem;
+    }
+
     .userReview__game-containter {
-        display: none;
+        width: 8rem;
+    }
+
+    .userReview__game-title {
+        font-size: 1.25rem;
     }
 
     .userReview__user-img {
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
     }
 
     .userReview__user-name {
-        font-size: 0.975rem;
-    }
-
-    .userReview__Review {
-        padding: 0.625rem;
+        font-size: 1rem;
     }
 
     .userReview__text {
-        font-size: 0.75rem;
-        padding: 0.3125rem;
+        font-size: 0.875rem;
     }
 }

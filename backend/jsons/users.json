@@ -62,7 +62,7 @@
     "confirmed": false,
     "blocked": false,
     "birthdate": "1995-06-07",
-    "region": "JP",
+    "region": "ASIA",
     "profileImage": "https://i.pravatar.cc/150?img=3"
   },
   {
@@ -139,7 +139,7 @@
     "confirmed": false,
     "blocked": false,
     "birthdate": "1993-01-18",
-    "region": "JP",
+    "region": "ASIA",
     "profileImage": "https://i.pravatar.cc/150?img=10"
   }
 ]

@@ -15,10 +15,6 @@ const RESOURCE_PATHS = {
     pegi: PEGI_JSON_PATH
 };
 
-export const loadGamesDataOnly = async () => {
-    return await loadData(GAMES_JSON_PATH);
-};
-
 export const loadGameData = async (resources = ["games"]) => {
     const data = {
         gamesData: null,

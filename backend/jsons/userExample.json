@@ -9,9 +9,7 @@
     "blocked": false,
     "birthdate": "1990-03-20",
     "region": "EU",
-    "profileImage": "https://i.pravatar.cc/150?img=1",
-    "createdAt": "2020-01-01",
-    "updatedAt": "2025-03-23"
+    "profileImage": "https://i.pravatar.cc/150?img=1"
   },
   "cart": {
     "items": [
