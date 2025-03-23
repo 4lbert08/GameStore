@@ -1,40 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../../assets/css/partials/gameInShoppingCart.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../assets/css/partials/gameInShoppingCart.css" rel="stylesheet">
+    <title>Detalle de Pedido</title>
+
 </head>
 <body>
 
-<div class="cartItem">
-    <div><img class="cartItem__img" src="../../assets/imgs/fifa22.png"></div>
-    <div class="info">
-        <div class="cartItem__top_text">
-            <div class="cartItem__inside_text">Fifa 22</div>
-            <div class="cartItem__inside_text">-</div>
-            <div class="cartItem__inside_text">Plataforma</div>
+<div class="gameInShopping-card">
+    <div class="gameInShopping-status">En carrito</div>
+    <div class="gameInShopping-content">
+        <div class="product-image">
+            <img src="../../assets/imgs/fifa22.png" alt="">
+
+            <div class="product-name">FIFA 22</div>
         </div>
-        <div class="cartItem__bottom_text">
-            <img class="trashCan" src="../../assets/imgs/papelera.png">
-            <div class="cartItem__inside_text">Precio: XXXX$</div>
-            <div class="cartItem__inside_text">Cantidad:
-                <div class="cartItem__select_container">
-                <select id="cartItem__select-quantity">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
+
+        <div class="gameInShopping-details">
+            <div class="gameInShopping-specs">
+                <div class="spec-item">
+                    <span class="spec-label">Sistema: PC</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Plataforma: Steam</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Precio: 50$</span>
                 </div>
             </div>
+            <div class="gameInShopping-price"></div>
+            <div class="quantity-container">
+                <input type="number" class="quantity-input" value="1" min="1">
+            </div>
+        </div>
+
+
+        <div class="gameInShopping-actions">
+            <button class="remove-btn">🗑 Eliminar</button>
+            <button class="checkout-btn">💳 Proceder al pago</button>
         </div>
     </div>
 </div>
+
 </body>
 </html>
