@@ -10,6 +10,6 @@ await loadHTMLAndExecuteScripts("#userMenuButton", "../partials/userMenuButton.h
 //TODO
 // Deberíamos hacer que dependiendo de la url coja un json u otro (dependiendo del user)
 const json = [
-    "../../../backend/jsons/userExampleOrders.json",
+    "../../../backend/jsons/userExample.json",
 ];
 initializeUserOrders(json);

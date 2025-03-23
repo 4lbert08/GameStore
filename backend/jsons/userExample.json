@@ -1,5 +1,5 @@
 {
-  "usuario": {
+  "user": {
     "id": 1,
     "username": "ShadowFox92",
     "email": "shadowfox92@example.com",
@@ -9,72 +9,60 @@
     "blocked": false,
     "birthdate": "1990-03-20",
     "region": "EU",
-    "profileImage": "https://i.pravatar.cc/150?img=1"
+    "profileImage": "https://i.pravatar.cc/150?img=1",
+    "createdAt": "2020-01-01",
+    "updatedAt": "2025-03-23"
   },
-  "carrito": {
+  "cart": {
     "items": [
       {
-        "producto_id": "5",
-        "imagen": "https://m.media-amazon.com/images/I/81U-DS7w+CL.jpg",
-        "precio_unitario": 59.99,
-        "cantidad": 1,
-        "plataforma": "Nintendo Switch",
-        "descuento": 0
+        "productId": "5",
+        "quantity": 1,
+        "price": 59.99
       },
       {
-        "producto_id": "26",
-        "imagen": "https://gaming-cdn.com/images/products/3578/616x353/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-cover.jpg?v=1732116101",
-        "precio_unitario": 30,
-        "cantidad": 1,
-        "plataforma": "PS5",
-        "descuento": 0
+        "productId": "26",
+        "quantity": 1,
+        "price": 30.00
       }
     ],
-    "ultima_actualizacion": "2025-03-22T10:30:00Z"
+    "lastUpdated": "2025-03-22"
   },
-  "historial_compras": [
+  "purchaseHistory": [
     {
-      "id": "3464564563",
-      "productName": "God of War: Ragnarök-PS4",
-      "productImage": "https://gaming-cdn.com/images/products/16797/616x353/god-of-war-ragnarok-pc-juego-steam-europe-cover.jpg?v=1727531756",
+      "purchaseId": "3464564563",
+      "userId": 1,
+      "productId": "34",
       "date": "2023-05-15",
-      "system": "PS4",
-      "platform": "Steam",
-      "price": 39.99,
-      "cantidad": 1,
-      "invoiceLink": "https://example.com/invoice/33.pdf"
+      "quantity": 1,
+      "total": 39.99,
+      "invoiceLink": "https://example.com/invoice/34.pdf"
     },
     {
-      "id": "2837596832",
-      "productName": "Cyberpunk 2077-PC",
-      "productImage": "https://gaming-cdn.com/images/products/3578/616x353/cyberpunk-2077-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-cover.jpg?v=1732116101",
+      "purchaseId": "2837596832",
+      "userId": 1,
+      "productId": "22",
       "date": "2021-03-22",
-      "system": "PC",
-      "platform": "Microsoft Store",
-      "price": 30.00,
-      "cantidad": 1,
+      "quantity": 1,
+      "total": 30.00,
       "invoiceLink": "https://example.com/invoice/22.pdf"
     },
     {
-      "id": "3883485679",
-      "productName": "Stardew Valley-PS4",
-      "productImage": "https://gaming-cdn.com/images/products/1767/616x353/stardew-valley-pc-mac-juego-steam-cover.jpg?v=1704800467",
+      "purchaseId": "3883485679",
+      "userId": 1,
+      "productId": "38",
       "date": "2022-08-10",
-      "system": "PS4",
-      "platform": "Steam",
-      "price": 10.65,
-      "cantidad": 1,
+      "quantity": 1,
+      "total": 10.65,
       "invoiceLink": "https://example.com/invoice/38.pdf"
     },
     {
-      "id": "4395869404",
-      "productName": "Stardew Valley-Switch",
-      "productImage": "https://gaming-cdn.com/images/products/1767/616x353/stardew-valley-pc-mac-juego-steam-cover.jpg?v=1704800467",
+      "purchaseId": "4395869404",
+      "userId": 1,
+      "productId": "44",
       "date": "2023-01-05",
-      "system": "Switch",
-      "platform": "Nintendo eShop",
-      "price": 10.65,
-      "cantidad": 1,
+      "quantity": 1,
+      "total": 10.65,
       "invoiceLink": "https://example.com/invoice/44.pdf"
     }
   ]

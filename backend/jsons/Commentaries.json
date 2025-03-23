@@ -1,0 +1,182 @@
+[
+  {
+    "id_comentario": 1,
+    "id_juego": 5,
+    "id_usuario": 101,
+    "texto": "Increíble juego, el mundo abierto es simplemente espectacular. Los puzzles son un reto genial."
+  },
+  {
+    "id_comentario": 2,
+    "id_juego": 12,
+    "id_usuario": 102,
+    "texto": "Elden Ring es una obra maestra, pero los requisitos en PC son altos. ¡Vale la pena cada segundo!"
+  },
+  {
+    "id_comentario": 3,
+    "id_juego": 19,
+    "id_usuario": 103,
+    "texto": "Cyberpunk 2077 ha mejorado mucho desde el lanzamiento. Night City es inmersiva."
+  },
+  {
+    "id_comentario": 4,
+    "id_juego": 14,
+    "id_usuario": 104,
+    "texto": "La versión de Elden Ring en PS4 funciona bien, aunque a veces tiene caídas de frames."
+  },
+  {
+    "id_comentario": 5,
+    "id_juego": 16,
+    "id_usuario": 105,
+    "texto": "Elden Ring en PS5 es brutal, los gráficos son impresionantes."
+  },
+  {
+    "id_comentario": 6,
+    "id_juego": 20,
+    "id_usuario": 106,
+    "texto": "Jugar Elden Ring en Xbox Series X es una experiencia increíble, carga rapidísimo."
+  },
+  {
+    "id_comentario": 7,
+    "id_juego": 22,
+    "id_usuario": 107,
+    "texto": "Cyberpunk 2077 en PC tiene una atmósfera única, me encanta personalizar a V."
+  },
+  {
+    "id_comentario": 8,
+    "id_juego": 27,
+    "id_usuario": 108,
+    "texto": "God of War: Ragnarök en PS5 es épico, la historia me atrapó desde el principio."
+  },
+  {
+    "id_comentario": 9,
+    "id_juego": 33,
+    "id_usuario": 109,
+    "texto": "La versión de God of War: Ragnarök en PS4 está bien optimizada, gran trabajo."
+  },
+  {
+    "id_comentario": 10,
+    "id_juego": 40,
+    "id_usuario": 110,
+    "texto": "Stardew Valley en PC es mi juego relajante favorito, perfecto para desconectar."
+  },
+  {
+    "id_comentario": 11,
+    "id_juego": 44,
+    "id_usuario": 111,
+    "texto": "Stardew Valley en Switch es ideal para jugar en cualquier momento, muy portátil."
+  },
+  {
+    "id_comentario": 12,
+    "id_juego": 46,
+    "id_usuario": 112,
+    "texto": "Rainbow Six Siege en PC sigue siendo adictivo, el nivel táctico es insuperable."
+  },
+  {
+    "id_comentario": 13,
+    "id_juego": 51,
+    "id_usuario": 113,
+    "texto": "Rainbow Six Siege en PS5 se siente fluido, los controles son perfectos."
+  },
+  {
+    "id_comentario": 14,
+    "id_juego": 24,
+    "id_usuario": 114,
+    "texto": "Cyberpunk 2077 en PS4 tuvo problemas al inicio, pero ahora es disfrutable."
+  },
+  {
+    "id_comentario": 15,
+    "id_juego": 36,
+    "id_usuario": 115,
+    "texto": "God of War: Ragnarök en PC es una maravilla, los gráficos son de otro nivel."
+  },
+  {
+    "id_comentario": 16,
+    "id_juego": 26,
+    "id_usuario": 116,
+    "texto": "Cyberpunk 2077 en PS5 se ve espectacular, las mejoras valen la pena."
+  },
+  {
+    "id_comentario": 17,
+    "id_juego": 38,
+    "id_usuario": 117,
+    "texto": "Stardew Valley en PS4 es súper tranquilo, ideal para relajarse después del trabajo."
+  },
+  {
+    "id_comentario": 18,
+    "id_juego": 42,
+    "id_usuario": 118,
+    "texto": "Stardew Valley en Xbox One tiene un encanto especial, me encanta la vida en la granja."
+  },
+  {
+    "id_comentario": 19,
+    "id_juego": 54,
+    "id_usuario": 119,
+    "texto": "Rainbow Six Siege en PS4 sigue siendo divertido, aunque el matchmaking a veces falla."
+  },
+  {
+    "id_comentario": 20,
+    "id_juego": 56,
+    "id_usuario": 120,
+    "texto": "Rainbow Six Siege en Xbox Series X es intenso, los mapas son geniales."
+  },
+  {
+    "id_comentario": 21,
+    "id_juego": 34,
+    "id_usuario": 121,
+    "texto": "God of War: Ragnarök en Xbox Series X|S es un sueño hecho realidad, gran port."
+  },
+  {
+    "id_comentario": 22,
+    "id_juego": 5,
+    "id_usuario": 122,
+    "texto": "The Legend of Zelda: Breath of the Wild es arte puro, no me canso de explorarlo."
+  },
+  {
+    "id_comentario": 23,
+    "id_juego": 12,
+    "id_usuario": 123,
+    "texto": "Elden Ring en PC tiene un diseño de mundo increíble, aunque los bosses son duros."
+  },
+  {
+    "id_comentario": 24,
+    "id_juego": 19,
+    "id_usuario": 124,
+    "texto": "Cyberpunk 2077 en Xbox Series X|S tiene una vibra futurista que me encanta."
+  },
+  {
+    "id_comentario": 25,
+    "id_juego": 27,
+    "id_usuario": 125,
+    "texto": "God of War: Ragnarök en PS5 tiene combates brutales, Kratos es imparable."
+  },
+  {
+    "id_comentario": 26,
+    "id_juego": 40,
+    "id_usuario": 126,
+    "texto": "Stardew Valley en PC es adictivo, no puedo parar de cultivar y pescar."
+  },
+  {
+    "id_comentario": 27,
+    "id_juego": 46,
+    "id_usuario": 127,
+    "texto": "Rainbow Six Siege en PC tiene una comunidad genial, siempre hay algo que aprender."
+  },
+  {
+    "id_comentario": 28,
+    "id_juego": 16,
+    "id_usuario": 128,
+    "texto": "Elden Ring en PS5 me tiene enganchado, el diseño de niveles es asombroso."
+  },
+  {
+    "id_comentario": 29,
+    "id_juego": 22,
+    "id_usuario": 129,
+    "texto": "Cyberpunk 2077 en PC mejora con cada parche, la historia es atrapante."
+  },
+  {
+    "id_comentario": 30,
+    "id_juego": 44,
+    "id_usuario": 130,
+    "texto": "Stardew Valley en Switch es perfecto para viajes largos, muy entretenido."
+  }
+]

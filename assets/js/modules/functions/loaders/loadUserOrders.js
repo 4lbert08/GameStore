@@ -1,5 +1,6 @@
 import { loadHTMLAndExecuteScripts } from "../handlers/includeHTMLRecursive.js";
 import { loadJson } from "./loadJson.js";
+import { getGameData } from "../getters/getGamesData.js";
 
 const updateOrderCard = (orderCard, order) => {
     const elements = {
@@ -35,13 +36,22 @@ const createOrderSlot = (orderIndex, order, index) => {
 };
 
 export async function loadOrders(container, orderIndex, jsonPath) {
-    console.log(`Cargando órdenes para el contenedor ${orderIndex}`);
+    const userData = await loadJson(jsonPath);
+    if (!userData || !userData.purchaseHistory) return;
 
-    const ordersData = await loadJson(jsonPath);
-    if (!ordersData) {
-        console.error('No se pudieron cargar los datos de las órdenes.');
-        return;
-    }
+    const ordersData = await Promise.all(userData.purchaseHistory.map(async order => {
+        const gameData = await getGameData(order.productId);
+        return {
+            id: order.purchaseId,
+            productImage: gameData.productImage,
+            productName: gameData.productName,
+            date: order.date,
+            system: gameData.system,
+            platform: gameData.platform,
+            price: gameData.price,
+            invoiceLink: order.invoiceLink
+        };
+    }));
 
     const ordersContainer = document.createElement('div');
     ordersContainer.className = 'orders';
@@ -51,7 +61,6 @@ export async function loadOrders(container, orderIndex, jsonPath) {
     const loadPromises = ordersData.map((order, index) => {
         const slot = createOrderSlot(orderIndex, order, index);
         ordersContainer.appendChild(slot);
-        console.log(`Asignado ID: ${slot.id}, cargando orden: ${order.productName}`);
 
         return loadHTMLAndExecuteScripts(`#${slot.id}`, "../../templates/partials/order.html")
             .then(() => {

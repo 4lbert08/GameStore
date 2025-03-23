@@ -40,7 +40,7 @@ export function handleFormSubmission(formSelector, redirectUrl) {
             return;
         }
 
-        const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+.])[A-Za-z\d!@#$%^&*()_+.]{8,}$/;
+        const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+.:,;-])[A-Za-z\d!@#$%^&*()_+.]{8,}$/;
         if (!passwordPattern.test(password)) {
             alert("La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una minúscula, un número y un carácter especial.");
             return;
