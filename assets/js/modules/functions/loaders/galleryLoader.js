@@ -30,7 +30,7 @@ const createGameSlot = (galleryIndex, game, index) => {
     return slot;
 };
 
-export async function loadGames(container, galleryIndex, jsonPath, customTitle = null) {
+export async function loadGames(container, galleryIndex, jsonPath) {
     console.log(`Cargando juegos para la galería ${galleryIndex}`);
 
     const gamesData = await loadJson(jsonPath);
@@ -87,21 +87,16 @@ export async function loadGames(container, galleryIndex, jsonPath, customTitle =
         }
     });
 
-    const titleElement = container.querySelector('.title h2');
-    const finalTitle = customTitle || container.dataset.title || `Juegos Populares ${galleryIndex + 1}`;
-    if (titleElement) titleElement.textContent = finalTitle;
-
     await renderPage(currentPage);
 }
 
-export function initializeGalleries(titles = [], jsonPaths = []) {
+export function initializeGalleries(jsonPaths = []) {
     setTimeout(() => {
         const galleries = document.querySelectorAll(".gallery-container");
 
         galleries.forEach((gallery, index) => {
-            const title = titles[index] || "Juegos Populares";
             const jsonPath = jsonPaths[index] || '../../../backend/jsons/games.json';
-            loadGames(gallery, index, jsonPath, title);
+            loadGames(gallery, index, jsonPath);
         });
     }, 0);
 }

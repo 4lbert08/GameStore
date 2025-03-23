@@ -84,5 +84,6 @@ export async function loadGameDetails() {
         // Deberemos hacer una función aparte para esta funcionalidad
     };
 
+
     initializeReviews("game", gameId);
 }

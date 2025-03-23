@@ -45,6 +45,20 @@ export async function loadGames(container, galleryIndex, jsonPath, customTitle =
     if (titleElement) {
         titleElement.textContent = finalTitle;
     }
+
+    const viewMoreButton = container.querySelector('.title button');
+    if (viewMoreButton) {
+        viewMoreButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            const encodedJsonPath = encodeURIComponent(jsonPath);
+            const encodedTitle = encodeURIComponent(finalTitle);
+            console.log('jsonPath antes de codificar:', jsonPath);
+            console.log('encodedJsonPath:', encodedJsonPath);
+            window.location.href = `../views/viewMoreSections.html?jsonPath=${encodedJsonPath}&title=${encodedTitle}`;
+        });
+    } else {
+        console.warn('No se encontró el botón "Ver más" en el contenedor de la galería.');
+    }
 }
 
 export function initializeRowGalleries(titles = [], jsonPaths = []) {
