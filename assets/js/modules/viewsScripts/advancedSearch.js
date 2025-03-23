@@ -1,5 +1,5 @@
 import {loadHTMLAndExecuteScripts} from "../functions/handlers/includeHTMLRecursive.js";
-import {initializeGalleries} from "../functions/loaders/loadGallery.js";
+import {initializeGalleries} from "../functions/loaders/galleryLoader.js";
 console.log("Funciones cargadas correctamente.")
 
 console.log("Ejecutando script del advancedSearch...");

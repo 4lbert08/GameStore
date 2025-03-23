@@ -1,5 +1,5 @@
 import { loadHTMLAndExecuteScripts } from "../handlers/includeHTMLRecursive.js";
-import { loadJson } from "./loadJson.js";
+import { loadJson } from "./jsonLoader.js";
 import { getGameData } from "../getters/getGamesData.js";
 
 const updateOrderCard = (orderCard, order) => {

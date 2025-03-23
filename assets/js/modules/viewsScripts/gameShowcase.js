@@ -1,7 +1,7 @@
 import { loadHTMLAndExecuteScripts } from "../functions/handlers/includeHTMLRecursive.js";
-import { initializeRowGalleries } from "../functions/loaders/loadRowGallery.js";
-import { initializeReviews } from "../functions/loaders/loadGameReviews.js";
-import { loadGameDetails } from "../functions/loaders/loadGameDetails.js";
+import { initializeRowGalleries } from "../functions/loaders/rowGalleryLoader.js";
+import { initializeReviews } from "../functions/loaders/gameReviewsLoader.js";
+import { loadGameDetails } from "../functions/loaders/gameDetailsLoader.js";
 
 console.log("Funciones cargadas correctamente.");
 

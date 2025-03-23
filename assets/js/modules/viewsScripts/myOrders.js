@@ -1,5 +1,5 @@
 import {loadHTMLAndExecuteScripts} from "../functions/handlers/includeHTMLRecursive.js";
-import {initializeUserOrders} from "../functions/loaders/loadUserOrders.js";
+import {initializeUserOrders} from "../functions/loaders/userOrdersLoader.js";
 console.log("Funciones cargadas correctamente.");
 
 console.log("Ejecutando script del myOrders...");

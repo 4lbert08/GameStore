@@ -1,4 +1,4 @@
-import { loadJson } from "./loadJson.js";
+import { loadJson } from "./jsonLoader.js";
 
 export const loadData = async (path) => {
     const data = await loadJson(path);

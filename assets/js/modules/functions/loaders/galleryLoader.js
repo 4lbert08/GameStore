@@ -1,5 +1,5 @@
 import { loadHTMLAndExecuteScripts } from "../handlers/includeHTMLRecursive.js";
-import { loadJson } from "./loadJson.js";
+import { loadJson } from "./jsonLoader.js";
 
 const GAMES_PER_PAGE = 20;
 

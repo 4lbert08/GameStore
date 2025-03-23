@@ -1,5 +1,5 @@
 import {loadHTMLAndExecuteScripts} from "../functions/handlers/includeHTMLRecursive.js";
-import {initializeRowGalleries} from "../functions/loaders/loadRowGallery.js";
+import {initializeRowGalleries} from "../functions/loaders/rowGalleryLoader.js";
 import {updateHeaderBasedOnUser} from "../functions/loaders/userHeaderLoader.js";
 
 console.log("Funciones cargadas correctamente.");

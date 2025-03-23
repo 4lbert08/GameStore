@@ -1,5 +1,5 @@
 import { loadHTMLAndExecuteScripts } from "../handlers/includeHTMLRecursive.js";
-import { loadJson } from "./loadJson.js";
+import { loadJson } from "./jsonLoader.js";
 
 export async function loadGames(container, galleryIndex, jsonPath, customTitle = null) {
     console.log(`Ejecutando loadGames() para la galería ${galleryIndex}`);

@@ -1,4 +1,4 @@
-import {loadJson} from "./loadJson.js";
+import {loadJson} from "./jsonLoader.js";
 
 export async function loadGameDetails() {
     const urlParams = new URLSearchParams(window.location.search);

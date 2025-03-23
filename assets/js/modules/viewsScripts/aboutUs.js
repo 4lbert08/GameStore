@@ -1,5 +1,5 @@
 import {loadHTMLAndExecuteScripts} from "../functions/handlers/includeHTMLRecursive.js";
-import {setupTeamSection} from "../functions/loaders/loadDevelopersCards.js";
+import {setupTeamSection} from "../functions/loaders/developersCardsLoader.js";
 console.log("Funciones cargadas correctamente.")
 
 console.log("Ejecutando script del aboutUs...");

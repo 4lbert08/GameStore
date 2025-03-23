@@ -1,5 +1,5 @@
 import {loadHTMLAndExecuteScripts} from "../functions/handlers/includeHTMLRecursive.js";
-import {initializeGameSlots} from "../functions/loaders/loadGamesSlots.js";
+import {initializeGameSlots} from "../functions/loaders/gamesSlotsLoader.js";
 console.log("Funciones cargadas correctamente.");
 
 console.log("Ejecutando script del cart...");

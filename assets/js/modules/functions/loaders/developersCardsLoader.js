@@ -1,5 +1,5 @@
 import { loadHTMLAndExecuteScripts } from "../handlers/includeHTMLRecursive.js";
-import { loadJson } from "./loadJson.js";
+import { loadJson } from "./jsonLoader.js";
 
 export async function loadTeamMembers(container, jsonPath) {
     console.log(`Ejecutando loadTeamMembers() para la sección de equipo`);
