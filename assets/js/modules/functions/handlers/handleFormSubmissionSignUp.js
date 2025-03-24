@@ -15,9 +15,9 @@ export function handleFormSubmission(formSelector, redirectUrl) {
         const email = document.querySelector("#EmailField").value;
         const password = document.querySelector("#PasswordField").value;
         const passwordRepeat = document.querySelector("#PasswordRepeatField").value;
-        const userName = document.querySelector("#UsernameField").value;
+        const nickname = document.querySelector("#UsernameField").value;
         const birthday = document.querySelector("#BirthdayField").value;
-        const nacionality = document.querySelector("#NacionalityField").value;
+        const region = document.querySelector("#NacionalityField").value;
 
         const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
         if (!emailPattern.test(email)) {
@@ -36,7 +36,7 @@ export function handleFormSubmission(formSelector, redirectUrl) {
             return;
         }
 
-        if (!userName || !birthday) {
+        if (!nickname || !birthday) {
             alert("Por favor, llena todos los campos.");
             return;
         }
@@ -44,9 +44,9 @@ export function handleFormSubmission(formSelector, redirectUrl) {
         const storedUser = {
             email: email,
             password: password,
-            userName: userName,
+            nickname: nickname,
             birthday: birthday,
-            region: nacionality
+            region: region
         };
 
         localStorage.setItem(email, JSON.stringify(storedUser));
