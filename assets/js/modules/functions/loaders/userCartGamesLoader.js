@@ -1,27 +1,8 @@
 import { loadHTMLAndExecuteScripts } from "../handlers/includeHTMLRecursive.js";
 import { loadJson } from "./jsonLoader.js";
 import { getGameData } from "../getters/gamesDataMappingGetter.js";
-
-const updateCartCard = (cartCard, cartItem) => {
-    const elements = {
-        productImage: cartCard.querySelector('.product-image img'),
-        productName: cartCard.querySelector('.product-name'),
-        system: cartCard.querySelector('.gameInShopping-specs .spec-item:nth-child(1)'),
-        platform: cartCard.querySelector('.gameInShopping-specs .spec-item:nth-child(2)'),
-        price: cartCard.querySelector('.gameInShopping-specs .spec-item:nth-child(3)'),
-        quantityInput: cartCard.querySelector('.quantity-input')
-    };
-
-    if (elements.productImage) {
-        elements.productImage.src = cartItem.productImage;
-        elements.productImage.alt = `${cartItem.productName} Cover`;
-    }
-    if (elements.productName) elements.productName.textContent = cartItem.productName || 'Producto sin nombre';
-    if (elements.system) elements.system.innerHTML = `<span class="spec-label">Sistema:</span> ${cartItem.system || 'N/A'}`;
-    if (elements.platform) elements.platform.innerHTML = `<span class="spec-label">Plataforma:</span> ${cartItem.platform || 'N/A'}`;
-    if (elements.price) elements.price.innerHTML = `<span class="spec-label">Precio:</span> $${cartItem.price ? cartItem.price.toFixed(2) : 'N/A'}`;
-    if (elements.quantityInput) elements.quantityInput.value = cartItem.quantity || 1;
-};
+import { updateCartCard } from "../setters/cartCardSetter.js";
+import { setCartItems, getCartItems, removeItem, refreshSummary } from "../handlers/cartHandler.js";
 
 const createCartSlot = (cartIndex, item, index) => {
     const slot = document.createElement('div');
@@ -33,38 +14,56 @@ const createCartSlot = (cartIndex, item, index) => {
 
 export async function loadCartItems(container, cartIndex, jsonPath) {
     const userData = await loadJson(jsonPath);
-    if (!userData || !userData.cart || !userData.cart.items) return;
+    if (!userData || !userData.cart || !userData.cart.items) {
+        setCartItems([]);
+        refreshSummary();
+        return;
+    }
 
     const cartItemsData = await Promise.all(userData.cart.items.map(async (item) => {
-        const gameData = await getGameData(item.productId);
+        const productId = parseInt(item.productId);
+        if (!productId || isNaN(productId)) {
+            console.warn(`productId inválido para el ítem del carrito:`, item);
+            return null;
+        }
+
+        const gameData = await getGameData(productId);
         return {
-            productId: item.productId,
+            productId: productId,
             productImage: gameData.productImage,
             productName: gameData.productName,
             system: gameData.system,
             platform: gameData.platform,
             price: item.price,
-            quantity: item.quantity
+            quantity: item.quantity || 1,
+            discount: gameData.discount || 0
         };
     }));
+
+    const validCartItems = cartItemsData.filter(item => item !== null);
+    setCartItems(validCartItems);
 
     const cartContainer = document.createElement('div');
     cartContainer.className = 'cart-items';
     container.innerHTML = '';
     container.appendChild(cartContainer);
 
-    const loadPromises = cartItemsData.map((item, index) => {
+    const loadPromises = getCartItems().map((item, index) => {
         const slot = createCartSlot(cartIndex, item, index);
         cartContainer.appendChild(slot);
 
         return loadHTMLAndExecuteScripts(`#${slot.id}`, "../../templates/partials/gameInShoppingCart.html")
             .then(() => {
                 const cartCard = slot.querySelector('.gameInShopping-card');
-                if (cartCard) updateCartCard(cartCard, item);
+                if (cartCard) {
+                    updateCartCard(cartCard, item, refreshSummary, (id) => removeItem(id, cartContainer, cartIndex, loadHTMLAndExecuteScripts, updateCartCard));
+                }
             });
     });
 
     await Promise.all(loadPromises);
+
+    refreshSummary();
 }
 
 export function initializeCart(jsonPath) {
