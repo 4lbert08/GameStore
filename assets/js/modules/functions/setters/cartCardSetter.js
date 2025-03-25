@@ -1,3 +1,11 @@
+export const createCartSlot = (cartIndex, item, index) => {
+    const slot = document.createElement('div');
+    slot.className = 'cart-item';
+    const cartItemId = `cart-item-${cartIndex}-${index + 1}`;
+    slot.id = cartItemId;
+    return slot;
+};
+
 export const updateCartCard = (cartCard, cartItem, onQuantityChange, onRemove) => {
     const elements = {
         productImage: cartCard.querySelector('.product-image img'),
