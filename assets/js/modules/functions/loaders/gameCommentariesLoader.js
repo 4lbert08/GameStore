@@ -2,8 +2,9 @@ import { getCommentsByGame, getCommentsByUser } from "../getters/commentariesGet
 import {loadUsersMap} from "../getters/basicUserDataGetter.js";
 import {loadGamesMap} from "../getters/basicGameDataGetter.js";
 import {loadHTMLAndExecuteScripts} from "../handlers/includeHTMLRecursive.js";
+import {updateReviewCard} from "../setters/commentarySetter.js";
 
-export const createReviewSlot = (containerIndex, review, index) => {
+const createReviewSlot = (containerIndex, review, index) => {
     const slot = document.createElement('div');
     slot.className = 'review';
     const reviewId = `review-${containerIndex}-${index + 1}`;
@@ -11,41 +12,7 @@ export const createReviewSlot = (containerIndex, review, index) => {
     return slot;
 };
 
-export const updateReviewCard = (reviewCard, review, gamesMap, usersMap) => {
-    const elements = {
-        gameImg: reviewCard.querySelector('.userReview__game-img'),
-        gameTitle: reviewCard.querySelector('.userReview__game-title'),
-        userImg: reviewCard.querySelector('.userReview__user-img'),
-        userName: reviewCard.querySelector('.userReview__user-name'),
-        text: reviewCard.querySelector('.userReview__text')
-    };
-
-    const gameData = gamesMap[review.id_juego] || {};
-    if (elements.gameImg) {
-        elements.gameImg.src = gameData.gameCover || '../../assets/imgs/default.png';
-        elements.gameImg.alt = `${gameData.name || 'Juego desconocido'} Cover`;
-    }
-
-    if (elements.gameTitle) {
-        elements.gameTitle.textContent = gameData.name || 'Juego desconocido';
-    }
-
-    const userData = usersMap[review.id_usuario] || {};
-    if (elements.userImg) {
-        elements.userImg.src = userData.profileImage || '../../assets/imgs/default-user.png';
-        elements.userImg.alt = `${userData.username || 'Usuario desconocido'} Profile`;
-    }
-
-    if (elements.userName) {
-        elements.userName.textContent = userData.username || 'Usuario desconocido';
-    }
-
-    if (elements.text) {
-        elements.text.textContent = review.texto || 'Sin comentario';
-    }
-};
-
-export const renderComments = async (container, containerIndex, comments) => {
+const renderComments = async (container, containerIndex, comments) => {
     const gamesMap = await loadGamesMap();
     const usersMap = await loadUsersMap();
 
