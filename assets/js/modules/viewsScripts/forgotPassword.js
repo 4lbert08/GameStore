@@ -7,4 +7,4 @@ console.log("Funciones cargadas correctamente.");
 console.log("Ejecutando script del forgotPassword...");
 passwordToggler("#PasswordField","#privacyToggler");
 passwordToggler("#PasswordRepeatField","#privacyTogglerRepeat");
-handlerFormSubmissionForgotPassword("#forgotPassword__Form", "OTPVerification.html");
+handlerFormSubmissionForgotPassword("#forgotPassword__Form", "resetPassword.html");

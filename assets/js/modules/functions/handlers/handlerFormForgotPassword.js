@@ -16,25 +16,27 @@ export function handlerFormSubmissionForgotPassword(formSelector, redirectUrl) {
         const password = document.querySelector("#PasswordField").value;
         const passwordRepeat = document.querySelector("#PasswordRepeatField").value;
 
-        const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-        if (!emailPattern.test(email)) {
-            alert("Por favor, ingresa un email válido.");
-            return;
-        }
+        const storedUser = JSON.parse(localStorage.getItem(email));
 
-        if (password !== passwordRepeat) {
-            alert("Las contraseñas no coinciden.");
-            return;
-        }
+        if (storedUser && storedUser.email === email) {
 
-        const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+.:,;-])[A-Za-z\d!@#$%^&*()_+.]{8,}$/;
-        if (!passwordPattern.test(password)) {
-            alert("La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una minúscula, un número y un carácter especial.");
-            return;
-        }
+            if (password !== passwordRepeat) {
+                alert("Las contraseñas no coinciden.");
+                return;
+            }
 
-        setTimeout(() => {
-            window.location.href = redirectUrl;
-        }, 0);
+            const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+.:,;-])[A-Za-z\d!@#$%^&*()_+.]{8,}$/;
+            if (!passwordPattern.test(password)) {
+                alert("La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una minúscula, un número y un carácter especial.");
+                return;
+            }
+
+            storedUser.password = password;
+            localStorage.setItem(email, JSON.stringify(storedUser));
+
+            setTimeout(() => {
+                window.location.href = redirectUrl;
+            }, 0);
+        }
     });
 }
