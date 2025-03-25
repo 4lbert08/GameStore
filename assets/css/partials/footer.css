@@ -2,9 +2,10 @@
 
 footer {
     background: linear-gradient(to right, #f30202, #0101fd);
-    padding: 1rem 0;
+    padding: 0.4rem 0;
     margin: 0;
     width: 100%;
+    height: auto;
     text-align: center;
     color: white;
     font-size: 2rem;

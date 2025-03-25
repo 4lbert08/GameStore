@@ -2,48 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout</title>
     <link rel="stylesheet" type="text/css" href="../../assets/css/views/checkout.css">
     <script type="module" src="../../assets/js/modules/viewsScripts/checkout.js"></script>
-
 </head>
 <body>
-
 <header id="main_header"></header>
-
 <div class="main_container">
     <div class="main">
-
         <h1>
-            <a href="cart.html"> <img class="flecha" src="../../assets/imgs/flecha.png"> </a>
             Pago
+            <a href="cart.html" class="back-link">
+                <img class="back-arrow" src="../../assets/imgs/flecha.png" alt="Back Arrow">
+            </a>
         </h1>
-
         <div class="checkout">
-
             <div class="checkout__methods">
+                <h2>Métodos de Pago</h2>
                 <div class="checkout__methods-dropdown">
-                    <button class="dropbtn">VISA</button>
-                    <div class="dropdown-content">
+                    <button class="dropbtn dropdown-toggle" data-target="visaDropdown">VISA</button>
+                    <div class="dropdown-content" id="visaDropdown">
                         <div class="checkout__method-card">
                             <form action="" method="get">
                                 <div class="checkout__card-input">
                                     <label for="VISANumber">Número de la tarjeta</label>
-                                    <input class="input" type ="text" name="nickname" id="VISANumber"  placeholder="1234 5678 9012 3456">
+                                    <input class="input" type="text" name="cardNumber" id="VISANumber" placeholder="1234 5678 9012 3456">
                                 </div>
                                 <div class="checkout__card-inputsmall">
                                     <div class="checkout__card-input">
                                         <label for="expiredate">Fecha de caducidad</label>
-                                        <input class="input-small" type ="text" name="nickname" id="expiredate" placeholder="MM/YY">
+                                        <input class="input-small" type="text" name="expireDate" id="expiredate" placeholder="MM/YY">
                                     </div>
                                     <div class="checkout__card-input">
                                         <label for="CVV">CVV</label>
-                                        <input class="input-small" type ="text" name="nickname" id="CVV" placeholder="XXX">
+                                        <input class="input-small" type="text" name="cvv" id="CVV" placeholder="XXX">
                                     </div>
                                 </div>
                                 <div class="checkout__card-input">
                                     <label for="cardHolder">Titular de la tarjeta</label>
-                                    <input class="input" type ="text" name="nickname" id="cardHolder" placeholder="John Doe ">
+                                    <input class="input" type="text" name="cardHolder" id="cardHolder" placeholder="John Doe">
                                 </div>
                             </form>
                         </div>
@@ -56,23 +54,28 @@
                     <a class="link" href="https://bizum.com/es/">Bizum</a>
                 </div>
             </div>
-
-
-
             <div class="checkout__resumen">
-                <h2>Resumen</h2>
-                <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
-                <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
-                <p class="checkout_resumen-text">Titulo - Plataforma - Precio</p>
-                <p class="checkout_resumen-text">Total: XXXX$</p>
-                <button class="button">Comprar</button>
+                <h2 class="resumen__title">Resumen</h2>
+                <div class="resumen__details">
+                    <div class="resumen__row">
+                        <span>Subtotal:</span>
+                        <span>Precio</span>
+                    </div>
+                    <div class="resumen__row">
+                        <span>Descuento:</span>
+                        <span>Precio</span>
+                    </div>
+                    <div class="resumen__divider"></div>
+                    <div class="resumen__row resumen__total">
+                        <span>Total:</span>
+                        <span>XXXX$</span>
+                    </div>
+                </div>
+                <button class="resumen__button">Comprar</button>
             </div>
         </div>
-
     </div>
 </div>
-
 <footer id="footer"></footer>
-
 </body>
 </html>
