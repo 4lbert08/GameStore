@@ -113,7 +113,7 @@ header {
     color: #ffffff;
 }
 
-button {
+#logoutBtn {
     padding: 10px 20px;
     background-color: #6119B4;
     color: white;
@@ -122,7 +122,7 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
-button:hover {
+#logoutBtn:hover {
     background-color: #6119BF;
 }
 

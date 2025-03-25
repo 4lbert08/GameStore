@@ -110,7 +110,7 @@ body {
     margin: 2rem 0;
 }
 
-@media (max-width: 56.25rem) {
+@media (max-width: 900px) {
     .userReview {
         flex-direction: column;
         width: 90%;
@@ -119,8 +119,7 @@ body {
     }
 
     .userReview__game-containter {
-        margin-right: 0;
-        margin-bottom: 1rem;
+        display: none;
     }
 
     .userReview__info {
@@ -138,24 +137,16 @@ body {
     }
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 480px) {
     .userReview {
         width: 100%;
         padding: 0.625rem;
     }
 
-    .userReview__game-img {
-        height: 10rem;
-        width: 8rem;
-    }
-
     .userReview__game-containter {
-        width: 8rem;
+        display: none;
     }
 
-    .userReview__game-title {
-        font-size: 1.25rem;
-    }
 
     .userReview__user-img {
         width: 4rem;
