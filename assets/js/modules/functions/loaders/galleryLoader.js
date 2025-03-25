@@ -1,16 +1,8 @@
 import { loadHTMLAndExecuteScripts } from "../handlers/includeHTMLRecursive.js";
 import { loadJson } from "./jsonLoader.js";
-import {updateGameCard} from "../setters/gameCardSetter.js";
+import {createGameSlot, updateGameCard} from "../setters/gameCardSetter.js";
 
 const GAMES_PER_PAGE = 20;
-
-const createGameSlot = (galleryIndex, game, index) => {
-    const slot = document.createElement('div');
-    slot.className = 'card__game';
-    const gameId = `game-${galleryIndex}-${index + 1}`;
-    slot.id = gameId;
-    return slot;
-};
 
 export async function loadGames(container, galleryIndex, jsonPath) {
     console.log(`Cargando juegos para la galería ${galleryIndex}`);

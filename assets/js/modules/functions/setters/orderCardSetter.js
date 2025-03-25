@@ -1,3 +1,11 @@
+export const createOrderSlot = (orderIndex, order, index) => {
+    const slot = document.createElement('div');
+    slot.className = 'order';
+    const orderId = `order-${orderIndex}-${index + 1}`;
+    slot.id = orderId;
+    return slot;
+};
+
 export const updateOrderCard = (orderCard, order) => {
     const elements = {
         productImage: orderCard.querySelector('.product-image img'),

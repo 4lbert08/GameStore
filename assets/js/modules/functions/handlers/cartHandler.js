@@ -12,6 +12,14 @@ export const getCartItems = () => {
     return cartItems;
 };
 
+export const createCartSlot = (cartIndex, item, index) => {
+    const slot = document.createElement('div');
+    slot.className = 'cart-item';
+    const cartItemId = `cart-item-${cartIndex}-${index + 1}`;
+    slot.id = cartItemId;
+    return slot;
+};
+
 export const calculatePaymentSummary = () => {
     let subtotal = 0;
     let totalDiscount = 0;

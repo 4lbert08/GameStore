@@ -1,15 +1,7 @@
 import { loadHTMLAndExecuteScripts } from "../handlers/includeHTMLRecursive.js";
 import { loadJson } from "./jsonLoader.js";
 import { getGameData } from "../getters/gamesDataMappingGetter.js";
-import {updateOrderCard} from "../setters/orderCardSetter.js";
-
-const createOrderSlot = (orderIndex, order, index) => {
-    const slot = document.createElement('div');
-    slot.className = 'order';
-    const orderId = `order-${orderIndex}-${index + 1}`;
-    slot.id = orderId;
-    return slot;
-};
+import {createOrderSlot, updateOrderCard} from "../setters/orderCardSetter.js";
 
 export async function loadOrders(container, orderIndex, jsonPath) {
     const userData = await loadJson(jsonPath);

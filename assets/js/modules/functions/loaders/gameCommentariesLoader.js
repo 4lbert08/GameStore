@@ -2,15 +2,7 @@ import { getCommentsByGame, getCommentsByUser } from "../getters/commentariesGet
 import {loadUsersMap} from "../getters/basicUserDataGetter.js";
 import {loadGamesMap} from "../getters/basicGameDataGetter.js";
 import {loadHTMLAndExecuteScripts} from "../handlers/includeHTMLRecursive.js";
-import {updateReviewCard} from "../setters/commentarySetter.js";
-
-const createReviewSlot = (containerIndex, review, index) => {
-    const slot = document.createElement('div');
-    slot.className = 'review';
-    const reviewId = `review-${containerIndex}-${index + 1}`;
-    slot.id = reviewId;
-    return slot;
-};
+import {createReviewSlot, updateReviewCard} from "../setters/commentarySetter.js";
 
 const renderComments = async (container, containerIndex, comments) => {
     const gamesMap = await loadGamesMap();

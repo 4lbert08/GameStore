@@ -1,3 +1,11 @@
+export const createGameSlot = (galleryIndex, game, index) => {
+    const slot = document.createElement('div');
+    slot.className = 'card__game';
+    const gameId = `game-${galleryIndex}-${index + 1}`;
+    slot.id = gameId;
+    return slot;
+};
+
 export const updateGameCard = (gameCard, game) => {
     const elements = {
         cover: gameCard.querySelector('.game-card__cover'),

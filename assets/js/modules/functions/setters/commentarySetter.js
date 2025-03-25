@@ -1,3 +1,11 @@
+export const createReviewSlot = (containerIndex, review, index) => {
+    const slot = document.createElement('div');
+    slot.className = 'review';
+    const reviewId = `review-${containerIndex}-${index + 1}`;
+    slot.id = reviewId;
+    return slot;
+};
+
 export const updateReviewCard = (reviewCard, review, gamesMap, usersMap) => {
     const elements = {
         gameImg: reviewCard.querySelector('.userReview__game-img'),

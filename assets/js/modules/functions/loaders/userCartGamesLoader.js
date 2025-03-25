@@ -2,15 +2,7 @@ import { loadHTMLAndExecuteScripts } from "../handlers/includeHTMLRecursive.js";
 import { loadJson } from "./jsonLoader.js";
 import { getGameData } from "../getters/gamesDataMappingGetter.js";
 import { updateCartCard } from "../setters/cartCardSetter.js";
-import { setCartItems, getCartItems, removeItem, refreshSummary } from "../handlers/cartHandler.js";
-
-const createCartSlot = (cartIndex, item, index) => {
-    const slot = document.createElement('div');
-    slot.className = 'cart-item';
-    const cartItemId = `cart-item-${cartIndex}-${index + 1}`;
-    slot.id = cartItemId;
-    return slot;
-};
+import {setCartItems, getCartItems, removeItem, refreshSummary, createCartSlot} from "../handlers/cartHandler.js";
 
 export async function loadCartItems(container, cartIndex, jsonPath) {
     const userData = await loadJson(jsonPath);
