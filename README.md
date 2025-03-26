@@ -72,7 +72,7 @@ GameStore/
 </pre>
 
 
-## 📂 Estructura backend del proyecto
+## 📂 Estructura general de los jsons del proyecto
 
 <pre>
 backend/                          # Carpeta relacionada con todo el backend del proyecto
@@ -128,7 +128,9 @@ backend/                          # Carpeta relacionada con todo el backend del 
 
 ## 📂 Mockups y Storyboards
 
-- **Ubicación Mockups**: `documentation/mockups`
+- **Ubicación largeDevicesMockups**: `documentation/largeDevicesMockups`
+**Ubicación mediumDevicesMockups**: `documentation/mockups/mediumDevicesMockups`
+**Ubicación smallDevicesMockups**: `documentation/mockups/smallDevicesMockups`
 - **Ubicación Storyboard Login**: `documentation/StoryBoard-Login.png`
 - **Ubicación Storyboard**: `documentation/StoryBoard.png`
 - **Ubicación Storyboard por escrito**: `documentation/Storyboard redactado.pdf`
@@ -177,6 +179,12 @@ Estos son elementos html "componentes" que son cargados en las páginas de la we
 
 
 ## ➕ Otros aspectos
+
+El registro, el inicio de sesión, la configuración del perfil y la recuperación de contraseña se están realizando actualmente en **localStorage**, pero en el futuro se implementarán mediante el uso de una base de datos real.
+
+La recuperación de contraseña no está requiriendo un método de confirmación para verificar que el solicitante es el propietario de la cuenta. Esto se debe a que estamos considerando utilizar la verificación con un código OTP, pero en esta versión con **localStorage** no es posible.
+
+Todo el **contenido cargado proviene de archivos JSON** que simulan una base de datos, pero la estructura del código permitirá obtener los datos de una base de datos real en el futuro.
 
 
 ## 🔗 Enlaces
