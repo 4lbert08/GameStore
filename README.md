@@ -133,7 +133,7 @@ backend/                          # Carpeta relacionada con todo el backend del 
 - **Ubicación smallDevicesMockups**: `documentation/mockups/smallDevicesMockups`
 - **Ubicación Storyboard Login**: `documentation/StoryBoard-Login.png`
 - **Ubicación Storyboard**: `documentation/StoryBoard.png`
-- **Ubicación Storyboard por escrito**: `documentation/Storyboard redactado.pdf`
+- **Ubicación Storyboard por escrito**: `documentation/Storyboard written.pdf`
 
 
 ## 📄 Páginas (Templates) HTML del proyecto
