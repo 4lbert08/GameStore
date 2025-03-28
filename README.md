@@ -128,7 +128,7 @@ backend/                          # Carpeta relacionada con todo el backend del 
 
 ## 📂 Mockups y Storyboards
 
-- **Ubicación largeDevicesMockups**: `documentation/largeDevicesMockups`
+- **Ubicación largeDevicesMockups**: `documentation/mockups/largeDevicesMockups`
 - **Ubicación mediumDevicesMockups**: `documentation/mockups/mediumDevicesMockups`
 - **Ubicación smallDevicesMockups**: `documentation/mockups/smallDevicesMockups`
 - **Ubicación Storyboard Login**: `documentation/StoryBoard-Login.png`
