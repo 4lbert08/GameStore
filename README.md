@@ -190,7 +190,7 @@ Todo el **contenido cargado proviene de archivos JSON** que simulan una base de 
 ## 🔗 Enlaces
 
 - **Figma**: [https://www.figma.com/design/cce85AsKYbHsWryGC4aJGa/MOCKUPS-PWM?m=auto&t=PlizMet0r5Rgm5UZ-6](#)
-- **Trello**: [https://trello.com/b/qtJ1w6iJ/tablero-pwm](#)
-- **PowerPoint**: [](#)
+- **Trello**: [https://trello.com/b/VPyCaNe8/tablero-pwm-sprint2](#)
+- **PowerPoint**: [https://alumnosulpgc-my.sharepoint.com/:p:/g/personal/juan_del111_alu_ulpgc_es/Ecky6vq3E4dFg5bP197ppykB0oAIS1_iQTHgtL_ece3ZYw?e=vajOEe](#)
 - **Video de presentación**: [](#)
 
