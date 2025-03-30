@@ -18,6 +18,4 @@ export function profilePictureHandler(){
             pfpinput.setCustomValidity("");
         }
     })
-
-
 }
